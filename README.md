@@ -8,7 +8,6 @@
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/megapass.web.id-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <img src="https://img.shields.io/badge/Sidoarjo-Indonesia-D32F2F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-  <img src="https://komarev.com/ghpvc/?username=4ntiDandruff&style=for-the-badge&color=blue&label=PROFILE+VIEWS" alt="Profile views" />
   <a href="https://github.com/4ntiDandruff?tab=followers"><img src="https://img.shields.io/github/followers/4ntiDandruff?style=for-the-badge&color=success&label=FOLLOWERS" alt="Followers" /></a>
 </p>
 
@@ -70,10 +69,6 @@ Flask dashboards, Telegram ops bots, and a FastAPI + React repair-bench assistan
 ## Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=4ntiDandruff&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
 </p>
 
@@ -87,6 +82,12 @@ Flask dashboards, Telegram ops bots, and a FastAPI + React repair-bench assistan
 
 ---
 
+## Active Repositories
+
+- 📅 **[kalenderia.my.id](https://github.com/4ntiDandruff/kalenderia.my.id)** — Workshop Percetakan Kalender Presisi Sidoarjo 2027 (Python Flask + HTMX + Tailwind v4)
+
+---
+
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/Visit-megapass.web.id-000?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Site" /></a>
 </p>
@@ -94,5 +95,3 @@ Flask dashboards, Telegram ops bots, and a FastAPI + React repair-bench assistan
 <p align="center">
   <i>Megapass Intra Solusindo — electronics repair & diagnostics · Sidoarjo, Indonesia</i>
 </p>
-
-<!-- profile readme v2 -->

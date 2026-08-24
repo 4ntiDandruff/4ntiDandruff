@@ -71,12 +71,6 @@ Batch-removes vendor bloatware across multiple USB-connected customer devices, c
 Commercial web application for calendar printing in Sidoarjo. Built with a strict no-build philosophy (Flask + HTMX) fo…
 `Python Flask` • `HTMX` • `Tailwind CSS v4` • `Jinja2`
 ---
-## 🔥 GitHub Streak Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=4ntiDandruff&theme=tokyo-night&hide_border=true" alt="Hizam Nahari's GitHub Streak" />
-</p>
----
 <div align="center">
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/Website-megapass.web.id-000?style=for-the-ba…
@@ -85,6 +79,8 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 *Built on the Megapass repair bench • Sidoarjo, East Java, Indonesia.*
 </div>
 [raw output: artifact://223]
+Wall time: 0.06 seconds
+[raw output: artifact://232]
 
 
 Wall time: 0.06 seconds

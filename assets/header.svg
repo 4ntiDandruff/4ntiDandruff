@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <!-- Dark Titanium Canvas Gradient -->
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06080c"/>
+      <stop offset="50%" stop-color="#0b0f16"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+
+    <!-- Scope Screen Background -->
+    <linearGradient id="scopeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020406"/>
+      <stop offset="100%" stop-color="#070b10"/>
+    </linearGradient>
+
+    <!-- Subtle Radial Glow -->
+    <radialGradient id="accentRadial" cx="15%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#238636" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#06080c" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Sub-millimeter Dot Grid Pattern -->
+    <pattern id="microGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#1b222d" opacity="0.6"/>
+    </pattern>
+
+    <!-- Signal Glow Filter -->
+    <filter id="traceGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    /* Live Signal Pulse Flow */
+    .ch1-wave {
+      stroke: #38bdf8;
+      stroke-width: 1.6;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 60 220;
+      animation: signalScroll 5s linear infinite;
+    }
+    
+    .ch2-wave {
+      stroke: #39d353;
+      stroke-width: 1.6;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 45 180;
+      animation: signalScroll 3.8s linear infinite;
+    }
+
+    @keyframes signalScroll {
+      from { stroke-dashoffset: 560; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    .pulse-status {
+      animation: statusBlink 2.4s ease-in-out infinite;
+    }
+    @keyframes statusBlink {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.9); }
+    }
+  </style>
+
+  <!-- Outer Enclosure (Double-Bezel Architecture) -->
+  <rect x="1" y="1" width="898" height="218" rx="8" fill="url(#canvasBg)" stroke="#21262d" stroke-width="1.2"/>
+  <rect x="2" y="2" width="896" height="216" rx="7" fill="url(#microGrid)"/>
+  <rect x="2" y="2" width="896" height="216" rx="7" fill="url(#accentRadial)"/>
+
+  <!-- Precision Measurement Rulers (Top & Bottom Calibration Ticks) -->
+  <g stroke="#1b222d" stroke-width="1">
+    <!-- Top ticks -->
+    <path d="M 20,8 L 20,13 M 40,8 L 40,11 M 60,8 L 60,11 M 80,8 L 80,11 M 100,8 L 100,13 M 120,8 L 120,11 M 140,8 L 140,11 M 160,8 L 160,11 M 180,8 L 180,11 M 200,8 L 200,13"/>
+    <!-- Bottom ticks -->
+    <path d="M 700,207 L 700,212 M 720,209 L 720,212 M 740,209 L 740,212 M 760,209 L 760,212 M 780,209 L 780,212 M 800,207 L 800,212 M 820,209 L 820,212 M 840,209 L 840,212 M 860,209 L 860,212 M 880,207 L 880,212"/>
+  </g>
+
+  <!-- Top System Status Strip -->
+  <g transform="translate(28, 28)">
+    <circle cx="4" cy="-3" r="3.5" fill="#39d353" class="pulse-status"/>
+    <circle cx="4" cy="-3" r="7" fill="none" stroke="#39d353" stroke-width="0.75" opacity="0.3"/>
+    <text x="18" y="0" class="font-mono" font-size="10" font-weight="600" fill="#7ee787" letter-spacing="1">BENCH RUNTIME: READY</text>
+    <text x="185" y="0" class="font-mono" font-size="10" fill="#30363d">//</text>
+    <text x="205" y="0" class="font-mono" font-size="10" fill="#8b949e" letter-spacing="0.5">EST. 2012 • MEGAPASS INTRA SOLUSINDO</text>
+  </g>
+
+  <!-- Horizontal Divider Line -->
+  <line x1="28" y1="42" x2="872" y2="42" stroke="#1b222d" stroke-width="1"/>
+
+  <!-- Left Flank: Main Identity & Typographic Layout -->
+  <g transform="translate(32, 82)">
+    <!-- Name (Clean High-Contrast Typography) -->
+    <text x="0" y="0" class="font-sans" font-size="32" font-weight="800" fill="#f0f6fc" letter-spacing="1">
+      HIZAM NAHARI
+    </text>
+
+    <!-- Subtitle Role Line -->
+    <text x="0" y="26" class="font-mono" font-size="11.5" font-weight="600" fill="#38bdf8" letter-spacing="1.5">
+      CIRCUIT TECHNICIAN <tspan fill="#30363d">|</tspan> <tspan fill="#39d353">SYSTEMS AUTOMATION</tspan>
+    </text>
+
+    <!-- Technical Specification Pills -->
+    <g transform="translate(0, 42)">
+      <!-- Pill 1: BNSP & BMY -->
+      <rect x="0" y="0" width="138" height="22" rx="4" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+      <text x="10" y="14.5" class="font-mono" font-size="9.5" fill="#d29922" font-weight="600">BNSP • BMY CERTIFIED</text>
+
+      <!-- Pill 2: Hardware Level -->
+      <rect x="146" y="0" width="132" height="22" rx="4" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+      <text x="156" y="14.5" class="font-mono" font-size="9.5" fill="#bc8cff" font-weight="600">BOARD-LEVEL REPAIR</text>
+
+      <!-- Pill 3: Native Daemon -->
+      <rect x="286" y="0" width="138" height="22" rx="4" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+      <text x="296" y="14.5" class="font-mono" font-size="9.5" fill="#7ee787" font-weight="600">LINUX EVENT DAEMONS</text>
+    </g>
+
+    <!-- Bottom Origin Statement -->
+    <text x="0" y="90" class="font-mono" font-size="10" fill="#6e7681" letter-spacing="0.5">
+      <tspan fill="#8b949e">LOC:</tspan> Sidoarjo, Indonesia <tspan fill="#30363d">•</tspan> <tspan fill="#8b949e">BENCH:</tspan> Hot Air, Multimeter, Boardview, Rust &amp; POSIX Shell
+    </text>
+  </g>
+
+  <!-- Right Flank: Precision Bench Oscilloscope Display Simulation -->
+  <g transform="translate(520, 56)">
+    <!-- Scope Outer Bezel -->
+    <rect width="352" height="136" rx="6" fill="url(#scopeBg)" stroke="#21262d" stroke-width="1"/>
+
+    <!-- Scope Grid Reticle (Subtle 8x4 divisions) -->
+    <g stroke="#121720" stroke-width="0.8">
+      <line x1="0" y1="34" x2="352" y2="34"/>
+      <line x1="0" y1="68" x2="352" y2="68" stroke="#1a2332" stroke-dasharray="2 2"/>
+      <line x1="0" y1="102" x2="352" y2="102"/>
+      
+      <line x1="88" y1="0" x2="88" y2="136"/>
+      <line x1="176" y1="0" x2="176" y2="136" stroke="#1a2332" stroke-dasharray="2 2"/>
+      <line x1="264" y1="0" x2="264" y2="136"/>
+    </g>
+
+    <!-- Waveform Traces (Real Circuit Signals: Clock Pulse Train & Power Rail Voltage) -->
+    <!-- Base Wave 1 (Dim guide line) -->
+    <path d="M 0,48 L 44,48 L 44,22 L 88,22 L 88,48 L 132,48 L 132,22 L 176,22 L 176,48 L 220,48 L 220,22 L 264,22 L 264,48 L 308,48 L 308,22 L 352,22" stroke="#0e3a5a" stroke-width="1.2" fill="none"/>
+    <!-- Active Wave 1 (Cyan Digital Pulse Train) -->
+    <path d="M 0,48 L 44,48 L 44,22 L 88,22 L 88,48 L 132,48 L 132,22 L 176,22 L 176,48 L 220,48 L 220,22 L 264,22 L 264,48 L 308,48 L 308,22 L 352,22" class="ch1-wave" filter="url(#traceGlow)"/>
+
+    <!-- Base Wave 2 (Dim guide line) -->
+    <path d="M 0,92 Q 44,66 88,92 T 176,92 T 264,92 T 352,92" stroke="#0e3818" stroke-width="1.2" fill="none"/>
+    <!-- Active Wave 2 (Emerald Analog Sine/Rail Signal) -->
+    <path d="M 0,92 Q 44,66 88,92 T 176,92 T 264,92 T 352,92" class="ch2-wave" filter="url(#traceGlow)"/>
+
+    <!-- Scope Status Overlays (HUD Telemetry) -->
+    <g class="font-mono" font-size="9" font-weight="600">
+      <!-- Top Channels -->
+      <rect x="8" y="8" width="68" height="15" rx="3" fill="#0d1f30" stroke="#1f4b75" stroke-width="0.6"/>
+      <text x="14" y="19" fill="#38bdf8">CH1: 3.30V</text>
+
+      <rect x="82" y="8" width="68" height="15" rx="3" fill="#0d2814" stroke="#1a5c2b" stroke-width="0.6"/>
+      <text x="88" y="19" fill="#39d353">CH2: 1.05V</text>
+
+      <text x="342" y="19" fill="#8b949e" text-anchor="end" font-weight="400">CLK: 100MHz</text>
+
+      <!-- Bottom Readouts -->
+      <text x="10" y="127" fill="#6e7681" font-weight="400">1.00GSa/s • 50Ω</text>
+      <text x="342" y="127" fill="#7ee787" text-anchor="end">TRIGGER: AUTO [OK]</text>
+    </g>
+  </g>
+</svg>

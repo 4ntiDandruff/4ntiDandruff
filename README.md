@@ -8,6 +8,11 @@
 </p>
 
 <p align="center">
+  <a href="./README.md"><img src="https://img.shields.io/badge/Language-🇺🇸%20English-blue?style=flat-square" alt="English" /></a>
+  <a href="./README.id.md"><img src="https://img.shields.io/badge/Bahasa-🇮🇩%20Indonesia-red?style=flat-square" alt="Bahasa Indonesia" /></a>
+</p>
+
+<p align="center">
   <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Verified%20Credentials-megapass.web.id%2Fteknisi-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Technician Profile" /></a>
   <img src="https://img.shields.io/badge/Sidoarjo-Indonesia-D32F2F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
   <img src="https://img.shields.io/badge/BNSP%20%26%20BMY-10%20Official%20Certifications-4EAA25?style=for-the-badge&logo=target&logoColor=white" alt="Certified" />

@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hizam Nahari
-### *Circuit Technician • Hardware Hacker • Systems Automation Engineer*
+### *Circuit Technician • Hardware • Systems Automation Engineer*
 
 <p align="center">
   <b>"I trace dead rails on the repair bench, then build lightweight tools to automate the rest."</b>

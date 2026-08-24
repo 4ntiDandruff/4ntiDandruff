@@ -1,11 +1,8 @@
 <div align="center">
 
-# Hizam Nahari
-### *Circuit Technician • Hardware Hacker • Systems Automation Engineer*
+<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/header.svg" alt="Hizam Nahari - Circuit Technician & Systems Automation" width="100%" />
 
-<p align="center">
-  <b>"I trace dead rails on the repair bench, then build lightweight tools to automate the rest."</b>
-</p>
+<br/>
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/Language-🇺🇸%20English-blue?style=flat-square" alt="English" /></a>
@@ -96,14 +93,6 @@ Batch-removes vendor bloatware across multiple USB-connected customer devices, c
 **Production Printing Engine & Workshop System**  
 Commercial web application for calendar printing in Sidoarjo. Built with a strict no-build philosophy (Flask + HTMX) for instant page loads.  
 `Python Flask` • `HTMX` • `Tailwind CSS v4` • `Jinja2`
-
----
-
-## 📈 Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
-</p>
 
 ---
 

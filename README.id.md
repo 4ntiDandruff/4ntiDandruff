@@ -1,11 +1,8 @@
 <div align="center">
 
-# Hizam Nahari
-### *Teknisi Elektronika & Otomasi Sistem • Sidoarjo, Indonesia*
+<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/header.svg" alt="Hizam Nahari - Teknisi Elektronika & Otomasi Sistem" width="100%" />
 
-<p align="center">
-  <b>"Biasa megang jalur motherboard di meja servis, lalu bikin otomasi biar kerjaan beres lebih cepat."</b>
-</p>
+<br/>
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/Language-🇺🇸%20English-blue?style=flat-square" alt="English" /></a>
@@ -93,17 +90,9 @@ Alat bantu servis HP untuk menghapus aplikasi bawaan secara massal (*batch*) di 
 `Tauri v2` • `React` • `TypeScript` • `Android Debug Bridge (ADB)`
 
 ### 🌐 [kalenderia.my.id](https://github.com/4ntiDandruff/kalenderia.my.id)
-**Sistem Web & Percetakan Kalender Sidoarjo**  
+**Mesin Percetakan & Sistem Workshop Kalender Presisi Sidoarjo**  
 Aplikasi web komersial untuk workshop percetakan kalender di Sidoarjo. Dibuat pakai pendekatan *no-build* (Flask + HTMX) biar loading-nya instan dan bebas lemot.  
 `Python Flask` • `HTMX` • `Tailwind CSS v4` • `Jinja2`
-
----
-
-## 📈 Grafik Kontribusi
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=tokyo-night&hide_border=true&area=true" alt="Grafik Kontribusi" />
-</p>
 
 ---
 

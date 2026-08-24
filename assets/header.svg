@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d13"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="greenPulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#39d353"/>
+      <stop offset="100%" stop-color="#2ea043"/>
+    </linearGradient>
+
+    <pattern id="dotGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="3" height="3" x="0" y="0" rx="1" fill="#1b222d"/>
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .trace {
+      stroke: #238636;
+      stroke-width: 1.5;
+      fill: none;
+      opacity: 0.6;
+    }
+    .pulse-fast {
+      stroke: #00ffaa;
+      stroke-width: 2;
+      fill: none;
+      stroke-dasharray: 20, 180;
+      animation: circuitFlow 4s linear infinite;
+    }
+    .pulse-slow {
+      stroke: #00e5ff;
+      stroke-width: 2;
+      fill: none;
+      stroke-dasharray: 30, 250;
+      animation: circuitFlow 6s linear infinite;
+    }
+    @keyframes circuitFlow {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: 4px;
+      fill: #ffffff;
+    }
+    .text-sub {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 13px;
+      letter-spacing: 2px;
+      fill: #39d353;
+      font-weight: 600;
+    }
+    .text-tag {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      fill: #8b949e;
+    }
+    .ic-body {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 2;
+      rx: 4;
+    }
+    .ic-pin {
+      fill: #8b949e;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="850" height="200" rx="8" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="850" height="200" rx="8" fill="url(#dotGrid)"/>
+
+  <!-- Circuit Traces Background -->
+  <g class="trace">
+    <!-- Left Circuit lines -->
+    <path d="M 0,40 L 80,40 L 120,80 L 220,80" />
+    <path d="M 0,160 L 90,160 L 140,110 L 200,110" />
+    <path d="M 40,0 L 40,30 L 70,60 L 70,140 L 100,170 L 180,170" />
+    <!-- Right Circuit lines -->
+    <path d="M 640,60 L 700,60 L 740,20 L 850,20" />
+    <path d="M 670,120 L 730,120 L 770,160 L 850,160" />
+    <path d="M 780,0 L 780,40 L 810,70 L 810,200" />
+  </g>
+
+  <!-- Animated Pulses -->
+  <g>
+    <path d="M 0,40 L 80,40 L 120,80 L 220,80" class="pulse-fast" filter="url(#glow)"/>
+    <path d="M 0,160 L 90,160 L 140,110 L 200,110" class="pulse-slow" filter="url(#glow)"/>
+    <path d="M 640,60 L 700,60 L 740,20 L 850,20" class="pulse-slow" filter="url(#glow)"/>
+    <path d="M 670,120 L 730,120 L 770,160 L 850,160" class="pulse-fast" filter="url(#glow)"/>
+  </g>
+
+  <!-- Node Dots -->
+  <circle cx="220" cy="80" r="3" fill="#00ffaa" filter="url(#glow)"/>
+  <circle cx="200" cy="110" r="3" fill="#00e5ff" filter="url(#glow)"/>
+  <circle cx="640" cy="60" r="3" fill="#39d353" filter="url(#glow)"/>
+  <circle cx="670" cy="120" r="3" fill="#00ffaa" filter="url(#glow)"/>
+
+  <!-- Left Mini IC Chip Symbol -->
+  <g transform="translate(60, 75)">
+    <rect width="40" height="50" class="ic-body"/>
+    <circle cx="10" cy="12" r="2.5" fill="#39d353"/>
+    <!-- Pins Left -->
+    <rect x="-6" y="8" width="6" height="3" class="ic-pin"/>
+    <rect x="-6" y="18" width="6" height="3" class="ic-pin"/>
+    <rect x="-6" y="28" width="6" height="3" class="ic-pin"/>
+    <rect x="-6" y="38" width="6" height="3" class="ic-pin"/>
+    <!-- Pins Right -->
+    <rect x="40" y="8" width="6" height="3" class="ic-pin"/>
+    <rect x="40" y="18" width="6" height="3" class="ic-pin"/>
+    <rect x="40" y="28" width="6" height="3" class="ic-pin"/>
+    <rect x="40" y="38" width="6" height="3" class="ic-pin"/>
+  </g>
+
+  <!-- Right Mini Hardware Chip Symbol -->
+  <g transform="translate(730, 75)">
+    <rect width="40" height="50" class="ic-body"/>
+    <circle cx="30" cy="12" r="2.5" fill="#00e5ff"/>
+    <!-- Pins Left -->
+    <rect x="-6" y="8" width="6" height="3" class="ic-pin"/>
+    <rect x="-6" y="18" width="6" height="3" class="ic-pin"/>
+    <rect x="-6" y="28" width="6" height="3" class="ic-pin"/>
+    <rect x="-6" y="38" width="6" height="3" class="ic-pin"/>
+    <!-- Pins Right -->
+    <rect x="40" y="8" width="6" height="3" class="ic-pin"/>
+    <rect x="40" y="18" width="6" height="3" class="ic-pin"/>
+    <rect x="40" y="28" width="6" height="3" class="ic-pin"/>
+    <rect x="40" y="38" width="6" height="3" class="ic-pin"/>
+  </g>
+
+  <!-- Center Content -->
+  <g text-anchor="middle">
+    <!-- Status / Scope Tag -->
+    <rect x="300" y="30" width="250" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+    <circle cx="316" cy="41" r="3.5" fill="#39d353" filter="url(#glow)"/>
+    <text x="430" y="45" class="text-tag">CIRCUIT LAB • MEGAPASS</text>
+
+    <!-- Main Title -->
+    <text x="425" y="105" font-size="34" class="text-title" filter="url(#glow)">HIZAM NAHARI</text>
+
+    <!-- Role Subtitle -->
+    <text x="425" y="136" class="text-sub">CIRCUIT TECHNICIAN ⚡ SYSTEMS AUTOMATION</text>
+
+    <!-- Slogan / Origin -->
+    <text x="425" y="165" class="text-tag">From Hardware Traces to Native Linux Daemons • Sidoarjo, ID</text>
+  </g>
+</svg>

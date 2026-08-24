@@ -1,17 +1,24 @@
 <div align="center">
 
 # Hizam Nahari
-### *Circuit Technician • Hardware Hacker • Systems Automation Engineer*
+### *Certified Circuit Technician • Hardware Hacker • Systems Automation Engineer*
 
 <p align="center">
   <b>"I trace dead power rails on the repair bench, then engineer the native tools to automate the rest."</b>
 </p>
 
 <p align="center">
-  <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/megapass.web.id-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Verified%20Credentials-megapass.web.id%2Fteknisi-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Technician Profile" /></a>
   <img src="https://img.shields.io/badge/Sidoarjo-Indonesia-D32F2F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-  <img src="https://img.shields.io/badge/BNSP%20%26%20BMY-Certified%20Technician-4EAA25?style=for-the-badge&logo=target&logoColor=white" alt="Certified" />
+  <img src="https://img.shields.io/badge/BNSP%20%26%20BMY-10%20Official%20Certifications-4EAA25?style=for-the-badge&logo=target&logoColor=white" alt="Certified" />
   <a href="https://github.com/4ntiDandruff?tab=followers"><img src="https://img.shields.io/github/followers/4ntiDandruff?style=for-the-badge&color=blueviolet&label=FOLLOWERS" alt="Followers" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Experience-12%2B%20Years-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Hardware%20Fixed-1000%2B%20Devices-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/BNSP%20Score-100%2F100%20Theory-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Customer%20Rating-4.9%20★-yellow?style=flat-square" />
 </p>
 
 ---
@@ -20,15 +27,31 @@
 
 ## 🛠️ The Philosophy & Background
 
-I am a certified hardware circuit technician (**BMY Yogyakarta • BNSP**) running **Megapass Intra Solusindo**, an electronics diagnostic & repair lab in Sidoarjo, Indonesia. My core environment is a hot air rework station, digital multimeters, oscilloscopes, and boardview schematics — diagnosing motherboard shorts, tracing voltage drops across power rails, and micro-soldering ICs.
+I am a certified hardware circuit technician running **Megapass Intra Solusindo**, an electronics diagnostic & board-level repair lab in Sidoarjo, Indonesia. My core environment is a hot air rework station, digital multimeters, oscilloscopes, and boardview schematics — diagnosing motherboard shorts, tracing voltage drops across power rails, and micro-soldering ICs.
 
-### Why Software & Automation?
 Software was never meant to be an academic pursuit. It was forged on the repair counter out of sheer friction:
-- Tired of flashing BIOS chips through cryptic command-line flags → Built **CH341A Flasher GUI**.
-- Tired of manually debloating dozens of customer Android phones → Built **ADB Uninstaller**.
-- Migrated from Windows to **Kubuntu (KDE 6 / Wayland)** and hit file-picker isolation → Built **Auto-Extract Downloads** (Event-driven Linux daemon).
+- Flashing BIOS chips through cryptic CLI flags $\rightarrow$ Built **CH341A Flasher GUI**.
+- Manually debloating dozens of customer Android phones $\rightarrow$ Built **ADB Uninstaller**.
+- Migrated from Windows to **Kubuntu (KDE 6 / Wayland)** and hit file-picker isolation $\rightarrow$ Built **Auto-Extract Downloads** (Event-driven Linux daemon).
 
 > **The Hardware Rule**: *"If a shell one-liner or native daemon solves the problem, that is the answer. No bloatware, zero CPU polling, pure cause-and-effect logic."*
+
+---
+
+## 📜 Verified Competence & Certifications
+
+All hardware work and tooling are backed by national standard certifications and formal vocational training:
+
+| Certification / Body | Focus Area | Credential Highlights |
+|---|---|---|
+| 🏆 **BNSP (National Certification)** | Cellular & Microelectronics Repair | **Perfect Theory Score (100/100)** on circuit architecture & electronics |
+| 🔬 **BMY Yogyakarta** | Motherboard & Schematic Specialist | Laptop motherboard no-power/no-display diagnostics with oscilloscopes |
+| 🎓 **ITS Surabaya (PRODISTIK)** | D1 Information Technology | Circuit design, precision soldering, & IT vocational foundation |
+| 📱 **PTC Indonesia & Arsalabs** | Advanced Phone & IC Rework | Micro-soldering, IC reballing, power-rail tracing, & firmware flashing |
+| 💻 **Magistra Utama** | Hardware & Software Engineering | Computer hardware technician, networking, & web development |
+| 🤝 **TESPOIN Member** | Indonesian Mobile Technicians | Official national professional technician association |
+
+👉 *View physical certificates & workstation setup:* **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
 
 ---
 
@@ -84,6 +107,7 @@ Production web application for custom calendar manufacturing in Sidoarjo. Engine
 
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/Visit-megapass.web.id-000?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Site" /></a>
+  <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Technician%20Portfolio-megapass.web.id%2Fteknisi-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Technician" /></a>
 </p>
 
 *Built with precision on the bench • Shipped to production.*  

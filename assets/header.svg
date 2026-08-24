@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" width="100%" height="180">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="60%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#121820"/>
+    </linearGradient>
+
+    <!-- Accent Emerald Gradient -->
+    <linearGradient id="neonEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+
+    <linearGradient id="greenGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ea043"/>
+      <stop offset="50%" stop-color="#3fb950"/>
+      <stop offset="100%" stop-color="#56d364"/>
+    </linearGradient>
+
+    <!-- Micro Grid Pattern -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#21262d"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="pulseGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    
+    /* Subtle Oscilloscope Wave Animation */
+    .wave-line {
+      stroke: #3fb950;
+      stroke-width: 2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 40 160;
+      animation: waveFlow 4s linear infinite;
+    }
+    
+    .wave-base {
+      stroke: #238636;
+      stroke-width: 1.2;
+      fill: none;
+      opacity: 0.35;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .trace-anim {
+      stroke: #58a6ff;
+      stroke-width: 1.5;
+      fill: none;
+      stroke-linecap: round;
+      stroke-dasharray: 30 150;
+      animation: waveFlow 5s linear infinite;
+    }
+
+    @keyframes waveFlow {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    .live-dot {
+      animation: blinkDot 2s ease-in-out infinite;
+    }
+
+    @keyframes blinkDot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+  </style>
+
+  <!-- Frame & Background -->
+  <rect width="840" height="180" rx="10" fill="url(#bg)" stroke="#30363d" stroke-width="1.2"/>
+  <rect width="840" height="180" rx="10" fill="url(#grid)" opacity="0.7"/>
+
+  <!-- Top Status Bar Line -->
+  <line x1="30" y1="36" x2="810" y2="36" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Status Bar Meta (Top Left) -->
+  <g transform="translate(30, 24)">
+    <circle cx="5" cy="-2" r="3.5" fill="#3fb950" class="live-dot" filter="url(#pulseGlow)"/>
+    <text x="16" y="2" class="mono" font-size="10.5" font-weight="600" fill="#7ee787" letter-spacing="1">BENCH RUNTIME: READY</text>
+  </g>
+
+  <!-- Status Bar Meta (Top Right) -->
+  <g transform="translate(810, 24)" text-anchor="end">
+    <text x="0" y="2" class="mono" font-size="10.5" fill="#8b949e" letter-spacing="0.5">MEGAPASS • SIDOARJO, ID</text>
+  </g>
+
+  <!-- Left Content: Typography Block -->
+  <g transform="translate(45, 78)">
+    <!-- Name -->
+    <text x="0" y="0" class="sans" font-size="32" font-weight="800" fill="#ffffff" letter-spacing="1.5">
+      HIZAM NAHARI
+    </text>
+
+    <!-- Subtitle / Role -->
+    <text x="0" y="28" class="mono" font-size="12.5" font-weight="600" fill="#58a6ff" letter-spacing="1.5">
+      CIRCUIT TECHNICIAN <tspan fill="#30363d">|</tspan> <tspan fill="#3fb950">SYSTEMS AUTOMATION</tspan>
+    </text>
+
+    <!-- One-line Philosophy -->
+    <text x="0" y="52" class="mono" font-size="10" fill="#8b949e" letter-spacing="0.5">
+      "Tracing hardware faults on the bench • Engineering native tools in code"
+    </text>
+  </g>
+
+  <!-- Right Visual: Digital Oscilloscope Screen Simulation -->
+  <g transform="translate(560, 52)">
+    <!-- Scope Screen Bezel -->
+    <rect width="250" height="96" rx="6" fill="#05080c" stroke="#21262d" stroke-width="1"/>
+    
+    <!-- Scope Inner Grid -->
+    <line x1="0" y1="24" x2="250" y2="24" stroke="#161b22" stroke-width="0.8"/>
+    <line x1="0" y1="48" x2="250" y2="48" stroke="#1f242c" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="0" y1="72" x2="250" y2="72" stroke="#161b22" stroke-width="0.8"/>
+    <line x1="62" y1="0" x2="62" y2="96" stroke="#161b22" stroke-width="0.8"/>
+    <line x1="125" y1="0" x2="125" y2="96" stroke="#1f242c" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="188" y1="0" x2="188" y2="96" stroke="#161b22" stroke-width="0.8"/>
+
+    <!-- Channel 1: Pulse Waveform (Green) -->
+    <path d="M 0,48 L 30,48 L 30,22 L 60,22 L 60,74 L 90,74 L 90,48 L 140,48 L 140,18 L 170,18 L 170,78 L 200,78 L 200,48 L 250,48" class="wave-base"/>
+    <path d="M 0,48 L 30,48 L 30,22 L 60,22 L 60,74 L 90,74 L 90,48 L 140,48 L 140,18 L 170,18 L 170,78 L 200,78 L 200,48 L 250,48" class="wave-line" filter="url(#pulseGlow)"/>
+
+    <!-- Scope Corner Readouts -->
+    <text x="8" y="14" class="mono" font-size="8" fill="#3fb950" font-weight="600">CH1: 3.3V</text>
+    <text x="8" y="88" class="mono" font-size="8" fill="#8b949e">100MHz</text>
+    <text x="242" y="14" class="mono" font-size="8" fill="#58a6ff" text-anchor="end" font-weight="600">CLK: OK</text>
+    <text x="242" y="88" class="mono" font-size="8" fill="#8b949e" text-anchor="end">1GSa/s</text>
+  </g>
+</svg>

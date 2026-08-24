@@ -1,72 +1,98 @@
-<h1 align="center">Hizam Nahari</h1>
+<div align="center">
+
+# Hizam Nahari
+### *Circuit Technician • Hardware Hacker • Systems Automation Engineer*
 
 <p align="center">
-  <b>Circuit Technician → Systems Automation</b><br>
-  I fix what other shops declare dead, then write the tools that make it faster.
+  <b>"I trace dead power rails on the repair bench, then engineer the native tools to automate the rest."</b>
 </p>
 
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/megapass.web.id-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <img src="https://img.shields.io/badge/Sidoarjo-Indonesia-D32F2F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-  <a href="https://github.com/4ntiDandruff?tab=followers"><img src="https://img.shields.io/github/followers/4ntiDandruff?style=for-the-badge&color=success&label=FOLLOWERS" alt="Followers" /></a>
+  <img src="https://img.shields.io/badge/BNSP%20%26%20BMY-Certified%20Technician-4EAA25?style=for-the-badge&logo=target&logoColor=white" alt="Certified" />
+  <a href="https://github.com/4ntiDandruff?tab=followers"><img src="https://img.shields.io/github/followers/4ntiDandruff?style=for-the-badge&color=blueviolet&label=FOLLOWERS" alt="Followers" /></a>
 </p>
 
 ---
 
-## About
+</div>
 
-I'm a certified circuit technician (BMY Yogyakarta · BNSP) running **Megapass Intra Solusindo**, an electronics repair shop in Sidoarjo. My day job is a hot air station, a multimeter, and a boardview file — tracing power rails and reworking ICs on phones and laptops.
+## 🛠️ The Philosophy & Background
 
-Software wasn't the plan. It happened because the repair bench kept hitting the same walls: flashing BIOS chips through cryptic CLI flags, debloating dozens of Android devices by hand, checking whether the shop's network was actually up. So I started building the missing tools, one bench problem at a time.
+I am a certified hardware circuit technician (**BMY Yogyakarta • BNSP**) running **Megapass Intra Solusindo**, an electronics diagnostic & repair lab in Sidoarjo, Indonesia. My core environment is a hot air rework station, digital multimeters, oscilloscopes, and boardview schematics — diagnosing motherboard shorts, tracing voltage drops across power rails, and micro-soldering ICs.
 
-Everything here is **shop-tested code** — written for a working service counter, not a portfolio.
+### Why Software & Automation?
+Software was never meant to be an academic pursuit. It was forged on the repair counter out of sheer friction:
+- Tired of flashing BIOS chips through cryptic command-line flags → Built **CH341A Flasher GUI**.
+- Tired of manually debloating dozens of customer Android phones → Built **ADB Uninstaller**.
+- Migrated from Windows to **Kubuntu (KDE 6 / Wayland)** and hit file-picker isolation → Built **Auto-Extract Downloads** (Event-driven Linux daemon).
 
-- 🔧 **Hardware first** — schematic tracing, IC-level rework, boardview analysis
-- 🤖 **Automation second** — desktop GUIs that wrap ugly CLIs into something a technician can actually use
-- 🌐 **Infrastructure to keep it running** — a 5-node mesh serving live dashboards and bots
+> **The Hardware Rule**: *"If a shell one-liner or native daemon solves the problem, that is the answer. No bloatware, zero CPU polling, pure cause-and-effect logic."*
 
 ---
 
-## Tech Stack
+## 💻 Technical Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,react,rust,tauri,fastapi,flask,bash,linux,git,sqlite,vite,nodejs&theme=dark" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,rust,tauri,python,typescript,react,fastapi,flask,htmx,tailwind,sqlite,git,docker&theme=dark" alt="Tech Stack" />
 </p>
 
-| Layer | Tools |
-|---|---|
-| **Desktop apps** | Tauri v2 · React · TypeScript · Rust |
-| **Backend / API** | FastAPI · Flask · SQLite |
-| **Bench hardware** | CH341A programmer · hot air station · multimeter · oscilloscope · `flashrom` |
-| **Ops** | PM2 · systemd · SSH · Tailscale mesh · Cloudflare Tunnel · AdGuard Home |
+| Domain | Stack & Toolchain | Focus / Implementation |
+|---|---|---|
+| **Hardware & Bench** | CH341A Programmer, `flashrom`, Multimeter, Oscilloscope, Boardview | IC-level rework, schematic analysis, BIOS/UEFI firmware recovery |
+| **Linux & Desktop Systems** | KDE Plasma 6, Wayland, POSIX Bash, `inotifywait`, Systemd Daemons | Native background daemons, zero-polling desktop automations |
+| **GUI & Tooling** | Tauri v2, Rust, React, TypeScript, Vite | Fast, cross-platform desktop GUIs wrapping lower-level hardware CLIs |
+| **Backend & Web Engineering** | Python (FastAPI, Flask), HTMX, Tailwind CSS v4, SQLite | Lightweight, reactive business dashboards & high-conversion web apps |
+| **Infrastructure & Mesh** | Tailscale Mesh (7 Nodes), SSH Passwordless, Cloudflare Tunnel, PM2 | Distributed multi-node server management & 24/7 service monitoring |
 
 ---
 
-## Projects
+## ⚡ Featured Engineering Projects
 
-### 🔌 [CH341A BIOS Flasher](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
-Desktop GUI for the CH341A USB programmer. Wraps `flashrom` so BIOS/UEFI chip reads, writes, and verification stop being a memory test on command-line flags. Built for the Megapass bench and used on real repair jobs.
+### 🚀 [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
+**Event-Driven Archive Extraction Daemon with 9-Layer Safety Fuses**  
+Solves file-picker import friction on Linux Desktop (KDE/GNOME). Uses kernel interrupt signals (`inotify`) to extract `.zip`, `.rar`, `.7z` instantly with **0% idle CPU** and **~1.5 MB RAM**. Features **Self-Compress Loop Guard**, disk undervoltage cutoff, and dynamic CLI switches (`auto-extract limit/depth`).  
+`Shell` • `inotify-tools` • `Systemd User Unit` • `libnotify` • `unar/7z`
 
-`Tauri v2` · `Python` · `TypeScript` · `flashrom`
+### 🔌 [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
+**Professional Hardware GUI for CH341A USB Programmer**  
+A desktop application wrapping `flashrom` for laptop & motherboard repair benches. Eliminates manual command memorization and provides visual chip detection, read/write verification, and safe ROM flashing.  
+`Tauri v2` • `Rust` • `TypeScript` • `Python` • `flashrom`
 
 ### 🤖 [ADB Uninstaller](https://github.com/4ntiDandruff/adb-uninstaller)
-Android debloater with AI-assisted package resolution. Batch-strips bloatware across multiple connected devices and keeps a self-growing knowledge base of what each obscure package actually does — so you learn the safe removals instead of guessing.
+**AI-Powered Android Debloater & Package Resolver**  
+Desktop tool designed for phone servicing. Batch-removes vendor bloatware across multiple USB-connected devices and maintains a self-learning knowledge base for safe package removal.  
+`Tauri v2` • `React` • `TypeScript` • `Android Debug Bridge (ADB)`
 
-`Tauri v2` · `React` · `TypeScript` · `ADB`
-
-### 🪟 [Windows Optimizer](https://github.com/4ntiDandruff/windows-optimizer)
-Windows maintenance, bloatware cleanup, and performance scripts. Written to be driven remotely over SSH from a Linux workstation, because the customer's machine is usually on the other side of the counter.
-
-`PowerShell` · `Python` · `SSH`
-
-### 🧰 Shop infrastructure *(private)*
-Flask dashboards, Telegram ops bots, and a FastAPI + React repair-bench assistant running on a Tailscale mesh. Network monitoring, PM2 control, and schematic lookup for the service counter.
-
-`Flask` · `FastAPI` · `SQLite` · `PM2`
+### 🌐 [kalenderia.my.id](https://github.com/4ntiDandruff/kalenderia.my.id)
+**High-Precision Commercial Printing Engine & Workshop System**  
+Production web application for custom calendar manufacturing in Sidoarjo. Engineered with a clean no-build philosophy for instant reactivity and zero JavaScript bloat.  
+`Python Flask` • `HTMX` • `Tailwind CSS v4` • `Jinja2`
 
 ---
 
-## Activity
+## 🌐 Living Lab (7-Node Infrastructure Mesh)
+
+I run and maintain a 24/7 connected Tailscale mesh topology across multiple nodes for production, development, and remote counter diagnostics:
+
+```text
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+│  node: michael  │◄─────►│  node: hizam    │◄─────►│  node: VPS      │
+│  Ubuntu 26.04   │       │  Kubuntu 26.04  │       │  Ubuntu 22.04   │
+│  (Core Server)  │       │  (Workstation)  │       │  (Public Host)  │
+└────────┬────────┘       └─────────────────┘       └─────────────────┘
+         │                         │
+         ▼                         ▼
+┌─────────────────┐       ┌─────────────────┐
+│  node: mama     │       │  node: novi     │
+│  Linux Mint     │       │  Win7 SP1 Bench │
+└─────────────────┘       └─────────────────┘
+```
+
+---
+
+## 📈 Activity & Development
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
@@ -74,24 +100,13 @@ Flask dashboards, Telegram ops bots, and a FastAPI + React repair-bench assistan
 
 ---
 
-## How I Build
-
-**Simple beats clever.** If a shell one-liner solves it, that's the answer — I'm not adding five layers of abstraction to check the time. Every tool here started as a real problem at the bench, so it ships when it works on the bench.
-
-**Hardware intuition, applied to software.** Debugging a program isn't that different from tracing a dead rail: follow the signal, find where it drops, fix the cause instead of the symptom.
-
----
-
-## Active Repositories
-
-- 📅 **[kalenderia.my.id](https://github.com/4ntiDandruff/kalenderia.my.id)** — Workshop Percetakan Kalender Presisi Sidoarjo 2027 (Python Flask + HTMX + Tailwind v4)
-
----
+<div align="center">
 
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/Visit-megapass.web.id-000?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Site" /></a>
 </p>
 
-<p align="center">
-  <i>Megapass Intra Solusindo — electronics repair & diagnostics · Sidoarjo, Indonesia</i>
-</p>
+*Built with precision on the bench • Shipped to production.*  
+**Megapass Intra Solusindo • Sidoarjo, East Java, Indonesia**
+
+</div>

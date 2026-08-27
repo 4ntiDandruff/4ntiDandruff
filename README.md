@@ -33,27 +33,44 @@
 
 ## ⚡ Core Arsenal & Superpowers
 
-```
-┌───────────────────────────────────────────────────────────────────────────┐
-│                     HIZAM NAHARI // CORE CAPABILITIES                     │
-├───────────────────────────────────────────────────────────────────────────┤
-│ 1. 🤖 Autonomous AI Agent Orchestration                                   │
-│    • Operator & architect for multi-agent workflows (OMP, Hermes, Claude).│
-│    • Autonomous debugging pipelines, zero-friction YOLO auto-execution.  │
-│                                                                           │
-│ 2. 🌐 5-Node Private Linux Mesh Fleet                                     │
-│    • 24/7 Dedicated Server, High-End Workstation, Thin-Clients & Cloud VPS│
-│    • WireGuard/Tailscale encrypted mesh, passwordless SSH ControlMaster.  │
-│                                                                           │
-│ 3. 🔬 Hardware & Circuit Diagnostics (BNSP 100/100, BMY Yogyakarta)       │
-│    • Board-level repair: motherboard short isolation, oscilloscope traces │
-│    • Micro-soldering, IC reballing, and low-level BIOS/EEPROM flashing.   │
-│                                                                           │
-│ 4. ⚡ Native Toolmaker & Fail-Safe Daemons                                │
-│    • Event-driven Linux daemons (inotify kernel triggers, 0% idle load).  │
-│    • Circuit-breaker design: auto-rollback, memory ceilings, anti-loops.  │
-└───────────────────────────────────────────────────────────────────────────┘
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 Autonomous AI Agent Orchestration</h3>
+      <ul>
+        <li><b>Orchestrator & Architect</b>: Multi-agent pipelines (OMP, Hermes, Claude Code).</li>
+        <li><b>Autonomous Debugging</b>: Self-healing workflows with strict behavioral directives.</li>
+        <li><b>Zero-Friction Execution</b>: Full automated toolchains without manual bottlenecks.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 5-Node Private Linux Mesh Fleet</h3>
+      <ul>
+        <li><b>Heterogeneous Cluster</b>: 24/7 Server, Workstation, Thin-Clients & Cloud VPS.</li>
+        <li><b>Encrypted Private Mesh</b>: WireGuard / Tailscale with passwordless SSH ControlMaster.</li>
+        <li><b>Resilient Topology</b>: Multi-node health monitoring and automated cron watchdogs.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔬 Hardware & Circuit Diagnostics</h3>
+      <ul>
+        <li><b>Board-Level Repair</b>: Motherboard short isolation & oscilloscope signal tracing.</li>
+        <li><b>Precision Rework</b>: Micro-soldering, IC reballing, and thermal imaging diagnostics.</li>
+        <li><b>Firmware Recovery</b>: Low-level BIOS / SPI EEPROM flashing via hardware programmers.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ Native Toolmaker & Fail-Safe Daemons</h3>
+      <ul>
+        <li><b>Event-Driven Services</b>: Inotify kernel triggers with <b>0% idle CPU footprint</b>.</li>
+        <li><b>Circuit-Breaker Safety</b>: Built-in fuses, memory ceilings, and auto-rollback loops.</li>
+        <li><b>Lean Architecture</b>: Strict no-bloat POSIX scripts and compiled native binaries.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 

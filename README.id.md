@@ -31,29 +31,46 @@
 
 </div>
 
-## ⚡ Core Arsenal & Superpowers
+## ⚡ Keunggulan Utama & Superpowers
 
-```
-┌───────────────────────────────────────────────────────────────────────────┐
-│                     HIZAM NAHARI // CORE CAPABILITIES                     │
-├───────────────────────────────────────────────────────────────────────────┤
-│ 1. 🤖 Orkestrasi Autonomous AI Agents                                     │
-│    • Operator & arsitek multi-agent workflows (OMP, Hermes, Claude Code). │
-│    • Pipeline debugging mandiri, eksekusi otomatis tanpa friksi manual.   │
-│                                                                           │
-│ 2. 🌐 Infrastruktur 5-Node Private Linux Mesh                             │
-│    • Dedicated Server 24/7, Workstation Utama, Thin-Client & Cloud VPS.   │
-│    • Jaringan privat WireGuard/Tailscale, SSH ControlMaster super cepat.  │
-│                                                                           │
-│ 3. 🔬 Diagnosa Sirkuit & Hardware (BNSP 100/100, BMY Yogyakarta)          │
-│    • Board-level repair: analisa short motherboard, pembacaan osiloskop.  │
-│    • Micro-soldering, reballing IC, dan flashing firmware BIOS/EEPROM.    │
-│                                                                           │
-│ 4. ⚡ Native Toolmaker & Fail-Safe Daemons                                │
-│    • Daemon Linux event-driven (trigger kernel inotify, 0% CPU standby).  │
-│    • Desain sekring proteksi: auto-rollback, limit RAM, pencegah loop.    │
-└───────────────────────────────────────────────────────────────────────────┘
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 Orkestrasi Autonomous AI Agents</h3>
+      <ul>
+        <li><b>Arsitek Multi-Agent</b>: Manajemen pipeline AI agent otonom (OMP, Hermes, Claude Code).</li>
+        <li><b>Debugging Mandiri</b>: Workflow *self-healing* dengan direktif pengaman ketat.</li>
+        <li><b>Eksekusi Tanpa Friksi</b>: Otomasi penuh tanpa hambatan klik manual.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 Infrastruktur 5-Node Linux Mesh</h3>
+      <ul>
+        <li><b>Klaster Heterogen</b>: Server 24/7, Workstation utama, Thin-Client & Cloud VPS.</li>
+        <li><b>Jaringan Mesh Privat</b>: WireGuard / Tailscale dengan SSH ControlMaster instan.</li>
+        <li><b>Topologi Tangguh</b>: Monitoring node otomatis dan *watchdog watchdog* berkala.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔬 Diagnosa Sirkuit & Hardware</h3>
+      <ul>
+        <li><b>Perbaikan Tingkat Komponen</b>: Analisa short motherboard & sinyal osiloskop.</li>
+        <li><b>Pengerjaan Presisi</b>: Micro-soldering, reballing IC, dan pembacaan skematik *boardview*.</li>
+        <li><b>Pemulihan Firmware</b>: Flashing EEPROM BIOS tingkat rendah via programmer fisik.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ Native Toolmaker & Fail-Safe Daemons</h3>
+      <ul>
+        <li><b>Layanan Berbasis Event</b>: Trigger kernel inotify dengan <b>0% beban CPU saat standby</b>.</li>
+        <li><b>Desain Sekring Pengaman</b>: Proteksi anti-loop, limit RAM, dan auto-rollback otomatis.</li>
+        <li><b>Arsitektur Ringan</b>: POSIX shell murni & aplikasi desktop native tanpa beban bloatware.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 

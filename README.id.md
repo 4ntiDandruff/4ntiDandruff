@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="\./assets/circuit-header\.svg?v=1787850736" />
+<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Teknisi Elektronika, AI Agent Orchestrator & Otomasi Sistem" />
 <br/><br/>
 
 <p align="center">
@@ -147,7 +147,7 @@ Aplikasi web komersial untuk workshop percetakan kalender di Sidoarjo. Dibuat pa
 ## 📈 Matriks Kontribusi Dinamis
 
 <p align="center">
-  <img src="\./assets/contribution-matrix-words\.svg?v=1787850736" />
+  <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="Matriks Kontribusi Dinamis GitHub - HIZAM NAHARI CIRCUIT LINUX DEV AI AGENT ARCHITECT" />
 </p>
 
 ---

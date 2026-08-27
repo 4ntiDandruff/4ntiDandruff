@@ -144,10 +144,10 @@ Aplikasi web komersial untuk workshop percetakan kalender di Sidoarjo. Dibuat pa
 
 ---
 
-## 📈 Arus Diagnosa Hardware & Kontribusi
+## 📈 Matriks Kontribusi Dinamis
 
 <p align="center">
-  <img src="./assets/circuit-probing-station.svg" width="100%" alt="Precision Probing Station & Signal Tracing Stream" />
+  <img src="./assets/contribution-matrix-words.svg" width="100%" alt="Matriks Kontribusi Dinamis GitHub - HIZAM NAHARI CIRCUIT DEVELOP" />
 </p>
 
 ---

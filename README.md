@@ -131,7 +131,6 @@ Fixes archive extraction friction during file-picker imports in Linux. Runs seam
 **Desktop GUI for the CH341A USB Programmer**  
 Wraps the `flashrom` engine for laptop repair benches. Eliminates the need to memorize CLI flags, auto-detects IC models, verifies read/write integrity, and keeps BIOS flashing safe.  
 `Tauri v2` • `Rust` • `TypeScript` • `Python` • `flashrom`
-
 ### 🤖 [ADB Uninstaller](https://github.com/4ntiDandruff/adb-uninstaller)
 **AI-Assisted Android Debloater**  
 Batch-removes vendor bloatware across multiple USB-connected customer devices, complete with a package safety guide to avoid bricking phones.  
@@ -144,10 +143,10 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 
 ---
 
-## 📈 Hardware Diagnostics & Telemetry Stream
+## 📈 Dynamic Contribution Matrix
 
 <p align="center">
-  <img src="./assets/circuit-probing-station.svg" width="100%" alt="Precision Probing Station & Signal Tracing Stream" />
+  <img src="./assets/contribution-matrix-words.svg" width="100%" alt="Dynamic GitHub Contribution Matrix - HIZAM NAHARI CIRCUIT DEVELOP" />
 </p>
 
 ---

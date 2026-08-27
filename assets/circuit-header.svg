@@ -1,15 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Dark Tech Background -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080c14" />
-      <stop offset="50%" stop-color="#0d1527" />
-      <stop offset="100%" stop-color="#05070c" />
+      <stop offset="0%" stop-color="#06090e" />
+      <stop offset="45%" stop-color="#0a101b" />
+      <stop offset="85%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#030508" />
     </linearGradient>
 
-    <!-- Neon Circuit Glow -->
+    <!-- Tech Glass Card Gradient -->
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121e33" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#09101c" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Neon Glow Filters -->
     <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="blur" />
@@ -18,187 +25,248 @@
     </filter>
 
     <filter id="glowOrange" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Linear Gradients for Traces -->
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f2fe" />
       <stop offset="100%" stop-color="#4facfe" />
     </linearGradient>
 
-    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0844" />
-      <stop offset="100%" stop-color="#ffb199" />
+    <linearGradient id="neonOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3366" />
+      <stop offset="100%" stop-color="#ff9933" />
     </linearGradient>
 
-    <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#162238" stroke-width="0.75" opacity="0.6" />
-      <circle cx="20" cy="0" r="1" fill="#1e3354" opacity="0.8" />
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d6e4ff" />
+    </linearGradient>
+
+    <!-- Circuit Grid Pattern -->
+    <pattern id="pcbGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#121e33" stroke-width="0.8" opacity="0.6" />
+      <circle cx="24" cy="0" r="1.2" fill="#1b2d4b" opacity="0.8" />
     </pattern>
 
-    <!-- Oscilloscope Sine Wave Keyframes -->
     <style>
-      @keyframes pulseTrace {
-        0% { stroke-dashoffset: 600; opacity: 0.2; }
+      @keyframes pulseTrace1 {
+        0% { stroke-dashoffset: 800; opacity: 0.1; }
+        40% { opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 0.1; }
+      }
+      @keyframes pulseTrace2 {
+        0% { stroke-dashoffset: 600; opacity: 0.1; }
         50% { opacity: 1; }
-        100% { stroke-dashoffset: 0; opacity: 0.2; }
+        100% { stroke-dashoffset: 0; opacity: 0.1; }
       }
-      @keyframes signalDot {
-        0% { offset-distance: 0%; opacity: 0; }
-        10% { opacity: 1; }
-        90% { opacity: 1; }
-        100% { offset-distance: 100%; opacity: 0; }
+      @keyframes blinkOnline {
+        0%, 100% { fill: #00ff66; filter: drop-shadow(0 0 6px #00ff66); }
+        50% { fill: #008f39; filter: none; }
       }
-      @keyframes blinkLed {
-        0%, 100% { fill: #00f2fe; opacity: 0.9; }
-        50% { fill: #005f73; opacity: 0.3; }
+      @keyframes signalSweep {
+        0% { transform: translateX(0); opacity: 0.8; }
+        100% { transform: translateX(960px); opacity: 0; }
       }
-      @keyframes blinkPower {
-        0%, 100% { fill: #00ff66; opacity: 1; }
-        50% { fill: #008f39; opacity: 0.4; }
+      .anim-trace-cyan {
+        stroke-dasharray: 140 560;
+        animation: pulseTrace1 4.5s linear infinite;
       }
-      .trace-pulse {
+      .anim-trace-orange {
         stroke-dasharray: 120 480;
-        animation: pulseTrace 4s linear infinite;
+        animation: pulseTrace2 3.8s linear infinite;
+        animation-delay: 1.2s;
       }
-      .sine-wave {
-        stroke-dasharray: 8 4;
-        animation: pulseTrace 6s linear infinite;
+      .live-dot {
+        animation: blinkOnline 2s ease-in-out infinite;
       }
-      .led-active {
-        animation: blinkLed 1.8s ease-in-out infinite;
+      .font-mono {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace;
       }
-      .led-power {
-        animation: blinkPower 2.4s ease-in-out infinite;
+      .font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       }
     </style>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="900" height="240" rx="14" fill="url(#bgGrad)" stroke="#1f2d48" stroke-width="1.5" />
+  <!-- Canvas Base -->
+  <rect width="960" height="300" rx="14" fill="url(#bgGrad)" stroke="#1a2b48" stroke-width="1.5" />
   
   <!-- PCB Grid Overlay -->
-  <rect width="900" height="240" rx="14" fill="url(#gridPattern)" />
+  <rect width="960" height="300" rx="14" fill="url(#pcbGrid)" />
 
-  <!-- Corner Chip Pins / Bracket Decoration -->
-  <g stroke="#2a3f66" stroke-width="1.2">
-    <!-- Top Left -->
-    <path d="M 20 50 L 20 20 L 50 20" fill="none" />
-    <circle cx="20" cy="50" r="2.5" fill="#00f2fe" filter="url(#glowCyan)" />
-    <circle cx="50" cy="20" r="2.5" fill="#00f2fe" filter="url(#glowCyan)" />
+  <!-- Outer Intricate Circuit Bus (Background Inactive) -->
+  <g stroke="#14233c" stroke-width="2" fill="none">
+    <!-- Left PCB Bus -->
+    <path d="M 20 40 L 90 40 L 130 80 L 190 80" />
+    <path d="M 20 80 L 70 80 L 110 120 L 170 120" />
+    <path d="M 20 120 L 100 120 L 140 160 L 190 160" />
+    <path d="M 20 160 L 60 160 L 100 200 L 180 200" />
+    <path d="M 20 200 L 110 200 L 130 220 L 200 220" />
+    <path d="M 20 240 L 80 240 L 120 280 L 220 280" />
+    <path d="M 60 20 L 60 60 L 90 90 L 90 150" />
+    <path d="M 140 280 L 140 230 L 170 200" />
 
-    <!-- Top Right -->
-    <path d="M 850 20 L 880 20 L 880 50" fill="none" />
-    <circle cx="850" cy="20" r="2.5" fill="#4facfe" />
-    <circle cx="880" cy="50" r="2.5" fill="#4facfe" />
-
-    <!-- Bottom Left -->
-    <path d="M 20 190 L 20 220 L 50 220" fill="none" />
-    <circle cx="20" cy="190" r="2.5" fill="#ffb199" />
-    <circle cx="50" cy="220" r="2.5" fill="#ffb199" />
-
-    <!-- Bottom Right -->
-    <path d="M 850 220 L 880 220 L 880 190" fill="none" />
-    <circle cx="850" cy="220" r="2.5" fill="#00ff66" filter="url(#glowCyan)" />
-    <circle cx="880" cy="190" r="2.5" fill="#00ff66" filter="url(#glowCyan)" />
+    <!-- Right PCB Bus -->
+    <path d="M 940 40 L 870 40 L 830 80 L 770 80" />
+    <path d="M 940 80 L 890 80 L 850 120 L 790 120" />
+    <path d="M 940 120 L 860 120 L 820 160 L 770 160" />
+    <path d="M 940 160 L 900 160 L 860 200 L 780 200" />
+    <path d="M 940 200 L 850 200 L 830 220 L 760 220" />
+    <path d="M 940 240 L 880 240 L 840 280 L 740 280" />
+    <path d="M 900 20 L 900 60 L 870 90 L 870 150" />
+    <path d="M 820 280 L 820 230 L 790 200" />
   </g>
 
-  <!-- PCB Circuit Traces (Left Side) -->
-  <g stroke="#1d3557" stroke-width="2" fill="none">
-    <path d="M 40 70 L 110 70 L 140 100 L 180 100" />
-    <path d="M 40 110 L 90 110 L 120 140 L 160 140" />
-    <path d="M 40 150 L 130 150 L 150 170 L 200 170" />
-    <path d="M 80 220 L 80 190 L 110 160 L 150 160" />
+  <!-- Glowing Active PCB Traces (Left - Cyan) -->
+  <g stroke="url(#neonCyan)" stroke-width="2.2" fill="none" filter="url(#glowCyan)">
+    <path class="anim-trace-cyan" d="M 20 40 L 90 40 L 130 80 L 190 80" />
+    <path class="anim-trace-cyan" d="M 20 120 L 100 120 L 140 160 L 190 160" style="animation-delay: 1.5s;" />
+    <path class="anim-trace-cyan" d="M 20 200 L 110 200 L 130 220 L 200 220" style="animation-delay: 2.8s;" />
   </g>
 
-  <!-- Active Neon Traces (Animated Pulse) -->
-  <g stroke="url(#cyanGrad)" stroke-width="2" fill="none" filter="url(#glowCyan)">
-    <path class="trace-pulse" d="M 40 70 L 110 70 L 140 100 L 180 100" />
-    <path class="trace-pulse" d="M 40 150 L 130 150 L 150 170 L 200 170" style="animation-delay: 1.5s;" />
+  <!-- Glowing Active PCB Traces (Right - Orange) -->
+  <g stroke="url(#neonOrange)" stroke-width="2.2" fill="none" filter="url(#glowOrange)">
+    <path class="anim-trace-orange" d="M 940 40 L 870 40 L 830 80 L 770 80" />
+    <path class="anim-trace-orange" d="M 940 160 L 900 160 L 860 200 L 780 200" style="animation-delay: 0.8s;" />
+    <path class="anim-trace-orange" d="M 940 240 L 880 240 L 840 280 L 740 280" style="animation-delay: 2.2s;" />
   </g>
 
-  <!-- Vias / Solder Pads (Left) -->
-  <g fill="#0c1829" stroke="#00f2fe" stroke-width="1.5">
-    <circle cx="40" cy="70" r="4" />
-    <circle cx="180" cy="100" r="3.5" fill="#00f2fe" />
-    <circle cx="40" cy="110" r="3" />
-    <circle cx="160" cy="140" r="3" />
-    <circle cx="40" cy="150" r="4" />
-    <circle cx="200" cy="170" r="3.5" fill="#00f2fe" />
+  <!-- Solder Vias & SMD Test Pads (Left) -->
+  <g fill="#07101e" stroke="#00f2fe" stroke-width="1.6">
+    <circle cx="20" cy="40" r="3.5" />
+    <circle cx="190" cy="80" r="3.5" fill="#00f2fe" filter="url(#glowCyan)" />
+    <circle cx="20" cy="80" r="3" stroke="#25436e" />
+    <circle cx="170" cy="120" r="3" stroke="#25436e" />
+    <circle cx="20" cy="120" r="3.5" />
+    <circle cx="190" cy="160" r="3.5" fill="#00f2fe" />
+    <circle cx="20" cy="160" r="3" stroke="#25436e" />
+    <circle cx="180" cy="200" r="3" stroke="#25436e" />
+    <circle cx="20" cy="200" r="3.5" />
+    <circle cx="200" cy="220" r="3.5" fill="#00f2fe" />
+    <circle cx="220" cy="280" r="3.5" fill="#00f2fe" />
   </g>
 
-  <!-- PCB Circuit Traces (Right Side) -->
-  <g stroke="#1d3557" stroke-width="2" fill="none">
-    <path d="M 860 70 L 790 70 L 760 100 L 720 100" />
-    <path d="M 860 110 L 810 110 L 780 140 L 740 140" />
-    <path d="M 860 150 L 770 150 L 750 170 L 700 170" />
-    <path d="M 820 220 L 820 190 L 790 160 L 750 160" />
+  <!-- Solder Vias & SMD Test Pads (Right) -->
+  <g fill="#07101e" stroke="#ff9933" stroke-width="1.6">
+    <circle cx="940" cy="40" r="3.5" />
+    <circle cx="770" cy="80" r="3.5" fill="#ff9933" filter="url(#glowOrange)" />
+    <circle cx="940" cy="80" r="3" stroke="#5a2d24" />
+    <circle cx="790" cy="120" r="3" stroke="#5a2d24" />
+    <circle cx="940" cy="120" r="3" stroke="#5a2d24" />
+    <circle cx="770" cy="160" r="3.5" fill="#ff9933" />
+    <circle cx="940" cy="160" r="3.5" />
+    <circle cx="780" cy="200" r="3.5" fill="#ff3366" />
+    <circle cx="940" cy="200" r="3" stroke="#5a2d24" />
+    <circle cx="760" cy="220" r="3.5" fill="#ff9933" />
+    <circle cx="740" cy="280" r="3.5" fill="#ff9933" />
   </g>
 
-  <!-- Active Neon Traces Right -->
-  <g stroke="url(#orangeGrad)" stroke-width="2" fill="none" filter="url(#glowOrange)">
-    <path class="trace-pulse" d="M 860 70 L 790 70 L 760 100 L 720 100" style="animation-delay: 2s;" />
-    <path class="trace-pulse" d="M 860 150 L 770 150 L 750 170 L 700 170" style="animation-delay: 0.7s;" />
+  <!-- Corner Brackets (Tech-Frame) -->
+  <g stroke="#3a5a8c" stroke-width="1.8" fill="none">
+    <path d="M 16 35 L 16 16 L 35 16" />
+    <path d="M 944 35 L 944 16 L 925 16" />
+    <path d="M 16 265 L 16 284 L 35 284" />
+    <path d="M 944 265 L 944 284 L 925 284" />
   </g>
 
-  <!-- Vias / Solder Pads (Right) -->
-  <g fill="#0c1829" stroke="#ffb199" stroke-width="1.5">
-    <circle cx="860" cy="70" r="4" />
-    <circle cx="720" cy="100" r="3.5" fill="#ffb199" />
-    <circle cx="860" cy="110" r="3" />
-    <circle cx="740" cy="140" r="3" />
-    <circle cx="860" cy="150" r="4" />
-    <circle cx="700" cy="170" r="3.5" fill="#ffb199" />
-  </g>
-
-  <!-- Center Content Badge Base -->
+  <!-- Main Center Glass Card -->
   <g>
-    <!-- IC Chip Center Silhouette -->
-    <rect x="220" y="30" width="460" height="180" rx="8" fill="#080e1a" stroke="#1f3352" stroke-width="1.2" />
+    <!-- Drop Shadow for Glass Card -->
+    <rect x="210" y="24" width="540" height="252" rx="10" fill="#000000" opacity="0.45" />
     
-    <!-- IC Notches / Pin Marks -->
-    <circle cx="232" cy="42" r="3" fill="#1f3352" />
-    <rect x="435" y="30" width="30" height="4" rx="2" fill="#1f3352" />
+    <!-- Tech-Glass Body -->
+    <rect x="210" y="24" width="540" height="252" rx="10" fill="url(#glassGrad)" stroke="#233a60" stroke-width="1.2" />
+    
+    <!-- Top Glass Highlight Line -->
+    <line x1="220" y1="25" x2="740" y2="25" stroke="#4facfe" stroke-width="1.2" opacity="0.6" />
 
-    <!-- Terminal Status Bar -->
-    <g transform="translate(240, 52)">
-      <circle cx="0" cy="0" r="4" fill="#ff5f56" />
-      <circle cx="12" cy="0" r="4" fill="#ffbd2e" />
-      <circle cx="24" cy="0" r="4" fill="#27c93f" />
-      <text x="40" y="4" fill="#4d6b94" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="10" font-weight="600" letter-spacing="1">MEGAPASS // BENCH_DAEMON_V2.0</text>
-      
-      <!-- Live Status Indicator -->
-      <circle class="led-power" cx="400" cy="0" r="3.5" />
-      <text x="360" y="3" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="0.5">ONLINE</text>
+    <!-- Top Corner Accents / Notch Details -->
+    <rect x="460" y="24" width="40" height="3" fill="#00f2fe" opacity="0.8" />
+    
+    <!-- Card Top Header Row -->
+    <g transform="translate(230, 48)">
+      <!-- Left Indicator -->
+      <circle cx="0" cy="0" r="3.5" fill="#00f2fe" />
+      <circle cx="10" cy="0" r="3.5" fill="#ffbd2e" />
+      <circle cx="20" cy="0" r="3.5" fill="#ff3366" />
+      <text x="35" y="4" class="font-mono" fill="#6c93c4" font-size="10.5" font-weight="700" letter-spacing="1.2">
+        MEGAPASS // BENCH_DAEMON_V2.0
+      </text>
+
+      <!-- Right Indicator / Status -->
+      <g transform="translate(455, 0)">
+        <circle class="live-dot" cx="30" cy="0" r="4" />
+        <text x="20" y="4" text-anchor="end" class="font-mono" fill="#00ff66" font-size="10" font-weight="800" letter-spacing="1">
+          ONLINE
+        </text>
+      </g>
     </g>
 
-    <!-- Main Title -->
-    <text x="450" y="105" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="0.5">
+    <!-- Center Line Divider -->
+    <line x1="230" y1="62" x2="730" y2="62" stroke="#1c2f4d" stroke-width="1" />
+
+    <!-- MAIN NAME -->
+    <text x="480" y="112" text-anchor="middle" class="font-sans" fill="url(#textGrad)" font-size="34" font-weight="900" letter-spacing="1.5">
       HIZAM NAHARI
     </text>
 
-    <!-- Subtitle / Role -->
-    <text x="450" y="132" text-anchor="middle" fill="url(#cyanGrad)" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" font-weight="700" letter-spacing="2">
+    <!-- SUBTITLE / ROLE -->
+    <text x="480" y="138" text-anchor="middle" class="font-mono" fill="url(#neonCyan)" font-size="12" font-weight="800" letter-spacing="2.2" filter="url(#glowCyan)">
       CIRCUIT TECHNICIAN • HARDWARE • SYSTEMS AUTOMATION
     </text>
 
-    <!-- Bottom Tagline / Ethos -->
-    <g transform="translate(450, 162)">
-      <rect x="-185" y="-12" width="370" height="24" rx="12" fill="#0d1b2e" stroke="#223d63" stroke-width="1" />
-      <text x="0" y="4" text-anchor="middle" fill="#9ec5fe" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="500">
-        ⚡ 0% Idle CPU  •  Native Daemons  •  Zero Bloat
+    <!-- Tagline Ethos Box -->
+    <g transform="translate(480, 168)">
+      <rect x="-210" y="-12" width="420" height="24" rx="6" fill="#07101c" stroke="#1d3557" stroke-width="1" />
+      <text x="0" y="4" text-anchor="middle" class="font-mono" fill="#8cb7f5" font-size="10.5" font-weight="500" letter-spacing="0.5">
+        "Trace dead rails on bench, automate the rest with 0% CPU overhead."
       </text>
     </g>
 
-    <!-- Mini Bottom Info Bar -->
-    <g transform="translate(450, 195)">
-      <text x="-160" y="0" fill="#5879a2" font-family="'JetBrains Mono', monospace" font-size="9.5">📍 Sidoarjo, ID</text>
-      <text x="-45" y="0" fill="#5879a2" font-family="'JetBrains Mono', monospace" font-size="9.5">🔬 BNSP 100/100 Theory</text>
-      <text x="90" y="0" fill="#5879a2" font-family="'JetBrains Mono', monospace" font-size="9.5">🛠️ Megapass Intra Solusindo</text>
+    <!-- Proportional Pro Badges Row (Inside Card) -->
+    <g transform="translate(480, 212)">
+      <!-- Badge 1: Verified Credentials -->
+      <g transform="translate(-195, 0)">
+        <rect x="0" y="0" width="124" height="22" rx="4" fill="#0a192f" stroke="#00f2fe" stroke-width="1" />
+        <circle cx="10" cy="11" r="3.5" fill="#00f2fe" />
+        <text x="20" y="14.5" class="font-mono" fill="#cce6ff" font-size="9" font-weight="700">megapass/teknisi</text>
+      </g>
+
+      <!-- Badge 2: Location -->
+      <g transform="translate(-63, 0)">
+        <rect x="0" y="0" width="122" height="22" rx="4" fill="#141a29" stroke="#ff3366" stroke-width="1" />
+        <circle cx="10" cy="11" r="3.5" fill="#ff3366" />
+        <text x="20" y="14.5" class="font-mono" fill="#ffccd5" font-size="9" font-weight="700">Sidoarjo, ID</text>
+      </g>
+
+      <!-- Badge 3: BNSP Score -->
+      <g transform="translate(67, 0)">
+        <rect x="0" y="0" width="128" height="22" rx="4" fill="#13241b" stroke="#00ff66" stroke-width="1" />
+        <circle cx="10" cy="11" r="3.5" fill="#00ff66" />
+        <text x="20" y="14.5" class="font-mono" fill="#ccffdd" font-size="9" font-weight="700">BNSP 100/100 Teori</text>
+      </g>
+    </g>
+
+    <!-- Mini Bottom Metrics -->
+    <g transform="translate(480, 256)">
+      <text x="-160" y="0" text-anchor="middle" class="font-mono" fill="#4f729b" font-size="9.5">⚡ 12+ Years Bench Experience</text>
+      <text x="0" y="0" text-anchor="middle" class="font-mono" fill="#4f729b" font-size="9.5">•</text>
+      <text x="160" y="0" text-anchor="middle" class="font-mono" fill="#4f729b" font-size="9.5">🔬 1000+ Hardware Devices Fixed</text>
     </g>
   </g>
 </svg>

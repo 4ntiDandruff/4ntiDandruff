@@ -98,14 +98,10 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 
 ---
 
-## 📈 Contribution Stream
+## 📈 Hardware Diagnostics & Contribution Stream
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+  <img src="./assets/circuit-probing-station.svg" width="100%" alt="Precision Probing Station & Signal Tracing Stream" />
 </p>
 
 ---

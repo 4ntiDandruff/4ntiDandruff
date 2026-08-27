@@ -98,14 +98,10 @@ Aplikasi web komersial untuk workshop percetakan kalender di Sidoarjo. Dibuat pa
 
 ---
 
-## 📈 Arus Kontribusi GitHub
+## 📈 Arus Diagnosa Hardware & Kontribusi
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg">
-    <img alt="Animasi snake kontribusi GitHub" src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+  <img src="./assets/circuit-probing-station.svg" width="100%" alt="Precision Probing Station & Signal Tracing Stream" />
 </p>
 
 ---

@@ -1,8 +1,7 @@
 <div align="center">
 
-# Hizam Nahari
-### *Circuit Technician • Hardware • Systems Automation Engineer*
-
+<img src="./assets/circuit-header.svg" width="100%" alt="Hizam Nahari - Circuit Technician & Systems Automation" />
+<br/><br/>
 <p align="center">
   <b>"I trace dead rails on the repair bench, then build lightweight tools to automate the rest."</b>
 </p>
@@ -99,10 +98,14 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 
 ---
 
-## 📈 Activity Graph
+## 📈 Contribution Stream
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg">
+  </picture>
 </p>
 
 ---

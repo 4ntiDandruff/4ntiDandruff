@@ -1,8 +1,7 @@
 <div align="center">
 
-# Hizam Nahari
-### *Teknisi Elektronika & Otomasi Sistem • Sidoarjo, Indonesia*
-
+<img src="./assets/circuit-header.svg" width="100%" alt="Hizam Nahari - Teknisi Elektronika & Otomasi Sistem" />
+<br/><br/>
 <p align="center">
   <b>"Biasa megang jalur motherboard di meja servis, lalu bikin otomasi biar kerjaan beres lebih cepat."</b>
 </p>
@@ -99,10 +98,14 @@ Aplikasi web komersial untuk workshop percetakan kalender di Sidoarjo. Dibuat pa
 
 ---
 
-## 📈 Grafik Kontribusi
+## 📈 Arus Kontribusi GitHub
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=tokyo-night&hide_border=true&area=true" alt="Grafik Kontribusi" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg">
+    <img alt="Animasi snake kontribusi GitHub" src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg">
+  </picture>
 </p>
 
 ---

@@ -1,22 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 290" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05080e" />
-      <stop offset="50%" stop-color="#090f1a" />
-      <stop offset="100%" stop-color="#04060a" />
+    <!-- Dark Tech Canvas Background -->
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04070d" />
+      <stop offset="50%" stop-color="#080e18" />
+      <stop offset="100%" stop-color="#030509" />
     </linearGradient>
 
-    <!-- Refined Tech-Glass Panel Gradient -->
-    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#121e33" stop-opacity="0.82" />
-      <stop offset="40%" stop-color="#0a1220" stop-opacity="0.88" />
-      <stop offset="100%" stop-color="#060c16" stop-opacity="0.94" />
+    <!-- Translucent Tech-Glass Panel Overlay -->
+    <linearGradient id="techGlassBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1b2e" stop-opacity="0.82" />
+      <stop offset="50%" stop-color="#091220" stop-opacity="0.88" />
+      <stop offset="100%" stop-color="#050a12" stop-opacity="0.94" />
+    </linearGradient>
+
+    <!-- Capsule Gradient -->
+    <linearGradient id="capsuleBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#081424" />
+      <stop offset="50%" stop-color="#0d1f38" />
+      <stop offset="100%" stop-color="#081424" />
     </linearGradient>
 
     <!-- Neon Glow Filters -->
     <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="blur" />
@@ -25,8 +32,9 @@
     </filter>
 
     <filter id="glowOrange" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
+        <feMergeNode in="blur" />
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
@@ -40,7 +48,7 @@
       </feMerge>
     </filter>
 
-    <!-- Linear Gradients for Traces & Accents -->
+    <!-- Neon Trace Gradients -->
     <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f2fe" />
       <stop offset="100%" stop-color="#4facfe" />
@@ -51,35 +59,33 @@
       <stop offset="100%" stop-color="#ff9933" />
     </linearGradient>
 
-    <linearGradient id="dividerGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.1" />
-      <stop offset="30%" stop-color="#00f2fe" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#4facfe" stop-opacity="1" />
-      <stop offset="70%" stop-color="#00f2fe" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.1" />
-    </linearGradient>
-
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#dce8fa" />
+      <stop offset="60%" stop-color="#eaf1fc" />
+      <stop offset="100%" stop-color="#c9dcfa" />
     </linearGradient>
 
-    <!-- PCB Grid Pattern -->
-    <pattern id="pcbGrid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M 22 0 L 0 0 0 22" fill="none" stroke="#121e33" stroke-width="0.75" opacity="0.65" />
-      <circle cx="22" cy="0" r="1" fill="#1b2d4b" opacity="0.8" />
+    <!-- Subtle PCB Grid Patterns -->
+    <pattern id="canvasPcbGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#101a2c" stroke-width="0.75" opacity="0.6" />
+      <circle cx="24" cy="0" r="1" fill="#182944" opacity="0.7" />
+    </pattern>
+
+    <pattern id="panelInnerGrid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M 18 0 L 0 0 0 18" fill="none" stroke="#15243b" stroke-width="0.5" opacity="0.5" />
+      <circle cx="18" cy="0" r="0.8" fill="#1b304f" opacity="0.6" />
     </pattern>
 
     <style>
       @keyframes pulseTrace1 {
-        0% { stroke-dashoffset: 700; opacity: 0.2; }
+        0% { stroke-dashoffset: 700; opacity: 0.15; }
         45% { opacity: 1; }
-        100% { stroke-dashoffset: 0; opacity: 0.2; }
+        100% { stroke-dashoffset: 0; opacity: 0.15; }
       }
       @keyframes pulseTrace2 {
-        0% { stroke-dashoffset: 600; opacity: 0.2; }
+        0% { stroke-dashoffset: 600; opacity: 0.15; }
         50% { opacity: 1; }
-        100% { stroke-dashoffset: 0; opacity: 0.2; }
+        100% { stroke-dashoffset: 0; opacity: 0.15; }
       }
       @keyframes blinkOnline {
         0%, 100% { fill: #00ff66; filter: drop-shadow(0 0 6px #00ff66); }
@@ -87,11 +93,11 @@
       }
       .anim-trace-cyan {
         stroke-dasharray: 120 480;
-        animation: pulseTrace1 4.2s linear infinite;
+        animation: pulseTrace1 4.5s linear infinite;
       }
       .anim-trace-orange {
-        stroke-dasharray: 100 400;
-        animation: pulseTrace2 3.6s linear infinite;
+        stroke-dasharray: 110 440;
+        animation: pulseTrace2 3.8s linear infinite;
         animation-delay: 1.2s;
       }
       .live-dot {
@@ -106,167 +112,155 @@
     </style>
   </defs>
 
-  <!-- Canvas Base -->
-  <rect width="960" height="290" rx="14" fill="url(#bgGrad)" stroke="#1a2b48" stroke-width="1.5" />
-  
-  <!-- PCB Grid Overlay -->
-  <rect width="960" height="290" rx="14" fill="url(#pcbGrid)" />
+  <!-- ======================================================== -->
+  <!-- CANVAS BASE & BACKGROUND                                 -->
+  <!-- ======================================================== -->
+  <rect width="960" height="320" rx="14" fill="url(#canvasBg)" stroke="#1a2b48" stroke-width="1.5" />
+  <rect width="960" height="320" rx="14" fill="url(#canvasPcbGrid)" />
 
-  <!-- Outer Intricate Circuit Bus (Left Side) -->
-  <g stroke="#14233c" stroke-width="2" fill="none">
-    <path d="M 16 35 L 75 35 L 105 65 L 140 65" />
-    <path d="M 16 75 L 60 75 L 95 110 L 135 110" />
-    <path d="M 16 115 L 85 115 L 115 145 L 140 145" />
-    <path d="M 16 155 L 50 155 L 85 190 L 135 190" />
-    <path d="M 16 195 L 90 195 L 110 215 L 140 215" />
-    <path d="M 16 235 L 65 235 L 100 270 L 140 270" />
-    <path d="M 50 16 L 50 50 L 75 75 L 75 130" />
-    <path d="M 105 270 L 105 225 L 125 205" />
+  <!-- ======================================================== -->
+  <!-- SYMMETRICAL CIRCUIT BOARD TRACES & STATUS LEDS (SIDES)   -->
+  <!-- ======================================================== -->
+
+  <!-- Left Side: Inactive Base Traces -->
+  <g stroke="#122037" stroke-width="2" fill="none">
+    <path d="M 16 45 L 75 45 L 105 75 L 140 75" />
+    <path d="M 16 95 L 60 95 L 95 130 L 135 130" />
+    <path d="M 16 145 L 85 145 L 115 175 L 140 175" />
+    <path d="M 16 195 L 50 195 L 85 230 L 135 230" />
+    <path d="M 16 245 L 90 245 L 115 270 L 140 270" />
+    <path d="M 50 16 L 50 60 L 75 85 L 75 160" />
+    <path d="M 105 304 L 105 250 L 125 230" />
   </g>
 
-  <!-- Glowing Active PCB Traces (Left - Cyan) -->
+  <!-- Left Side: Glowing Active Neon Cyan Traces -->
   <g stroke="url(#neonCyan)" stroke-width="2.2" fill="none" filter="url(#glowCyan)">
-    <path class="anim-trace-cyan" d="M 16 35 L 75 35 L 105 65 L 140 65" />
-    <path class="anim-trace-cyan" d="M 16 115 L 85 115 L 115 145 L 140 145" style="animation-delay: 1.4s;" />
-    <path class="anim-trace-cyan" d="M 16 195 L 90 195 L 110 215 L 140 215" style="animation-delay: 2.6s;" />
+    <path class="anim-trace-cyan" d="M 16 45 L 75 45 L 105 75 L 140 75" />
+    <path class="anim-trace-cyan" d="M 16 145 L 85 145 L 115 175 L 140 175" style="animation-delay: 1.5s;" />
+    <path class="anim-trace-cyan" d="M 16 245 L 90 245 L 115 270 L 140 270" style="animation-delay: 2.8s;" />
   </g>
 
-  <!-- Solder Vias (Left) -->
-  <g fill="#07101e" stroke="#00f2fe" stroke-width="1.5">
-    <circle cx="16" cy="35" r="3.5" />
-    <circle cx="140" cy="65" r="3.5" fill="#00f2fe" filter="url(#glowCyan)" />
-    <circle cx="16" cy="75" r="3" stroke="#25436e" />
-    <circle cx="135" cy="110" r="3" stroke="#25436e" />
-    <circle cx="16" cy="115" r="3.5" />
-    <circle cx="140" cy="145" r="3.5" fill="#00f2fe" />
-    <circle cx="16" cy="155" r="3" stroke="#25436e" />
-    <circle cx="135" cy="190" r="3" stroke="#25436e" />
-    <circle cx="16" cy="195" r="3.5" />
-    <circle cx="140" cy="215" r="3.5" fill="#00f2fe" />
+  <!-- Left Side: Solder Vias & Status LED Dots -->
+  <g fill="#07101e" stroke="#00f2fe" stroke-width="1.6">
+    <circle cx="16" cy="45" r="3.5" />
+    <circle cx="140" cy="75" r="3.5" fill="#00f2fe" filter="url(#glowCyan)" />
+    <circle cx="16" cy="95" r="3" stroke="#25436e" />
+    <circle cx="135" cy="130" r="3" stroke="#25436e" />
+    <circle cx="16" cy="145" r="3.5" />
+    <circle cx="140" cy="175" r="3.5" fill="#00f2fe" filter="url(#glowCyan)" />
+    <circle cx="16" cy="195" r="3" stroke="#25436e" />
+    <circle cx="135" cy="230" r="3" stroke="#25436e" />
+    <circle cx="16" cy="245" r="3.5" />
     <circle cx="140" cy="270" r="3.5" fill="#00f2fe" />
   </g>
 
-  <!-- Outer Intricate Circuit Bus (Right Side) -->
-  <g stroke="#14233c" stroke-width="2" fill="none">
-    <path d="M 944 35 L 885 35 L 855 65 L 820 65" />
-    <path d="M 944 75 L 900 75 L 865 110 L 825 110" />
-    <path d="M 944 115 L 875 115 L 845 145 L 820 145" />
-    <path d="M 944 155 L 910 155 L 875 190 L 825 190" />
-    <path d="M 944 195 L 870 195 L 850 215 L 820 215" />
-    <path d="M 944 235 L 895 235 L 860 270 L 820 270" />
-    <path d="M 910 16 L 910 50 L 885 75 L 885 130" />
-    <path d="M 855 270 L 855 225 L 835 205" />
+  <!-- Right Side: Inactive Base Traces -->
+  <g stroke="#122037" stroke-width="2" fill="none">
+    <path d="M 944 45 L 885 45 L 855 75 L 820 75" />
+    <path d="M 944 95 L 900 95 L 865 130 L 825 130" />
+    <path d="M 944 145 L 875 145 L 845 175 L 820 175" />
+    <path d="M 944 195 L 910 195 L 875 230 L 825 230" />
+    <path d="M 944 245 L 870 245 L 845 270 L 820 270" />
+    <path d="M 910 16 L 910 60 L 885 85 L 885 160" />
+    <path d="M 855 304 L 855 250 L 835 230" />
   </g>
 
-  <!-- Glowing Active PCB Traces (Right - Orange) -->
+  <!-- Right Side: Glowing Active Neon Red/Orange Traces -->
   <g stroke="url(#neonOrange)" stroke-width="2.2" fill="none" filter="url(#glowOrange)">
-    <path class="anim-trace-orange" d="M 944 35 L 885 35 L 855 65 L 820 65" />
-    <path class="anim-trace-orange" d="M 944 155 L 910 155 L 875 190 L 825 190" style="animation-delay: 0.8s;" />
-    <path class="anim-trace-orange" d="M 944 235 L 895 235 L 860 270 L 820 270" style="animation-delay: 2.1s;" />
+    <path class="anim-trace-orange" d="M 944 45 L 885 45 L 855 75 L 820 75" />
+    <path class="anim-trace-orange" d="M 944 145 L 875 145 L 845 175 L 820 175" style="animation-delay: 1s;" />
+    <path class="anim-trace-orange" d="M 944 245 L 870 245 L 845 270 L 820 270" style="animation-delay: 2.2s;" />
   </g>
 
-  <!-- Solder Vias (Right) -->
-  <g fill="#07101e" stroke="#ff9933" stroke-width="1.5">
-    <circle cx="944" cy="35" r="3.5" />
-    <circle cx="820" cy="65" r="3.5" fill="#ff9933" filter="url(#glowOrange)" />
-    <circle cx="944" cy="75" r="3" stroke="#5a2d24" />
-    <circle cx="825" cy="110" r="3" stroke="#5a2d24" />
-    <circle cx="944" cy="115" r="3.5" />
-    <circle cx="820" cy="145" r="3.5" fill="#ff9933" />
-    <circle cx="944" cy="155" r="3.5" />
-    <circle cx="825" cy="190" r="3.5" fill="#ff3366" />
+  <!-- Right Side: Solder Vias & Status LED Dots -->
+  <g fill="#07101e" stroke="#ff9933" stroke-width="1.6">
+    <circle cx="944" cy="45" r="3.5" />
+    <circle cx="820" cy="75" r="3.5" fill="#ff9933" filter="url(#glowOrange)" />
+    <circle cx="944" cy="95" r="3" stroke="#5a2d24" />
+    <circle cx="825" cy="130" r="3" stroke="#5a2d24" />
+    <circle cx="944" cy="145" r="3.5" />
+    <circle cx="820" cy="175" r="3.5" fill="#ff3366" filter="url(#glowOrange)" />
     <circle cx="944" cy="195" r="3" stroke="#5a2d24" />
-    <circle cx="820" cy="215" r="3.5" fill="#ff9933" />
+    <circle cx="825" cy="230" r="3" stroke="#5a2d24" />
+    <circle cx="944" cy="245" r="3.5" />
     <circle cx="820" cy="270" r="3.5" fill="#ff9933" />
   </g>
 
   <!-- Outer Frame Corner Brackets -->
-  <g stroke="#2f4a75" stroke-width="1.6" fill="none">
-    <path d="M 14 30 L 14 14 L 30 14" />
-    <path d="M 946 30 L 946 14 L 930 14" />
-    <path d="M 14 260 L 14 276 L 30 276" />
-    <path d="M 946 260 L 946 276 L 930 276" />
+  <g stroke="#2b4369" stroke-width="1.6" fill="none">
+    <path d="M 14 32 L 14 14 L 32 14" />
+    <path d="M 946 32 L 946 14 L 928 14" />
+    <path d="M 14 288 L 14 306 L 32 306" />
+    <path d="M 946 288 L 946 306 L 928 306" />
   </g>
 
   <!-- ======================================================== -->
-  <!-- SINGLE LARGE COHESIVE CENTRAL "TECH-GLASS" PANEL         -->
+  <!-- SINGLE RECTANGULAR TECH-GLASS PANEL (CENTERED)           -->
   <!-- ======================================================== -->
   <g>
-    <!-- Ambient Shadow -->
-    <rect x="150" y="18" width="660" height="254" rx="14" fill="#000000" opacity="0.6" />
+    <!-- Ambient Glass Drop Shadow -->
+    <rect x="150" y="20" width="660" height="280" rx="14" fill="#000000" opacity="0.65" />
 
-    <!-- Tech-Glass Panel Body -->
-    <rect x="150" y="18" width="660" height="254" rx="14" fill="url(#glassGrad)" stroke="#223a5e" stroke-width="1.4" />
+    <!-- Main Glass Body with Subtle Inner Grid -->
+    <rect x="150" y="20" width="660" height="280" rx="14" fill="url(#techGlassBg)" stroke="#233a5e" stroke-width="1.4" />
+    <rect x="150" y="20" width="660" height="280" rx="14" fill="url(#panelInnerGrid)" />
 
-    <!-- Glass Top Rim Highlight -->
-    <line x1="165" y1="19" x2="795" y2="19" stroke="#4facfe" stroke-width="1.2" opacity="0.7" />
+    <!-- Top Rim Highlight & Center Notch -->
+    <line x1="165" y1="21" x2="795" y2="21" stroke="#4facfe" stroke-width="1.2" opacity="0.6" />
+    <rect x="450" y="20" width="60" height="3" rx="1.5" fill="#00f2fe" opacity="0.9" filter="url(#glowCyan)" />
 
-    <!-- Top Accent Notch -->
-    <rect x="450" y="18" width="60" height="3" rx="1.5" fill="#00f2fe" opacity="0.85" filter="url(#glowCyan)" />
-
-    <!-- 1. HEADER (Inside Top-Left) & 2. STATUS (Inside Top-Right) -->
-    <g transform="translate(172, 42)">
+    <!-- 1. HEADER (Top-Left Mac Dots & Daemon Text) & 2. STATUS (Top-Right ONLINE) -->
+    <g transform="translate(175, 46)">
       <!-- Mac-style Status Dots -->
-      <circle cx="0" cy="0" r="3.8" fill="#ff5f56" />
-      <circle cx="11" cy="0" r="3.8" fill="#ffbd2e" />
-      <circle cx="22" cy="0" r="3.8" fill="#27c93f" />
+      <circle cx="0" cy="0" r="3.6" fill="#ff5f56" />
+      <circle cx="11" cy="0" r="3.6" fill="#ffbd2e" />
+      <circle cx="22" cy="0" r="3.6" fill="#27c93f" />
 
       <!-- Daemon Header Text -->
-      <text x="38" y="3.8" class="font-mono" fill="#6d95c7" font-size="10.5" font-weight="700" letter-spacing="1.2">
+      <text x="38" y="3.6" class="font-mono" fill="#6a93c7" font-size="10" font-weight="700" letter-spacing="1.2">
         MEGAPASS // BENCH_DAEMON_V2.0
       </text>
 
-      <!-- Status ONLINE (Inside Top-Right) -->
-      <g transform="translate(580, 0)">
-        <circle class="live-dot" cx="30" cy="0" r="4.2" />
-        <text x="18" y="3.8" text-anchor="end" class="font-mono" fill="#00ff66" font-size="10.5" font-weight="800" letter-spacing="1.2">
+      <!-- Status ONLINE (Top-Right) -->
+      <g transform="translate(575, 0)">
+        <circle class="live-dot" cx="30" cy="0" r="4" />
+        <text x="18" y="3.6" text-anchor="end" class="font-mono" fill="#00ff66" font-size="10" font-weight="800" letter-spacing="1.2">
           ONLINE
         </text>
       </g>
     </g>
 
-    <!-- 3. MAIN TITLE (Center - Well Proportioned) -->
-    <text x="480" y="98" text-anchor="middle" class="font-sans" fill="url(#titleGrad)" font-size="28" font-weight="900" letter-spacing="2">
+    <!-- 3. MAIN TITLE (Enlarged, Prominent, Bold, Perfectly Centered) -->
+    <text x="480" y="112" text-anchor="middle" class="font-sans" fill="url(#nameGrad)" font-size="36" font-weight="900" letter-spacing="2.5">
       HIZAM NAHARI
     </text>
 
-    <!-- 4. SUB-TITLE (Center Below Main - Increased Size & Prominent) -->
-    <text x="480" y="128" text-anchor="middle" class="font-mono" fill="url(#neonCyan)" font-size="13" font-weight="800" letter-spacing="2.4" filter="url(#glowCyan)">
+    <!-- 4. ROLE TEXT (Moderately Sized, Bold, Perfectly Centered) -->
+    <text x="480" y="148" text-anchor="middle" class="font-mono" fill="url(#neonCyan)" font-size="12.5" font-weight="800" letter-spacing="2.4" filter="url(#glowCyan)">
       CIRCUIT TECHNICIAN • HARDWARE • SYSTEMS AUTOMATION
     </text>
 
-    <!-- 5. DIVIDER (Very Fine Horizontal Neon Line) -->
-    <line x1="210" y1="148" x2="750" y2="148" stroke="url(#dividerGlow)" stroke-width="1.2" />
-
-    <!-- 6. STATISTICS & DATA (Bottom Section of Panel - Two Rows) -->
-    <!-- Row 1: 0% Idle CPU • Native Daemons • Zero Bloat -->
-    <g transform="translate(480, 185)">
-      <text x="0" y="0" text-anchor="middle" class="font-mono" font-size="13" letter-spacing="0.8">
-        <tspan fill="#00ff66" font-weight="800" filter="url(#glowGreen)">⚡ 0% Idle CPU</tspan>
+    <!-- 5. CAPSULE CONTAINER (Centered, Clean Unified Text) -->
+    <g transform="translate(480, 196)">
+      <rect x="-185" y="-15" width="370" height="30" rx="15" fill="url(#capsuleBg)" stroke="#1d385f" stroke-width="1.2" />
+      <text x="0" y="4.5" text-anchor="middle" class="font-mono" font-size="11.5" letter-spacing="0.6">
+        <tspan fill="#00ff66" font-weight="800" filter="url(#glowGreen)">0% CPU Idle</tspan>
         <tspan fill="#4d729e" font-weight="600">   •   </tspan>
-        <tspan fill="#e1eeff" font-weight="700">Native Daemons</tspan>
+        <tspan fill="#d4e6fc" font-weight="700">Native Daemons</tspan>
         <tspan fill="#4d729e" font-weight="600">   •   </tspan>
-        <tspan fill="#e1eeff" font-weight="700">Zero Bloat</tspan>
+        <tspan fill="#d4e6fc" font-weight="700">Zero Bloat</tspan>
       </text>
     </g>
 
-    <!-- Row 2: Sidoarjo, ID • BNSP 100/100 Theory • Megapass Intra Solusindo -->
-    <g transform="translate(480, 222)">
-      <text x="0" y="0" text-anchor="middle" class="font-mono" font-size="12" letter-spacing="0.5">
+    <!-- 6. BOTTOM DETAILS LINE (Consolidated Single Line, Clean Icons, Centered) -->
+    <g transform="translate(480, 256)">
+      <text x="0" y="0" text-anchor="middle" class="font-mono" font-size="11.5" letter-spacing="0.5">
         <tspan fill="#ff99a8" font-weight="700">📍 Sidoarjo, ID</tspan>
-        <tspan fill="#4d729e" font-weight="600">   •   </tspan>
-        <tspan fill="#8ce99a" font-weight="700">🔬 BNSP 100/100 Theory</tspan>
-        <tspan fill="#4d729e" font-weight="600">   •   </tspan>
-        <tspan fill="#82b1ff" font-weight="700">🛠️ Megapass Intra Solusindo</tspan>
+        <tspan fill="#3a5a82" font-weight="600">   •   </tspan>
+        <tspan fill="#8ce99a" font-weight="700">🏆 BNSP 100/100 Theory</tspan>
+        <tspan fill="#3a5a82" font-weight="600">   •   </tspan>
+        <tspan fill="#82b1ff" font-weight="700">💻 Megapass Intra Solusindo</tspan>
       </text>
-    </g>
-
-    <!-- Bottom Mini Accents / SMT Anchor Dots -->
-    <g fill="#182d4b" opacity="0.8">
-      <circle cx="170" cy="254" r="2" />
-      <circle cx="180" cy="254" r="2" />
-      <circle cx="780" cy="254" r="2" />
-      <circle cx="790" cy="254" r="2" />
     </g>
   </g>
 </svg>

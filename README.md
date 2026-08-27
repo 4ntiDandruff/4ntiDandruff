@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/circuit-header.svg" width="100%" alt="Hizam Nahari - Circuit Technician, AI Agent Orchestrator & Systems Automation" />
+<img src="\./assets/circuit-header\.svg?v=1787850736" />
 <br/><br/>
 
 <p align="center">
@@ -146,7 +146,7 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 ## 📈 Dynamic Contribution Matrix
 
 <p align="center">
-  <img src="./assets/contribution-matrix-words.svg" width="100%" alt="Dynamic GitHub Contribution Matrix - HIZAM NAHARI CIRCUIT DEVELOP" />
+  <img src="\./assets/contribution-matrix-words\.svg?v=1787850736" />
 </p>
 
 ---

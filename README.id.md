@@ -144,8 +144,6 @@ Aplikasi web komersial untuk workshop percetakan kalender di Sidoarjo. Dibuat pa
 
 ---
 
-## 📈 Matriks Kontribusi Dinamis
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="Matriks Kontribusi Dinamis GitHub - HIZAM NAHARI CIRCUIT LINUX DEV AI AGENT ARCHITECT" />
 </p>

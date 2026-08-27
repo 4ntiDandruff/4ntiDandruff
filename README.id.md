@@ -1,9 +1,10 @@
 <div align="center">
 
-<img src="./assets/circuit-header.svg" width="100%" alt="Hizam Nahari - Teknisi Elektronika & Otomasi Sistem" />
+<img src="./assets/circuit-header.svg" width="100%" alt="Hizam Nahari - Teknisi Elektronika, AI Agent Orchestrator & Otomasi Sistem" />
 <br/><br/>
+
 <p align="center">
-  <b>"Biasa megang jalur motherboard di meja servis, lalu bikin otomasi biar kerjaan beres lebih cepat."</b>
+  <b>"Biasa analisa jalur mati di meja servis, orkestrasi autonomous AI agent, dan bangun infrastruktur Linux yang 0% beban CPU."</b>
 </p>
 
 <p align="center">
@@ -20,6 +21,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Pengalaman-12%2B%20Tahun-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Infrastruktur-5--Node%20Mesh-blueviolet?style=flat-square" />
   <img src="https://img.shields.io/badge/Perangkat%20Tertangani-1000%2B%20Unit-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Nilai%20Ujian%20BNSP-100%2F100%20Teori-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Rating%20Servis-4.9%20★-yellow?style=flat-square" />
@@ -29,66 +31,93 @@
 
 </div>
 
+## ⚡ Core Arsenal & Superpowers
+
+```
+┌───────────────────────────────────────────────────────────────────────────┐
+│                     HIZAM NAHARI // CORE CAPABILITIES                     │
+├───────────────────────────────────────────────────────────────────────────┤
+│ 1. 🤖 Orkestrasi Autonomous AI Agents                                     │
+│    • Operator & arsitek multi-agent workflows (OMP, Hermes, Claude Code). │
+│    • Pipeline debugging mandiri, eksekusi otomatis tanpa friksi manual.   │
+│                                                                           │
+│ 2. 🌐 Infrastruktur 5-Node Private Linux Mesh                             │
+│    • Dedicated Server 24/7, Workstation Utama, Thin-Client & Cloud VPS.   │
+│    • Jaringan privat WireGuard/Tailscale, SSH ControlMaster super cepat.  │
+│                                                                           │
+│ 3. 🔬 Diagnosa Sirkuit & Hardware (BNSP 100/100, BMY Yogyakarta)          │
+│    • Board-level repair: analisa short motherboard, pembacaan osiloskop.  │
+│    • Micro-soldering, reballing IC, dan flashing firmware BIOS/EEPROM.    │
+│                                                                           │
+│ 4. ⚡ Native Toolmaker & Fail-Safe Daemons                                │
+│    • Daemon Linux event-driven (trigger kernel inotify, 0% CPU standby).  │
+│    • Desain sekring proteksi: auto-rollback, limit RAM, pencegah loop.    │
+└───────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## 🔧 Tentang Saya & Meja Servis
 
-Saya teknisi elektronika dan pemilik **Megapass Intra Solusindo** di Sidoarjo. Keseharian saya berhadapan langsung dengan blower, solder uap, multitester, osiloskop, dan skematik *boardview* — mulai dari nyari jalur korslet, analisa drop tegangan, sampai angkat-pasang IC HP dan laptop.
+Saya teknisi elektronika bersertifikasi dan pemilik **Megapass Intra Solusindo** di Sidoarjo. Keseharian saya berhadapan langsung dengan blower, solder uap, multitester, osiloskop, dan skematik *boardview* — mulai dari nyari jalur korslet, analisa drop tegangan, sampai angkat-pasang IC HP dan laptop.
 
-Saya mulai coding bukan untuk gaya-gayaan bikin portofolio, tapi murni karena butuh alat bantu saat servis:
-- Capek hafalin perintah terminal tiap kali mau flash BIOS laptop $\rightarrow$ Saya bikin **CH341A Flasher GUI**.
-- Repot hapus aplikasi bawaan (*bloatware*) di puluhan HP servisan satu-satu $\rightarrow$ Saya bikin **ADB Uninstaller**.
-- Hijrah ke Linux (**Kubuntu 26.04**) dan ngerasa ribet pas mau ekstrak file arsip di jendela dialog import $\rightarrow$ Saya bikin background service **Auto-Extract Downloads**.
+Saya menggabungkan pemahaman perangkat keras tingkat rendah (*circuit level*) dengan otomasi modern berbasis AI:
+- **Low-Level Hardware**: Capek hafalin perintah terminal tiap kali mau flash BIOS laptop $\rightarrow$ Saya bikin **CH341A Flasher GUI**.
+- **AI Agent Automation**: Mengoperasikan armada AI agent otonom dengan direktif ketat untuk deployment, monitoring multi-node, dan perbaikan kode mandiri.
+- **Linux Engineering**: Hijrah ke Linux (**Kubuntu 26.04**) dan bikin daemon **Auto-Extract Downloads** dengan 9 sekring pengaman dan konsumsi 0% beban CPU.
 
-> **Prinsip Kerja**: *"Kalau masalahnya bisa selesai pakai script ringan yang 0% beban CPU, ya itu yang dipakai. Gak perlu aplikasi berat atau ribet."*
+> **Prinsip Meja Servis**: *"Kalau masalahnya bisa selesai pakai script ringan, native daemon, atau jumper sirkuit yang 0% beban CPU, ya itu yang dipakai. Gak perlu aplikasi berat atau ribet."*
 
 ---
 
 ## 📜 Sertifikasi & Pelatihan Resmi
 
-Keahlian servis dan hardware saya didasari oleh sertifikasi profesi nasional dan pelatihan resmi:
+Seluruh pekerjaan teknis didasarkan pada standar kompetensi nasional dan pelatihan resmi:
 
-| Lembaga | Bidang Kompetensi | Keterangan |
+| Lembaga / Organisasi | Bidang Keahlian | Catatan Prestasi |
 |---|---|---|
-| 🏆 **BNSP** | Reparasi Telepon Seluler | **Nilai Teori Sempurna (100/100)** pada ujian elektronika & sirkuit |
-| 🔬 **BMY Yogyakarta** | Spesialis Motherboard Laptop & Skematik | Analisa motherboard mati total & no display pakai osiloskop |
-| 🎓 **ITS Surabaya (PRODISTIK)** | D1 Teknologi Informasi | Dasar kelistrikan, pembuatan jalur PCB, & teknik solder presisi |
-| 📱 **PTC Indonesia & Arsalabs** | Servis HP Lanjutan & Angkat Pasang IC | Reball IC, pelacakan jalur tegangan, & penanganan HP mati total |
-| 💻 **Magistra Utama** | Hardware & Jaringan Komputer | Teknisi hardware komputer, instalasi jaringan, & dasar web |
-| 🤝 **TESPOIN** | Asosiasi Teknisi Ponsel Indonesia | Anggota resmi asosiasi teknisi nasional |
+| 🏆 **BNSP (Badan Nasional Sertifikasi Profesi)** | Teknisi HP & Elektronika | **Nilai Sempurna (100/100)** Ujian Teori Arsitektur Sirkuit & Elektronika |
+| 🔬 **BMY Yogyakarta** | Motherboard Laptop & Skematik | Diagnosa motherboard mati total / *no display* menggunakan osiloskop |
+| 🎓 **ITS Surabaya (PRODISTIK)** | D1 Teknologi Informasi | Perancangan sirkuit elektronika, pembuatan PCB, & teknik solder presisi |
+| 📱 **PTC Indonesia & Arsalabs** | Servis HP Lanjutan & Hardware | Micro-soldering, reballing IC, penelusuran jalur tegangan, & HP mati total |
+| 💻 **Magistra Utama** | Hardware & Jaringan Komputer | Pemeliharaan perangkat keras, infrastruktur jaringan, & pemrograman web |
+| 🤝 **TESPOIN** | Asosiasi Teknisi Ponsel Indonesia | Anggota resmi asosiasi teknisi ponsel tingkat nasional |
 
-👉 *Foto fisik sertifikat dan meja servis bisa dilihat langsung di:* **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
+👉 *Foto sertifikat fisik dan alat kerja meja servis:* **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
 
 ---
 
-## 💻 Alat & Teknologi yang Dipakai
+## 💻 Tech Stack & Ekosistem Alat
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,bash,rust,tauri,python,typescript,react,fastapi,flask,htmx,tailwind,sqlite,git,docker&theme=dark" alt="Tech Stack" />
 </p>
 
-| Bidang | Alat & Bahasa | Penggunaan Nyata |
+| Domain | Alat & Ekosistem | Penerapan di Dunia Nyata |
 |---|---|---|
-| **Hardware & Servis** | CH341A Flasher, `flashrom`, Multitester, Osiloskop, Boardview | Angkat pasang IC, baca skema motherboard, recovery firmware BIOS/UEFI |
-| **Linux & Desktop** | KDE Plasma 6, Wayland, Bash Script, `inotifywait`, Systemd | Bikin background service otomatis yang ringan tanpa makan RAM/CPU |
-| **Aplikasi Desktop GUI** | Tauri v2, Rust, React, TypeScript, Vite | Bikin tampilan GUI desktop yang kencang dan enteng untuk alat-alat servis |
-| **Web & Dashboard** | Python (FastAPI, Flask), HTMX, Tailwind CSS v4, SQLite | Bikin sistem dashboard bengkel dan web bisnis tanpa bloatware JavaScript |
+| **AI Agents & Orkestrasi** | OMP, Hermes Agent, Claude Code, Telegram Bots | Pipeline multi-agent otonom, remote debugging otomatis, monitoring server |
+| **Linux & Jaringan Mesh** | Ubuntu 26.04, Kubuntu (KDE 6 Wayland), Tailscale, Systemd | Infrastruktur terdistribusi 5 node, daemon inotify 0-polling, cron watchdog |
+| **Hardware & Meja Servis** | CH341A Programmer, `flashrom`, Osiloskop, Multitester, Boardview | Diagnosa jalur motherboard, flashing EEPROM BIOS, penggantian IC mikroskopis |
+| **Desktop GUIs** | Tauri v2, Rust, React, TypeScript, Vite | Aplikasi desktop native yang super cepat untuk antarmuka CLI hardware |
+| **Web & Layanan** | Python (FastAPI, Flask), SQLite WAL, HTMX, Tailwind CSS v4 | Sistem web produksi yang ringan tanpa tumpukan build step JavaScript |
 
 ---
 
 ## ⚡ Proyek yang Lahir dari Meja Servis
 
 ### 🚀 [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
-**Background Service Ekstraksi Arsip Otomatis untuk Linux Desktop (KDE/GNOME)**  
-Mengatasi ribetnya ekstrak file saat mau import berkas di Linux. Berjalan otomatis di background via event kernel (`inotify`) dengan **0% CPU saat idle** dan RAM cuma **~1.5 MB**. Dilengkapi 9 pengaman (anti-loop saat kompres folder sendiri, deteksi sisa storage, dan filter file disk image).  
+**Sistem Otomatisasi Ekstraksi Arsip Terisolasi & Ringan untuk Linux Desktop (KDE / GNOME)**  
+Menghilangkan kerepotan ekstrak arsip manual saat proses import file picker di Linux. Berjalan otomatis di latar belakang berbasis event kernel (`inotify`) dengan **0% idle CPU** dan memori **~1.5 MB**. Dilengkapi 9 sekring proteksi internal (anti-loop self compression, limit disk, proteksi gambar).  
 `Shell` • `inotify-tools` • `Systemd User Unit` • `libnotify` • `unar/7z`
 
 ### 🔌 [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
-**Aplikasi GUI Desktop untuk Alat Flash CH341A USB**  
-Aplikasi pembungkus engine `flashrom` untuk meja servis laptop. Menghilangkan repotnya ketik perintah terminal, bisa deteksi tipe IC otomatis, verifikasi hasil baca/tulis, dan aman buat flash BIOS.  
+**Aplikasi Desktop GUI untuk USB Programmer CH341A**  
+Membungkus engine `flashrom` untuk kebutuhan teknisi motherboard laptop. Menghilangkan kewajiban menghafal flag terminal, auto-detect jenis IC BIOS, verifikasi hasil read/write, dan mencegah chip korup saat flashing.  
 `Tauri v2` • `Rust` • `TypeScript` • `Python` • `flashrom`
 
 ### 🤖 [ADB Uninstaller](https://github.com/4ntiDandruff/adb-uninstaller)
-**Aplikasi Debloat Android dengan Bantuan AI**  
-Alat bantu servis HP untuk menghapus aplikasi bawaan secara massal (*batch*) di banyak HP sekaligus via kabel USB, lengkap dengan panduan paket mana yang aman dihapus.  
+**Pembersih Bloatware Android Berbasis AI**  
+Membersihkan aplikasi sampah bawaan vendor secara massal di banyak HP pelanggan sekaligus via USB, dilengkapi panduan keselamatan paket agar HP tidak *bootloop*.  
 `Tauri v2` • `React` • `TypeScript` • `Android Debug Bridge (ADB)`
 
 ### 🌐 [kalenderia.my.id](https://github.com/4ntiDandruff/kalenderia.my.id)

@@ -1,9 +1,10 @@
 <div align="center">
 
-<img src="./assets/circuit-header.svg" width="100%" alt="Hizam Nahari - Circuit Technician & Systems Automation" />
+<img src="./assets/circuit-header.svg" width="100%" alt="Hizam Nahari - Circuit Technician, AI Agent Orchestrator & Systems Automation" />
 <br/><br/>
+
 <p align="center">
-  <b>"I trace dead rails on the repair bench, then build lightweight tools to automate the rest."</b>
+  <b>"I trace dead rails on the repair bench, orchestrate autonomous AI agents, and automate Linux infrastructure with 0% CPU overhead."</b>
 </p>
 
 <p align="center">
@@ -20,6 +21,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Experience-12%2B%20Years-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Infrastructure-5--Node%20Mesh-blueviolet?style=flat-square" />
   <img src="https://img.shields.io/badge/Hardware%20Fixed-1000%2B%20Devices-success?style=flat-square" />
   <img src="https://img.shields.io/badge/BNSP%20Score-100%2F100%20Theory-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Shop%20Rating-4.9%20★-yellow?style=flat-square" />
@@ -29,16 +31,42 @@
 
 </div>
 
+## ⚡ Core Arsenal & Superpowers
+
+```
+┌───────────────────────────────────────────────────────────────────────────┐
+│                     HIZAM NAHARI // CORE CAPABILITIES                     │
+├───────────────────────────────────────────────────────────────────────────┤
+│ 1. 🤖 Autonomous AI Agent Orchestration                                   │
+│    • Operator & architect for multi-agent workflows (OMP, Hermes, Claude).│
+│    • Autonomous debugging pipelines, zero-friction YOLO auto-execution.  │
+│                                                                           │
+│ 2. 🌐 5-Node Private Linux Mesh Fleet                                     │
+│    • 24/7 Dedicated Server, High-End Workstation, Thin-Clients & Cloud VPS│
+│    • WireGuard/Tailscale encrypted mesh, passwordless SSH ControlMaster.  │
+│                                                                           │
+│ 3. 🔬 Hardware & Circuit Diagnostics (BNSP 100/100, BMY Yogyakarta)       │
+│    • Board-level repair: motherboard short isolation, oscilloscope traces │
+│    • Micro-soldering, IC reballing, and low-level BIOS/EEPROM flashing.   │
+│                                                                           │
+│ 4. ⚡ Native Toolmaker & Fail-Safe Daemons                                │
+│    • Event-driven Linux daemons (inotify kernel triggers, 0% idle load).  │
+│    • Circuit-breaker design: auto-rollback, memory ceilings, anti-loops.  │
+└───────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## 🔧 About Me & The Repair Bench
 
-I am a certified electronics technician running **Megapass Intra Solusindo**, a diagnostics and board-level repair shop in Sidoarjo, Indonesia. My daily drivers are hot air stations, digital multimeters, oscilloscopes, and boardviews — diagnosing motherboard shorts, tracking voltage drops, and soldering micro ICs on laptops and smartphones.
+I am a certified electronics technician and owner of **Megapass Intra Solusindo**, a diagnostics and board-level repair shop in Sidoarjo, Indonesia. My daily drivers are hot air stations, digital multimeters, oscilloscopes, and boardviews — diagnosing motherboard shorts, tracking voltage drops, and soldering micro ICs on laptops and smartphones.
 
-I don't code to pad a portfolio. Every tool here was built to solve a real bottleneck on the repair bench:
-- Flashing BIOS chips through cryptic terminal commands got tedious $\rightarrow$ Built **CH341A Flasher GUI**.
-- Debloating customer phones manually one by one was a waste of time $\rightarrow$ Built **ADB Uninstaller**.
-- Moved to Linux (**Kubuntu 26.04**) and got annoyed by archive extraction friction in file dialogs $\rightarrow$ Built **Auto-Extract Downloads** daemon.
+I bridge deep hardware electronics with modern autonomous automation:
+- **Low-Level Hardware**: Flashing BIOS chips through cryptic terminal commands got tedious $\rightarrow$ Built **CH341A Flasher GUI**.
+- **AI Agent Automation**: Running autonomous agent swarms with strict behavioral directives for automated deployments, multi-node monitoring, and code generation.
+- **Linux Engineering**: Moved to Linux (**Kubuntu 26.04**) and built **Auto-Extract Downloads**, an event-driven system daemon with 9 safety fuses and 0% CPU overhead.
 
-> **Bench Rule**: *"If a simple shell script or native daemon gets the job done with 0% CPU overhead, that's what ships. No bloat, no needless complexity."*
+> **Bench Rule**: *"If a simple shell script, native daemon, or circuit jumper gets the job done with 0% CPU overhead, that's what ships. No bloat, no needless complexity."*
 
 ---
 
@@ -59,18 +87,19 @@ All hardware and software work is backed by national standard certifications and
 
 ---
 
-## 💻 Tech & Tools I Use Daily
+## 💻 Tech Stack & Tooling Ecosystem
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,bash,rust,tauri,python,typescript,react,fastapi,flask,htmx,tailwind,sqlite,git,docker&theme=dark" alt="Tech Stack" />
 </p>
 
-| Domain | Tools & Stack | Real-World Application |
+| Domain | Tools & Ecosystem | Real-World Application |
 |---|---|---|
-| **Hardware & Bench** | CH341A Programmer, `flashrom`, Multimeter, Oscilloscope, Boardview | IC replacement, motherboard schematics, BIOS/UEFI firmware recovery |
-| **Linux & Desktop** | KDE Plasma 6, Wayland, POSIX Bash, `inotifywait`, Systemd | Lightweight background services with zero polling and minimal memory |
-| **Desktop GUIs** | Tauri v2, Rust, React, TypeScript, Vite | Fast, responsive native desktop GUIs wrapping lower-level hardware CLIs |
-| **Web & Ops** | Python (FastAPI, Flask), HTMX, Tailwind CSS v4, SQLite | Clean, fast shop dashboards and production websites without JS bloat |
+| **AI Agents & Orchestration** | OMP, Hermes Agent, Claude Code, Telegram Bots | Autonomous multi-agent pipelines, automated remote debugging, server management |
+| **Linux & Mesh Fleet** | Ubuntu 26.04, Kubuntu (KDE 6 Wayland), Tailscale, Systemd | 5-node distributed infrastructure, zero-polling inotify daemons, cron watchdogs |
+| **Hardware & Bench** | CH341A Programmer, `flashrom`, Oscilloscope, Multimeter, Boardview | Board-level diagnostics, BIOS EEPROM firmware flashing, IC replacement |
+| **Desktop GUIs** | Tauri v2, Rust, React, TypeScript, Vite | Ultra-fast native desktop GUIs wrapping lower-level hardware/system CLIs |
+| **Web & Services** | Python (FastAPI, Flask), SQLite WAL, HTMX, Tailwind CSS v4 | Lightweight production web systems without JavaScript build bloat |
 
 ---
 
@@ -98,7 +127,7 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 
 ---
 
-## 📈 Hardware Diagnostics & Contribution Stream
+## 📈 Hardware Diagnostics & Telemetry Stream
 
 <p align="center">
   <img src="./assets/circuit-probing-station.svg" width="100%" alt="Precision Probing Station & Signal Tracing Stream" />

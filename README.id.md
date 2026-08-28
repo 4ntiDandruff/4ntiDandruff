@@ -1,11 +1,10 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Teknisi Elektronika, AI Agent Orchestrator & Otomasi Sistem" />
-<br/><br/>
 
-<p align="center">
-  <b>"Biasa analisa jalur mati di meja servis, orkestrasi autonomous AI agent, dan bangun infrastruktur Linux yang 0% beban CPU."</b>
-</p>
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=Teknisi+Sirkuit+%7C+AI+Agent+Architect+%7C+Linux+Infra+Engineer;1000%2B+Perangkat+Ditangani+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+Beban+CPU)](https://github.com/4ntiDandruff)
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/Language-🇺🇸%20English-blue?style=flat-square" alt="English" /></a>
@@ -17,6 +16,7 @@
   <img src="https://img.shields.io/badge/Lokasi-Sidoarjo%2C%20Jawa%20Timur-D32F2F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Lokasi" />
   <img src="https://img.shields.io/badge/BNSP%20%26%20BMY-10%20Sertifikasi%20Resmi-4EAA25?style=for-the-badge&logo=target&logoColor=white" alt="Tersertifikasi" />
   <a href="https://github.com/4ntiDandruff?tab=followers"><img src="https://img.shields.io/github/followers/4ntiDandruff?style=for-the-badge&color=blueviolet&label=FOLLOWERS" alt="Followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=4ntiDandruff&style=for-the-badge&color=0A66C2&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
       <h3>🤖 Orkestrasi Autonomous AI Agents</h3>
       <ul>
         <li><b>Arsitek Multi-Agent</b>: Manajemen pipeline AI agent otonom (OMP, Hermes, Claude Code).</li>
-        <li><b>Debugging Mandiri</b>: Workflow *self-healing* dengan direktif pengaman ketat.</li>
+        <li><b>Debugging Mandiri</b>: Workflow <i>self-healing</i> dengan direktif pengaman ketat.</li>
         <li><b>Eksekusi Tanpa Friksi</b>: Otomasi penuh tanpa hambatan klik manual.</li>
       </ul>
     </td>
@@ -48,7 +48,7 @@
       <ul>
         <li><b>Klaster Heterogen</b>: Server 24/7, Workstation utama, Thin-Client & Cloud VPS.</li>
         <li><b>Jaringan Mesh Privat</b>: WireGuard / Tailscale dengan SSH ControlMaster instan.</li>
-        <li><b>Topologi Tangguh</b>: Monitoring node otomatis dan *watchdog watchdog* berkala.</li>
+        <li><b>Topologi Tangguh</b>: Monitoring node otomatis dan <i>watchdog</i> berkala.</li>
       </ul>
     </td>
   </tr>
@@ -57,7 +57,7 @@
       <h3>🔬 Diagnosa Sirkuit & Hardware</h3>
       <ul>
         <li><b>Perbaikan Tingkat Komponen</b>: Analisa short motherboard & sinyal osiloskop.</li>
-        <li><b>Pengerjaan Presisi</b>: Micro-soldering, reballing IC, dan pembacaan skematik *boardview*.</li>
+        <li><b>Pengerjaan Presisi</b>: Micro-soldering, reballing IC, dan pembacaan skematik <i>boardview</i>.</li>
         <li><b>Pemulihan Firmware</b>: Flashing EEPROM BIOS tingkat rendah via programmer fisik.</li>
       </ul>
     </td>
@@ -74,12 +74,33 @@
 
 ---
 
+## 📊 Statistik GitHub & Aktivitas
+
+<div align="center">
+
+<a href="https://github.com/4ntiDandruff">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=4ntiDandruff&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=00f2fe&text_color=c9d1d9&ring_color=00f2fe&include_all_commits=true&count_private=true&locale=id" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=4ntiDandruff&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9&langs_count=8&locale=id" alt="Bahasa Teratas" />
+</a>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=4ntiDandruff&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00f2fe&ring=00f2fe&fire=ff6b35&currStreakLabel=00f2fe&sideLabels=c9d1d9&dates=555555&locale=id" alt="GitHub Streak" />
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=4ntiDandruff&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6" alt="GitHub Trophies" />
+
+</div>
+
+---
+
 ## 🔧 Tentang Saya & Meja Servis
 
 Saya teknisi elektronika bersertifikasi dan pemilik **Megapass Intra Solusindo** di Sidoarjo. Keseharian saya berhadapan langsung dengan blower, solder uap, multitester, osiloskop, dan skematik *boardview* — mulai dari nyari jalur korslet, analisa drop tegangan, sampai angkat-pasang IC HP dan laptop.
 
 Saya menggabungkan pemahaman perangkat keras tingkat rendah (*circuit level*) dengan otomasi modern berbasis AI:
-- **Low-Level Hardware**: Capek hafalin perintah terminal tiap kali mau flash BIOS laptop $\rightarrow$ Saya bikin **CH341A Flasher GUI**.
+- **Low-Level Hardware**: Capek hafalin perintah terminal tiap kali mau flash BIOS laptop → Saya bikin **CH341A Flasher GUI**.
 - **AI Agent Automation**: Mengoperasikan armada AI agent otonom dengan direktif ketat untuk deployment, monitoring multi-node, dan perbaikan kode mandiri.
 - **Linux Engineering**: Hijrah ke Linux (**Kubuntu 26.04**) dan bikin daemon **Auto-Extract Downloads** dengan 9 sekring pengaman dan konsumsi 0% beban CPU.
 
@@ -144,9 +165,23 @@ Aplikasi web komersial untuk workshop percetakan kalender di Sidoarjo. Dibuat pa
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="Matriks Kontribusi Dinamis GitHub - HIZAM NAHARI CIRCUIT LINUX DEV AI AGENT ARCHITECT" />
-</p>
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="Matriks Kontribusi Dinamis GitHub - HIZAM NAHARI CIRCUIT LINUX DEV AI AGENT ARCHITECT" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg" />
+  <img alt="Animasi Ular Kontribusi" src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=github-compact&hide_border=true&bg_color=0d1117&color=00f2fe&line=00f2fe&point=ff6b35&area=true&area_color=00f2fe" width="100%" alt="Grafik Kontribusi" />
+
+</div>
 
 ---
 

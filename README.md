@@ -1,11 +1,10 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Circuit Technician, AI Agent Orchestrator & Systems Automation" />
-<br/><br/>
 
-<p align="center">
-  <b>"I trace dead rails on the repair bench, orchestrate autonomous AI agents, and automate Linux infrastructure with 0% CPU overhead."</b>
-</p>
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=Circuit+Technician+%7C+AI+Agent+Architect+%7C+Linux+Infra+Engineer;1000%2B+Devices+Fixed+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Overhead+Daemons)](https://github.com/4ntiDandruff)
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/Language-🇺🇸%20English-blue?style=flat-square" alt="English" /></a>
@@ -17,6 +16,7 @@
   <img src="https://img.shields.io/badge/Location-Sidoarjo%2C%20Indonesia-D32F2F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
   <img src="https://img.shields.io/badge/BNSP%20%26%20BMY-10%20Official%20Certifications-4EAA25?style=for-the-badge&logo=target&logoColor=white" alt="Certified" />
   <a href="https://github.com/4ntiDandruff?tab=followers"><img src="https://img.shields.io/github/followers/4ntiDandruff?style=for-the-badge&color=blueviolet&label=FOLLOWERS" alt="Followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=4ntiDandruff&style=for-the-badge&color=0A66C2&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
 <p align="center">
@@ -74,12 +74,33 @@
 
 ---
 
+## 📊 GitHub Stats & Activity
+
+<div align="center">
+
+<a href="https://github.com/4ntiDandruff">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=4ntiDandruff&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=00f2fe&text_color=c9d1d9&ring_color=00f2fe&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=4ntiDandruff&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+</a>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=4ntiDandruff&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00f2fe&ring=00f2fe&fire=ff6b35&currStreakLabel=00f2fe&sideLabels=c9d1d9&dates=555555" alt="GitHub Streak" />
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=4ntiDandruff&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6" alt="GitHub Trophies" />
+
+</div>
+
+---
+
 ## 🔧 About Me & The Repair Bench
 
 I am a certified electronics technician and owner of **Megapass Intra Solusindo**, a diagnostics and board-level repair shop in Sidoarjo, Indonesia. My daily drivers are hot air stations, digital multimeters, oscilloscopes, and boardviews — diagnosing motherboard shorts, tracking voltage drops, and soldering micro ICs on laptops and smartphones.
 
 I bridge deep hardware electronics with modern autonomous automation:
-- **Low-Level Hardware**: Flashing BIOS chips through cryptic terminal commands got tedious $\rightarrow$ Built **CH341A Flasher GUI**.
+- **Low-Level Hardware**: Flashing BIOS chips through cryptic terminal commands got tedious → Built **CH341A Flasher GUI**.
 - **AI Agent Automation**: Running autonomous agent swarms with strict behavioral directives for automated deployments, multi-node monitoring, and code generation.
 - **Linux Engineering**: Moved to Linux (**Kubuntu 26.04**) and built **Auto-Extract Downloads**, an event-driven system daemon with 9 safety fuses and 0% CPU overhead.
 
@@ -131,6 +152,7 @@ Fixes archive extraction friction during file-picker imports in Linux. Runs seam
 **Desktop GUI for the CH341A USB Programmer**  
 Wraps the `flashrom` engine for laptop repair benches. Eliminates the need to memorize CLI flags, auto-detects IC models, verifies read/write integrity, and keeps BIOS flashing safe.  
 `Tauri v2` • `Rust` • `TypeScript` • `Python` • `flashrom`
+
 ### 🤖 [ADB Uninstaller](https://github.com/4ntiDandruff/adb-uninstaller)
 **AI-Assisted Android Debloater**  
 Batch-removes vendor bloatware across multiple USB-connected customer devices, complete with a package safety guide to avoid bricking phones.  
@@ -143,9 +165,23 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="Dynamic GitHub Contribution Matrix - HIZAM NAHARI CIRCUIT LINUX DEV AI AGENT ARCHITECT" />
-</p>
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="Dynamic GitHub Contribution Matrix - HIZAM NAHARI CIRCUIT LINUX DEV AI AGENT ARCHITECT" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=github-compact&hide_border=true&bg_color=0d1117&color=00f2fe&line=00f2fe&point=ff6b35&area=true&area_color=00f2fe" width="100%" alt="Contribution Graph" />
+
+</div>
 
 ---
 

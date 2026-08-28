@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=Circuit+Technician+%7C+AI+Agent+Architect+%7C+Linux+Infra+Engineer;1000%2B+Devices+Fixed+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Overhead+Daemons)](https://github.com/4ntiDandruff)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=620&height=35&lines=Circuit+Technician+%7C+AI+Agent+Architect+%7C+Linux+Infra;1000%2B+Devices+Fixed+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Overhead)](https://github.com/4ntiDandruff)
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/Language-🇺🇸%20English-blue?style=flat-square" alt="English" /></a>
@@ -74,26 +74,6 @@
 
 ---
 
-## 📊 GitHub Stats & Activity
-
-<div align="center">
-
-<a href="https://github.com/4ntiDandruff">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=4ntiDandruff&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=00f2fe&text_color=c9d1d9&ring_color=00f2fe&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=4ntiDandruff&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-</a>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=4ntiDandruff&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00f2fe&ring=00f2fe&fire=ff6b35&currStreakLabel=00f2fe&sideLabels=c9d1d9&dates=555555" alt="GitHub Streak" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=4ntiDandruff&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6" alt="GitHub Trophies" />
-
-</div>
-
----
 
 ## 🔧 About Me & The Repair Bench
 
@@ -176,10 +156,6 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg" />
   <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=4ntiDandruff&theme=github-compact&hide_border=true&bg_color=0d1117&color=00f2fe&line=00f2fe&point=ff6b35&area=true&area_color=00f2fe" width="100%" alt="Contribution Graph" />
 
 </div>
 

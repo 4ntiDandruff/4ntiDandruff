@@ -149,13 +149,6 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 
 <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="Dynamic GitHub Contribution Matrix - HIZAM NAHARI CIRCUIT LINUX DEV AI AGENT ARCHITECT" />
 
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
 
 </div>
 

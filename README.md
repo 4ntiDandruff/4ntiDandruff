@@ -46,10 +46,10 @@
          |                   |                   |                   |                   |
          v                   v                   v                   v                   v
 +-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
-|   NODE MASTER   | | WORKSTATION GUI | |   STANDBY DUAL  | |  CLIENT NODE 1  | |  CLIENT NODE 2  |
-|  Ubuntu Server  | |  Kubuntu 26.04  | |   Windows 11    | |  Linux Mint 22  | |  Win7 SP1 Legacy|
-|  24/7 AI Engine | |  KDE 6 Wayland  | |  Dual-Boot Mode | |  Diagnostics    | |  Bitvise Server |
-|   i3-3240 8GB   | | Ryzen 2200G 21G | | Ryzen 2200G 21G | |  A9-9425 7GB    | |  i3-M330 6GB    |
+|   PRIMARY RIG   | | WORKSTATION GUI | |  STANDBY DUAL   | | FIELD TERMINAL  | | LEGACY TESTBED  |
+| Dedicated Host  | | Desktop Suite   | | High-Compute OS | | Diagnostic Edge | | Isolated Node   |
+| 24/7 Automation | | KDE Plasma UI   | | Dual-Boot Rig   | | Field Servicing | | Hardware Bench  |
+| Linux Engine    | | Workstation Rig | | Workstation Rig | | Thin Client     | | Legacy Lab Rig  |
 +-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
          |                   |                   |                   |                   |
          +-------------------+-------------------+-------------------+-------------------+

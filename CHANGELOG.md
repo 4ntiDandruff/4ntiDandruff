@@ -2,6 +2,19 @@
 
 All notable changes to this profile repository and system architecture will be documented in this file.
 
+## [v2.5.0] - 2026-09-10
+
+### Added
+* **Zero-Bloat Skills Hub Flagship Showcase**: Featured 21 production skills suite and live telemetri portal (`skill.megapass.web.id`) at the top of Production Projects.
+* **Official GitHub Achievements Section**: Embedded verified GitHub achievements showcase (Quickdraw, Pull Shark, YOLO, Pair Extraordinaire) with self-hosted assets.
+* **Live Telemetry & Stars Badges**: Integrated real-time shields for `skill.megapass.web.id` and GitHub repository star counts.
+
+### Changed
+* **AI Orchestration Symmetry**: Unified 6 AI coding agents across circuit diagrams and tech stack specs to include **Google Antigravity CLI** alongside Claude Code, OpenCode, Hermes, OMP, and Codex.
+* **Bilingual Synchronization**: Symmetrically updated `README.md` (EN) and `README.id.md` (ID).
+
+---
+
 ## [v2.4.0] - 2026-08-31
 
 ### Added

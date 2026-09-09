@@ -12,6 +12,8 @@
 </p>
 
 <p align="center">
+  <a href="https://skill.megapass.web.id"><img src="https://img.shields.io/badge/Live%20Portal-skill.megapass.web.id-0071E3?style=flat-square&logo=googlechrome&logoColor=white" alt="Portal Live" /></a>
+  <a href="https://github.com/4ntiDandruff/zero-bloat-skills"><img src="https://img.shields.io/github/stars/4ntiDandruff/zero-bloat-skills?style=flat-square&color=0071E3&label=Zero-Bloat%20Skills" alt="Bintang Zero-Bloat" /></a>
   <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Sertifikat%20%26%20Portofolio-megapass.web.id%2Fteknisi-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Profil Teknisi" /></a>
   <img src="https://img.shields.io/badge/Lokasi-Sidoarjo%2C%20Jawa%20Timur-D32F2F?style=flat-square&logo=googlemaps&logoColor=white" alt="Lokasi" />
   <img src="https://img.shields.io/badge/Sertifikasi-BNSP%20%26%20BMY%20Resmi-4EAA25?style=flat-square&logo=target&logoColor=white" alt="Tersertifikasi" />
@@ -54,8 +56,8 @@
          |                   |                   |                   |                   |
          +-------------------+-------------------+-------------------+-------------------+
                                                  |
-                                     [Mesh AI Agent Otonom]
-                      (OMP • Claude Code • OpenCode • Hermes • Codex)
+                                      [Mesh AI Agent Otonom]
+              (Antigravity • Claude Code • OpenCode • Hermes • OMP • Codex)
                                                  |
                                                  v
                       +======================================================+
@@ -65,6 +67,21 @@
                       |  • Aplikasi Web Produksi Ringan Cepat (Flask + HTMX)  |
                       +======================================================+
 ```
+
+---
+
+## 🏆 Lencana Resmi GitHub (*Official Achievements*)
+
+<div align="center">
+
+| Quickdraw | Pull Shark | YOLO | Pair Extraordinaire |
+|:---:|:---:|:---:|:---:|
+| <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/quickdraw.png" width="76" alt="Quickdraw" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/pull-shark.png" width="76" alt="Pull Shark" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/yolo.png" width="76" alt="YOLO" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/pair-extraordinaire.png" width="76" alt="Pair Extraordinaire" /></a> |
+| **Quickdraw**<br/>*Tutup issue < 5 menit* | **Pull Shark**<br/>*Merge Pull Request* | **YOLO**<br/>*Merge mandiri tanpa review* | **Pair Extraordinaire**<br/>*Commit duet kolaborator* |
+
+*Diperoleh melalui otomatisasi pipeline Git, merge cabang fail-safe, dan resolusi issue responsif.*
+
+</div>
 
 ---
 
@@ -173,7 +190,7 @@ Seluruh pekerjaan teknis didasarkan pada standar kompetensi nasional dan pelatih
 
 | Domain | Stack & Ekosistem | Keputusan Rekayasa |
 |---|---|---|
-| **AI Agents & Orkestrasi** | OMP, Hermes Agent, Claude Code, Codex, Custom Daemons | Pipeline multi-agent otonom, remote debugging otomatis, monitoring server |
+| **AI Agents & Orkestrasi** | Antigravity CLI, Claude Code, OpenCode, Hermes Agent, OMP, Codex | Pipeline multi-agent otonom, remote debugging otomatis, monitoring server |
 | **Linux & Jaringan Mesh** | Ubuntu 26.04, Kubuntu (KDE 6 Wayland), Tailscale, Systemd | Infrastruktur terdistribusi 5 node, daemon inotify 0-polling, cron watchdog |
 | **Hardware & Meja Servis** | CH341A Programmer, `flashrom`, Osiloskop, Multitester, Boardview | Diagnosa jalur motherboard, flashing EEPROM BIOS, penggantian IC mikroskopis |
 | **Desktop GUIs** | Tauri v2, Rust, React, TypeScript, Vite | Aplikasi desktop native super cepat membungkus CLI engine dengan konsumsi RAM minimal |
@@ -182,6 +199,11 @@ Seluruh pekerjaan teknis didasarkan pada standar kompetensi nasional dan pelatih
 ---
 
 ## ⚡ Proyek Produksi Teruji Meja Servis
+
+### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
+**21 Modul Keahlian Operasional Tingkat Sirkuit untuk AI Coding Agents**  
+Koleksi keahlian produksi dan portal telemetri web interaktif untuk 6 orchestrator agen AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex). Dibangun dengan FastAPI SSR single-worker, SQLite WAL Fortress, Apple Liquid Dark UI, ladder AI dwibahasa hemat token (0 token LLM), dan installer bash 1-klik universal. Konsumsi RAM <65MB, 0% CPU standby.  
+`Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
 
 ### 🚀 [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
 **Daemon Ekstraksi Otomatis Berbasis Event Kernel untuk Linux Desktop (KDE/GNOME)**  
@@ -210,11 +232,13 @@ Aplikasi web komersial untuk bisnis percetakan kalender di Sidoarjo. Dibangun de
 - [x] Implementasi 5-Node Heterogeneous Linux Mesh dengan enkripsi SSH ControlMaster.
 - [x] Daemon auto-extract berbasis event kernel inotify dengan 9 sekring pengaman.
 - [x] Deployment produksi CH341A BIOS Flasher Tauri GUI.
+- [x] Peluncuran produksi Zero-Bloat Skills Hub & portal interaktif telemetri (`skill.megapass.web.id`).
 - [ ] Utilitas perekaman bentuk gelombang digital osiloskop langsung untuk workstation Linux.
 - [ ] Daemon sinkronisasi backup multi-node terenkripsi dengan protokol *zero-knowledge*.
 
 ## 📜 Pembaruan & Changelog Terkini
 
+- **v2.5.0 (2026-09-10)**: Peluncuran Zero-Bloat Skills Hub (21 modul), rilis portal telemetri web live di `skill.megapass.web.id`, sinkronisasi matrix 6-agent simetris ke Google Antigravity CLI, dan perolehan pencapaian resmi GitHub (Quickdraw & PR milestones).
 - **v2.4.0 (2026-08-31)**: Standardisasi 10 Elemen Baku Dokumentasi (R10), pembaruan topologi sirkuit 5-Node Linux Mesh, audit benchmark inotify 0% CPU standby, dan struktur dwibahasa terpisah.
 - Rincian catatan rilis lengkap dapat dilihat pada file [CHANGELOG.md](./CHANGELOG.md).
 

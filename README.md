@@ -12,6 +12,8 @@
 </p>
 
 <p align="center">
+  <a href="https://skill.megapass.web.id"><img src="https://img.shields.io/badge/Live%20Portal-skill.megapass.web.id-0071E3?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Portal" /></a>
+  <a href="https://github.com/4ntiDandruff/zero-bloat-skills"><img src="https://img.shields.io/github/stars/4ntiDandruff/zero-bloat-skills?style=flat-square&color=0071E3&label=Zero-Bloat%20Skills" alt="Zero-Bloat Stars" /></a>
   <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Credentials-megapass.web.id%2Fteknisi-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Technician Profile" /></a>
   <img src="https://img.shields.io/badge/Location-Sidoarjo%2C%20Indonesia-D32F2F?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
   <img src="https://img.shields.io/badge/Certification-BNSP%20%26%20BMY%20Certified-4EAA25?style=flat-square&logo=target&logoColor=white" alt="Certified" />
@@ -55,7 +57,7 @@
          +-------------------+-------------------+-------------------+-------------------+
                                                  |
                                       [Autonomous AI Mesh]
-                      (OMP • Claude Code • OpenCode • Hermes • Codex)
+              (Antigravity • Claude Code • OpenCode • Hermes • OMP • Codex)
                                                  |
                                                  v
                       +======================================================+
@@ -65,6 +67,21 @@
                       |  • High-Performance Production Web Systems (HTMX)     |
                       +======================================================+
 ```
+
+---
+
+## 🏆 Official GitHub Achievements
+
+<div align="center">
+
+| Quickdraw | Pull Shark | YOLO | Pair Extraordinaire |
+|:---:|:---:|:---:|:---:|
+| <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/quickdraw.png" width="76" alt="Quickdraw" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/pull-shark.png" width="76" alt="Pull Shark" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/yolo.png" width="76" alt="YOLO" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/pair-extraordinaire.png" width="76" alt="Pair Extraordinaire" /></a> |
+| **Quickdraw**<br/>*Issue closed < 5 min* | **Pull Shark**<br/>*Merged Pull Requests* | **YOLO**<br/>*Merged without review* | **Pair Extraordinaire**<br/>*Co-authored commit* |
+
+*Earned via autonomous Git pipelines, fail-safe branch merges, and rapid-response issue resolution.*
+
+</div>
 
 ---
 
@@ -173,7 +190,7 @@ All hardware diagnostic and software systems engineering are grounded in formal 
 
 | Domain | Stack & Ecosystem | Technical Rationale |
 |---|---|---|
-| **AI Orchestration** | OMP, Hermes Agent, Claude Code, Codex, Custom Daemons | Multi-agent execution pipelines, automated remote debugging, and server management |
+| **AI Orchestration** | Antigravity CLI, Claude Code, OpenCode, Hermes Agent, OMP, Codex | Multi-agent execution pipelines, automated remote debugging, and server management |
 | **Linux Infrastructure** | Ubuntu 26.04, Kubuntu (KDE 6 Wayland), Tailscale, Systemd | 5-node distributed mesh, zero-polling inotify daemons, cron watchdogs |
 | **Hardware & Bench** | CH341A Programmer, `flashrom`, Oscilloscope, Multimeter, Boardview | Component-level diagnostics, BIOS EEPROM firmware flashing, IC replacement |
 | **Desktop GUIs** | Tauri v2, Rust, React, TypeScript, Vite | Native desktop GUIs wrapping hardware CLI engines with negligible RAM usage |
@@ -182,6 +199,11 @@ All hardware diagnostic and software systems engineering are grounded in formal 
 ---
 
 ## ⚡ Production Projects Tested on the Bench
+
+### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
+**21 Circuit-Level Operational Skills for Multi-Agent AI Orchestrators**  
+Production skill suite and interactive telemetri portal serving 6 AI agent orchestrators (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex). Features single-worker FastAPI SSR, SQLite WAL Fortress, Apple Liquid Dark UI, token-frugal bilingual AI ladder (0 LLM tokens consumed), and 1-click universal bash installer. RAM footprint <65MB, 0% CPU standby.  
+`Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
 
 ### 🚀 [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
 **Event-Driven Archive Extraction Daemon for Linux Desktop (KDE/GNOME)**  
@@ -210,11 +232,13 @@ Commercial web application for calendar printing in Sidoarjo. Built with a stric
 - [x] 5-Node Heterogeneous Linux Mesh deployment with encrypted SSH ControlMaster.
 - [x] Inotify kernel-triggered auto-extraction daemon with 9 safety fuses.
 - [x] Production deployment of CH341A BIOS Flasher Tauri GUI.
+- [x] Production launch of Zero-Bloat Skills Hub & interactive telemetri portal (`skill.megapass.web.id`).
 - [ ] Direct oscilloscope digital waveform capture utility for Linux workstations.
 - [ ] Automated multi-node remote backup sync daemon with encrypted zero-knowledge storage.
 
 ## 📜 Latest Updates & Changelog
 
+- **v2.5.0 (2026-09-10)**: Deployed Zero-Bloat Skills Hub (21 skills), launched live telemetri portal at `skill.megapass.web.id`, unified 6-agent symlink matrix (Antigravity, Claude, OpenCode, Hermes, OMP, Codex), and achieved GitHub Quickdraw & PR achievement milestones.
 - **v2.4.0 (2026-08-31)**: Standardized 10 Elements Documentation Protocol (R10), updated 5-Node Mesh circuit topology, verified 0% CPU inotify benchmarks, and bilingual documentation structure.
 - Full release notes and historical changes available in [CHANGELOG.md](./CHANGELOG.md).
 

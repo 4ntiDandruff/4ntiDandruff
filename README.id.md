@@ -66,8 +66,8 @@ Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan p
 +-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
 |   PRIMARY RIG   | | WORKSTATION GUI | |  STANDBY DUAL   | | FIELD TERMINAL  | | LEGACY TESTBED  |
 | Dedicated Host  | | Desktop Suite   | | High-Compute OS | | Node Diagnosa   | | Node Terisolasi |
-| (michael/i3)    | | (hizam/Ryzen)   | | (ryzen/Win11)   | | (mama/Mint)     | | (novi/Win7)     |
-| Subnet AI Hub   | | KDE Plasma UI   | | Dual-Boot Rig   | | Thin Client     | | Lab Flashing    |
+| 24/7 Automation | | Antarmuka KDE   | | Rig Dual-Boot   | | Servis Lapangan | | Meja Hardware   |
+| Subnet AI Hub   | | Workstation Rig | | Standby Engine  | | Thin Client     | | Lab Flashing    |
 +-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
          |                   |                   |                   |                   |
          +-------------------+-------------------+-------------------+-------------------+

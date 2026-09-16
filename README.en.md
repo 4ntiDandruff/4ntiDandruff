@@ -66,8 +66,8 @@ All automation pipelines, workshop web systems, and autonomous AI agents are coo
 +-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
 |   PRIMARY RIG   | | WORKSTATION GUI | |  STANDBY DUAL   | | FIELD TERMINAL  | | LEGACY TESTBED  |
 | Dedicated Host  | | Desktop Suite   | | High-Compute OS | | Diagnostic Edge | | Isolated Node   |
-| (michael/i3)    | | (hizam/Ryzen)   | | (ryzen/Win11)   | | (mama/Mint)     | | (novi/Win7)     |
-| Subnet AI Hub   | | KDE Plasma UI   | | Dual-Boot Rig   | | Thin Client     | | Lab Flashing    |
+| 24/7 Automation | | KDE Plasma UI   | | Dual-Boot Rig   | | Field Servicing | | Hardware Bench  |
+| Subnet AI Hub   | | Workstation Rig | | Standby Engine  | | Thin Client     | | Legacy Lab Rig  |
 +-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
          |                   |                   |                   |                   |
          +-------------------+-------------------+-------------------+-------------------+

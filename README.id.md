@@ -7,8 +7,8 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Teknisi+Sirkuit+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;25+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Perangkat+Selesai+%E2%80%A2+BNSP+100%2F100+Teori)](https://github.com/4ntiDandruff)
 
 <p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20US%20English%20%5D-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="English" /></a>
-  <a href="./README.id.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
+  <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
+  <a href="./README.en.md"><img src="https://img.shields.io/badge/%5B%20US%20English%20%5D-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="English" /></a>
 </p>
 
 <p align="center">

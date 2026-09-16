@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Teknisi Elektronika, AI Agent Orchestrator & Otomasi Sistem" />
+<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Teknisi Elektronika, AI Agent Architect & Otomasi Sistem" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=620&height=35&lines=Teknisi+Sirkuit+%7C+AI+Agent+Architect+%7C+Linux+Infra;1000%2B+Perangkat+Ditangani+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU)](https://github.com/4ntiDandruff)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Teknisi+Sirkuit+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;25+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Perangkat+Selesai+%E2%80%A2+BNSP+100%2F100+Teori)](https://github.com/4ntiDandruff)
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20US%20English%20%5D-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="English" /></a>
@@ -23,8 +23,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Pengalaman%20Hardware-12%2B%20Tahun-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Keahlian%20AI-25%20Skills%20Modular-0071E3?style=flat-square" />
   <img src="https://img.shields.io/badge/Infrastruktur-5--Node%20Mesh-blueviolet?style=flat-square" />
-  <img src="https://img.shields.io/badge/Perangkat%20Tertangani-1000%2B%20Unit-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Perangkat%20Selesai-1000%2B%20Unit-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Ujian%20Teori%20BNSP-100%2F100%20Sempurna-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Rating%20Servis-4.9%20★%20Google-yellow?style=flat-square" />
 </p>
@@ -33,7 +34,22 @@
 
 </div>
 
-## 📐 Topologi Sirkuit & Arsitektur Sistem
+## 💡 Filosofi Meja Servis: Bebas Teori, Nol Bloat, dan Hemat Resource
+
+> **"Bukan programmer kantoran yang hobi buang resource server. Saya teknisi elektronika meja servis yang mengawinkan diagnosa sirkuit fisik dengan automasi sistem Linux super hemat daya."**
+
+Di meja servis laptop dan smartphone, komponen mati tidak bisa ditipu dengan kata-kata manis. Jalur korslet harus ditemukan sampai ke titik kakinya, tegangan drop harus diukur pakai osiloskop, dan IC yang gosong harus diganti dengan solderan presisi.
+
+Prinsip fisik yang sama saya bawa ke dunia rekayasa perangkat lunak:
+- **Tolak dependensi berat**: Kalau masalah bisa tuntas dengan skrip shell ringan atau satu file SQLite WAL, jangan pernah pasang server database raksasa atau tumpukan framework JavaScript yang rakus memori.
+- **Nol beban saat diam (0% CPU standby)**: Sistem yang baik bekerja seperti relay elektronika. Diam tanpa membebani daya saat menganggur, dan menyambar secepat kilat saat ada event nyata dari kernel.
+- **Bisa langsung diperbaiki**: Kode harus transparan, mudah dilacak nomor baris error-nya, dan langsung jalan tanpa proses kompilasi (*build-step*) yang membingungkan saat darurat.
+
+---
+
+## 📐 Topologi Sirkuit & Jaringan 5-Node Linux Mesh
+
+Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan privat terenkripsi tanpa port forwarding publik yang membahayakan sistem:
 
 ```
                       +======================================================+
@@ -50,13 +66,13 @@
 +-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
 |   PRIMARY RIG   | | WORKSTATION GUI | |  STANDBY DUAL   | | FIELD TERMINAL  | | LEGACY TESTBED  |
 | Dedicated Host  | | Desktop Suite   | | High-Compute OS | | Node Diagnosa   | | Node Terisolasi |
-| Otomasi 24/7    | | Antarmuka KDE   | | Rig Dual-Boot   | | Servis Lapangan | | Meja Hardware   |
-| Linux Engine    | | Workstation Rig | | Workstation Rig | | Thin Client     | | Lab Flashing    |
+| (michael/i3)    | | (hizam/Ryzen)   | | (ryzen/Win11)   | | (mama/Mint)     | | (novi/Win7)     |
+| Subnet AI Hub   | | KDE Plasma UI   | | Dual-Boot Rig   | | Thin Client     | | Lab Flashing    |
 +-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
          |                   |                   |                   |                   |
          +-------------------+-------------------+-------------------+-------------------+
                                                  |
-                                      [Mesh AI Agent Otonom]
+                                     [Autonomous AI Mesh]
               (Antigravity • Claude Code • OpenCode • Hermes • OMP • Codex)
                                                  |
                                                  v
@@ -64,7 +80,8 @@
                       |          DEPLOY PRODUKSI & SISTEM FAIL-SAFE          |
                       |  • Watchdog Daemon 0% CPU Idle (Event Kernel Inotify)|
                       |  • GUI Flashing Hardware Low-Level (CH341A / SPI)    |
-                      |  • Aplikasi Web Produksi Ringan Cepat (Flask + HTMX)  |
+                      |  • 25 Modul Keahlian Meja Servis (Zero-Bloat Skills) |
+                      |  • Web Produksi Ringan Cepat (FastAPI + SQLite WAL)  |
                       +======================================================+
 ```
 
@@ -85,162 +102,156 @@
 
 ---
 
-## ⚡ Keunggulan Utama & Landasan Teknis
+## ⚡ Proyek Unggulan Teruji di Meja Servis
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 Orkestrasi Autonomous AI Agents</h3>
-      <ul>
-        <li><b>Eksekusi Single-Thread</b>: Pemrosesan sekuensial yang hemat resource dan deterministik.</li>
-        <li><b>Debugging Mandiri</b>: Melacak akar masalah (<i>root cause</i>) berbasis aliran sinyal logika.</li>
-        <li><b>Alur Kerja Tanpa Friksi</b>: CLI native otomatis tanpa hambatan klik manual berulang.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌐 Klaster 5-Node Linux Mesh</h3>
-      <ul>
-        <li><b>Jaringan Terdistribusi</b>: Infrastruktur privat terpadu menghubungkan server, workstation, dan node diagnosa.</li>
-        <li><b>SSH Mesh Aman</b>: Multiplexing ControlMaster tanpa password dengan soket aktif 10 menit.</li>
-        <li><b>Watchdog Otomatis</b>: Pemeriksaan detak jantung sistem tanpa polling resource berat.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔬 Diagnosa Sirkuit & Hardware Meja Servis</h3>
-      <ul>
-        <li><b>Isolasi Komponen</b>: Pelacakan jalur short motherboard, analisa drop tegangan, dan sinyal osiloskop.</li>
-        <li><b>Pengerjaan Rework Presisi</b>: Micro-soldering, reballing IC, dan pembacaan skematik <i>boardview</i>.</li>
-        <li><b>Ekstraksi Firmware</b>: Pemulihan BIOS EEPROM SPI langsung via hardware programmer fisik.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ Native Toolmaker & Daemon Hemat Daya</h3>
-      <ul>
-        <li><b>Layanan Berbasis Event</b>: Daemon inotify kernel dengan <b>0% beban CPU saat standby</b>.</li>
-        <li><b>Desain Sekring Pengaman</b>: Pembatas RAM, proteksi loop, dan auto-rollback instan.</li>
-        <li><b>Arsitektur Zero-Bloat</b>: Menolak dependensi berat dan build-step JavaScript yang mubazir.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+Semua proyek di bawah ini lahir langsung dari kebutuhan nyata di bengkel servis laptop dan jaringan ruko, bukan sekadar tugas kuliah atau proyek coba-coba:
+
+### 🛠️ Kategori 1: Perkakas Desktop & CLI Terbuka (Open Source)
+
+#### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
+**25 Modul Keahlian Operasional Tingkat Sirkuit untuk Multi-Agent AI Orchestrators**
+*   **Masalah Nyata**: AI coding agent sering melantur, menulis kode penuh bloat, dan merusak dependensi server saat disuruh memperbaiki sistem.
+*   **Solusi Lapangan**: Menghubungkan 6 orchestrator AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) ke 25 SOP teknisi siap pakai. Dilengkapi portal telemetri web mandiri, UI Apple Liquid, proteksi SQLite WAL, dan AI Ladder 0-token.
+*   **Jembatan Fisik**: *AI agent bekerja mandiri seperti teknisi senior → yang artinya sistem langsung selesai tanpa operator perlu mengetik ulang kode atau mengajari dari nol.*  
+`Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
+
+#### 🚀 [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
+**Penyetel Performa & Pembersih Telemetri Otomatis untuk PC Pelanggan**
+*   **Masalah Nyata**: Laptop dan PC pelanggan ruko sering lambat parah gara-gara bloatware pabrikan, service telemetri Microsoft yang rakus disk, dan startup berantakan.
+*   **Solusi Lapangan**: Toolkit otomasi berbasis skrip native (PowerShell & Batch) untuk mematikan pelacak telemetri, memangkas aplikasi bawaan tak terpakai, dan menyetel konfigurasi register tanpa software pembersih pihak ketiga yang mencurigakan.
+*   **Jembatan Fisik**: *Penyetelan sistem secara native → yang artinya laptop pelanggan langsung enteng seketika dan proses servis selesai dalam hitungan menit.*  
+`PowerShell` • `Batch` • `Windows Internals` • `Zero Dependency`
+
+#### 🔌 [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
+**Desktop GUI Native untuk Alat Flash BIOS USB CH341A**
+*   **Masalah Nyata**: Flashing chip BIOS laptop pakai terminal Linux sering bikin pusing karena harus menghafal puluhan parameter panjang, rawan salah ketik, dan chip bisa rusak jika voltage jumper salah.
+*   **Solusi Lapangan**: Membungkus engine `flashrom` ke dalam antarmuka desktop native Tauri v2 yang super enteng. Deteksi otomatis tipe IC seri 24/25, validasi checksum SHA-256 bit-per-bit, dan peringatan level tegangan 1.8V.
+*   **Jembatan Fisik**: *Verifikasi checksum otomatis → yang artinya file BIOS hasil flash dijamin identik 100% dan laptop pelanggan tidak akan mati total.*  
+`Tauri v2` • `Rust` • `TypeScript` • `Python` • `flashrom`
+
+#### ⚡ [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
+**Daemon Ekstraksi Arsip Otomatis Berbasis Event Kernel (0% CPU Standby)**
+*   **Masalah Nyata**: Saat mengimpor skema laptop atau driver di file-picker Linux, harus bolak-balik klik kanan ekstrak arsip zip/rar secara manual yang membuang waktu teknisi.
+*   **Solusi Lapangan**: Daemon kernel murni berbasis `inotify` yang memantau folder unduhan. Bekerja senyap di background dengan 9 sekring pengaman (pencegah loop rekursif, batas sisa ruang disk, proteksi file gambar).
+*   **Jembatan Fisik**: *Hook event kernel murni → yang artinya arsip otomatis terbuka dalam 1 detik, RAM cuma 1.5MB, dan laptop tetap dingin tanpa kipas berdengung.*  
+`POSIX Shell` • `inotify-tools` • `Systemd User Unit` • `libnotify` • `unar/7z`
+
+#### 📱 [ADB Mobile Debloater](https://github.com/4ntiDandruff/adb-uninstaller)
+**Debloater Android Massal untuk Workstation Meja Servis**
+*   **Masalah Nyata**: Ponsel Android murah milik pelanggan sering kepenuhan memori internal gara-gara aplikasi bawaan vendor (Samsung, Xiaomi, Oppo, Vivo) yang tidak bisa di-uninstall biasa.
+*   **Solusi Lapangan**: Aplikasi desktop pembungkus ADB dengan katalog paket aman. Memungkinkan teknisi mencopot aplikasi sampah pabrikan secara massal via USB tanpa perlu akses root.
+*   **Jembatan Fisik**: *Katalog proteksi paket sistem → yang artinya memori HP pelanggan kembali lega tanpa resiko bootloop atau mati sistem.*  
+`Tauri v2` • `React` • `TypeScript` • `Android Debug Bridge (ADB)`
 
 ---
 
-## 📊 Matriks Audit & Kualitas Sistem
+### 🌐 Kategori 2: Ekosistem Web & Edge Mandiri Ruko (Live Self-Hosted)
+
+Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi mandiri di ruko Megapass Intra Solusindo dengan prinsip *zero-bloat*:
+
+| Sistem Ruko & Layanan | Fungsi Lapangan & Manfaat Nyata | Jembatan "Yang Artinya..." |
+|---|---|---|
+| **AGY Router**<br/>*(AI Token Pool Gateway)* | Reverse proxy multi-akun untuk Google Antigravity CLI dengan failover HTTP 429 otomatis dan SSE stream tanpa buffer. | *Koding otonom jalan terus tanpa takut kehabisan kuota atau terhenti limit API.* |
+| **PDF Workbench**<br/>`pdf.megapass.web.id` | Generator pas foto A4 siap potong, OCR lokal, dan perbaikan dokumen rusak tanpa upload ke cloud pihak ketiga. | *Data privasi KTP/ijazah pelanggan aman (auto-hapus 15 menit) dan hasil cetak tajam 600 DPI.* |
+| **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Pemantau CCTV mandiri via go2rtc WebRTC pass-through di hardware hemat daya (STB/i3). | *CCTV bisa dipantau langsung dari HP tanpa biaya langganan cloud dan RAM server <30MB.* |
+| **Kas Harian Meja Servis**<br/>`kas.megapass.web.id` | Pembukuan kas bengkel dengan pengurai kalimat transaksi dwibahasa berbasis AI Ladder 0-token. | *Catat nota cukup ketik bahasa santai, kasir rapi, dan database aman dari mati lampu PLN mendadak.* |
+| **Kalenderia Print Engine**<br/>`kalenderia.my.id` | Mesin hitung otomatis ongkos cetak dan manajemen pesanan kalender komersial di Sidoarjo. | *Pelanggan percetakan langsung tahu total harga dan spesifikasi tanpa antre tanya ke admin.* |
+| **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Antarmuka pencatat suara ke teks melayang dengan KWin Glassmorphism dan faster-whisper lokal. | *Teknisi bisa mendikte catatan kerusakan perangkat saat kedua tangan sibuk memegang solder.* |
+
+---
+
+## 💻 Tech Stack Baku & Jembatan Dampak Fisik
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,bash,rust,tauri,python,fastapi,flask,htmx,tailwind,sqlite,git,docker&theme=dark" alt="Tech Stack" />
+</p>
+
+Setiap teknologi yang dipilih memiliki alasan fisik yang jelas, bukan sekadar ikut tren:
+
+| Lapisan Teknologi | Pilihan Alat | Dampak Fisik di Meja Kerja (*Yang Artinya...*) |
+|---|---|---|
+| **Mesin Belakang (Backend)** | Python FastAPI / Flask | *Validasi tipe data ketat dan log nomor baris jelas, sehingga perbaikan bug selesai dalam hitungan detik.* |
+| **Basis Data (Database)** | SQLite dengan WAL Mode | *Satu file database lokal ultra-cepat, tahan banting saat listrik ruko padam mendadak tanpa data korup.* |
+| **Layar Depan (Frontend)** | HTML5 + Tailwind CDN + Alpine.js + HTMX | *Antarmuka web instan tanpa proses build JavaScript yang boros memori, bisa langsung diedit di server.* |
+| **Aplikasi Desktop** | Tauri v2 (Rust) | *Pengganti Electron yang hemat daya; aplikasi desktop membuka instan dengan konsumsi RAM di bawah 40MB.* |
+| **Media & Kamera** | go2rtc + WebRTC Pass-Through | *Streaming video tanpa proses transcoding CPU di server STB/i3, mesin tetap dingin dan hemat listrik.* |
+| **Jaringan & Akses** | Tailscale Mesh + Cloudflare Tunnel | *Seluruh server dan PC ruko terhubung aman tanpa membuka port forwarding publik yang rawan serangan luar.* |
+
+---
+
+## 📊 Matriks Audit Kualitas & Uji Performa Lapangan
+
+Seluruh angka di bawah ini diambil dari mesin fisik di bengkel servis, bukan hasil simulasi lab virtual:
 
 | Parameter Audit / Metrik | Standar Uji | Hasil Nyata di Lapangan | Status |
 |---|---|---|:---:|
 | **Beban CPU Watchdog Standby** | < 0.1% CPU | **0.00% CPU (Event Kernel Inotify)** | PASS |
 | **Konsumsi RAM Daemon Background** | < 10 MB RAM | **~1.5 MB RAM (POSIX Shell + Libnotify)** | PASS |
-| **Latensi Multiplexing SSH Mesh** | < 20 ms | **0.8 ms (Soket Tailscale Lokal)** | PASS |
+| **Latensi Jaringan SSH Mesh** | < 20 ms | **0.8 ms (Soket Tailscale Lokal)** | PASS |
 | **Verifikasi Integritas Flashing BIOS** | 100% Bit-for-Bit | **100% SHA-256 Checksum Match** | PASS |
-| **Response Time Web Produksi** | < 50 ms | **12 ms - 28 ms (Python + SQLite WAL)** | PASS |
+| **Response Time Web Produksi** | < 50 ms | **12 ms - 28 ms (FastAPI + SQLite WAL)** | PASS |
+| **Konsumsi RAM Streaming CCTV (go2rtc)** | < 100 MB RAM | **< 28 MB RAM (Zero CPU Transcoding)** | PASS |
 
 ---
 
-## 💰 Valuasi Biaya & Efisiensi Finansial (ROI)
+## 💰 Valuasi Biaya & Efisiensi Finansial (ROI Nyata)
 
-| Komponen Infrastruktur | Solusi SaaS / Cloud Komersial | Infrastruktur Native Megapass | Valuasi Penghematan Tahunan |
+Membangun infrastruktur mandiri tanpa ketergantungan layanan berbayar menghasilkan efisiensi biaya operasional yang sangat masif setiap tahun:
+
+| Komponen Infrastruktur | Solusi Cloud / SaaS Berbayar | Infrastruktur Mandiri Megapass | Valuasi Penghematan Tahunan |
 |---|---|---|---|
 | **Private Mesh Multi-Node** | VPN Gateway Komersial (Rp 470rb/bln) | WireGuard Mesh Terenkripsi (Rp 0) | **Rp 5.640.000 / tahun** |
 | **Monitoring Detak Jantung 24/7** | Cloud Monitoring SaaS (Rp 700rb/bln) | Watchdog Cron + Inotify Native (Rp 0) | **Rp 8.400.000 / tahun** |
-| **Software Flashing Firmware** | Tool Proprietary Komersial (Rp 2.3M) | GUI Native Open Source (`flashrom` + Tauri) | **Rp 2.300.000** |
+| **Software Flashing Firmware** | Tool Komersial Berbayar (Rp 2.3Jt) | GUI Native Open Source (`flashrom` + Tauri) | **Rp 2.300.000** |
 | **Hosting & Pipeline Web** | Vercel Pro / AWS Fleet (Rp 950rb/bln) | Server Mandiri Native (Rp 0 Footprint) | **Rp 11.400.000 / tahun** |
-| **TOTAL VALUASI PENGHEMATAN** | — | — | **Rp 27.740.000+ / tahun** |
+| **TOTAL PENGHEMATAN BIAYA** | -- | -- | **Rp 27.740.000+ / tahun** |
 
 ---
 
-## 🔧 Tentang Saya & Meja Servis
+## 🔧 Tentang Saya & Meja Servis Megapass
 
-Saya teknisi elektronika bersertifikasi dan pemilik **Megapass Intra Solusindo** di Sidoarjo. Keseharian saya berhadapan langsung dengan blower, solder uap, multitester, osiloskop, dan skematik *boardview* — mulai dari mencari jalur korslet, analisa drop tegangan, sampai angkat-pasang IC laptop dan smartphone.
+Keseharian saya berputar di meja kerja **Megapass Intra Solusindo** di Sidoarjo, Jawa Timur. Di sini, meja servis dipenuhi osiloskop digital, multitester, solder presisi, mikroskop elektronika, dan skematik boardview.
 
-Saya menggabungkan pemahaman perangkat keras tingkat rendah (*circuit level*) dengan otomasi modern berbasis AI:
-- **Low-Level Hardware**: Menghafal perintah terminal untuk flashing BIOS laptop menyita waktu → Saya bangun **CH341A Flasher GUI**.
-- **AI Agent Automation**: Mengoperasikan armada AI agent otonom dengan direktif ketat untuk verifikasi kode, monitoring multi-node, dan deployment mandiri.
-- **Linux Engineering**: Migrasi ke Linux (**Kubuntu 26.04**) dan membangun daemon **Auto-Extract Downloads** dengan 9 sekring pengaman dan konsumsi 0% beban CPU.
-
-> **Prinsip Meja Servis**: *"Kalau masalahnya bisa selesai pakai script ringan, native daemon, atau jumper sirkuit yang 0% beban CPU, ya itu yang dipakai. Gak perlu dependensi berat atau arsitektur ribet."*
+Pekerjaan harian saya meliputi:
+- **Pelacakan Jalur Korslet**: Menemukan kapasitor atau MOSFET bocor pada motherboard laptop yang mati total menggunakan metode suntik tegangan dan analisa arus panas.
+- **Rework IC & Micro-Soldering**: Mengangkat dan mencetak ulang kaki-kaki IC (reballing BGA) pada perangkat seluler dan laptop.
+- **Pemulihan Firmware Mati Total**: Flashing dan perbaikan chip BIOS EEPROM yang korup menggunakan programmer fisik dan analisa heksadesimal.
+- **Sistem Otomasi Mandiri**: Membangun tool otomasi Linux dan armada agen AI untuk mempercepat diagnosa teknis dan pencatatan bengkel.
 
 ---
 
-## 📜 Sertifikasi & Pelatihan Resmi
+## 📜 Sertifikasi & Kredensial Resmi
 
-Seluruh pekerjaan teknis didasarkan pada standar kompetensi nasional dan pelatihan resmi:
+Seluruh rekayasa perangkat keras dan integrasi sistem didasarkan pada kompetensi teknis resmi:
 
-| Lembaga / Organisasi | Bidang Keahlian | Catatan Prestasi |
+| Lembaga Sertifikasi | Bidang Keahlian Teknis | Catatan Prestasi & Kualifikasi |
 |---|---|---|
 | 🏆 **BNSP (Badan Nasional Sertifikasi Profesi)** | Teknisi HP & Elektronika | **Nilai Sempurna (100/100)** Ujian Teori Arsitektur Sirkuit & Elektronika |
-| 🔬 **BMY Yogyakarta** | Motherboard Laptop & Skematik | Diagnosa motherboard mati total / *no display* menggunakan osiloskop |
-| 🎓 **ITS Surabaya (PRODISTIK)** | D1 Teknologi Informasi | Perancangan sirkuit elektronika, pembuatan PCB, & teknik solder presisi |
-| 📱 **PTC Indonesia & Arsalabs** | Servis HP Lanjutan & Hardware | Micro-soldering, reballing IC, penelusuran jalur tegangan, & HP mati total |
-| 💻 **Magistra Utama** | Hardware & Jaringan Komputer | Pemeliharaan perangkat keras, infrastruktur jaringan, & pemrograman web |
+| 🔬 **BMY Yogyakarta** | Motherboard Laptop & Skematik | Diagnosa motherboard mati total dan *no display* menggunakan osiloskop |
+| 🎓 **ITS Surabaya (PRODISTIK)** | D1 Teknologi Informasi | Perancangan sirkuit elektronika, fabrikasi PCB, dan teknik solder presisi |
+| 📱 **PTC Indonesia & Arsalabs** | Servis HP Lanjutan & Hardware | Micro-soldering, reballing IC, penelusuran jalur tegangan, dan ponsel mati |
+| 💻 **Magistra Utama** | Hardware & Jaringan Komputer | Pemeliharaan perangkat keras, infrastruktur jaringan LAN, dan sistem web |
 | 🤝 **TESPOIN** | Asosiasi Teknisi Ponsel Indonesia | Anggota resmi asosiasi teknisi ponsel tingkat nasional |
 
-👉 *Foto sertifikat fisik dan alat kerja meja servis:* **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
+👉 *Dokumentasi sertifikat fisik dan foto meja kerja:* **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
 
 ---
 
-## 💻 Tech Stack Zero-Bloat & Keputusan Rekayasa
+## 🗺️ Roadmap Rekayasa Masa Depan
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,rust,tauri,python,typescript,react,fastapi,flask,htmx,tailwind,sqlite,git,docker&theme=dark" alt="Tech Stack" />
-</p>
+- [x] Pembangunan jaringan 5-Node Heterogeneous Linux Mesh dengan enkripsi Tailscale & SSH ControlMaster.
+- [x] Pembuatan daemon auto-extract kernel inotify dengan 9 sekring pengaman dan 0% beban CPU.
+- [x] Rilis desktop GUI CH341A BIOS Flasher Tauri v2 untuk teknisi hardware.
+- [x] Peluncuran publik Zero-Bloat Skills Hub (25 modul keahlian meja servis) di `skill.megapass.web.id`.
+- [x] Rilis publik Windows Optimizer Toolkit untuk pemeliharaan PC pelanggan.
+- [ ] Integrasi perekam bentuk gelombang digital osiloskop langsung ke workstation Linux.
+- [ ] Daemon sinkronisasi backup multi-node otomatis dengan enkripsi zero-knowledge.
 
-| Domain | Stack & Ekosistem | Keputusan Rekayasa |
-|---|---|---|
-| **AI Agents & Orkestrasi** | Antigravity CLI, Claude Code, OpenCode, Hermes Agent, OMP, Codex | Pipeline multi-agent otonom, remote debugging otomatis, monitoring server |
-| **Linux & Jaringan Mesh** | Ubuntu 26.04, Kubuntu (KDE 6 Wayland), Tailscale, Systemd | Infrastruktur terdistribusi 5 node, daemon inotify 0-polling, cron watchdog |
-| **Hardware & Meja Servis** | CH341A Programmer, `flashrom`, Osiloskop, Multitester, Boardview | Diagnosa jalur motherboard, flashing EEPROM BIOS, penggantian IC mikroskopis |
-| **Desktop GUIs** | Tauri v2, Rust, React, TypeScript, Vite | Aplikasi desktop native super cepat membungkus CLI engine dengan konsumsi RAM minimal |
-| **Web & Layanan** | Python (FastAPI, Flask), SQLite WAL, HTMX, Tailwind CSS v4 | Sistem web produksi yang ringan tanpa tumpukan build step JavaScript |
+## 📜 Catatan Rilis & Pembaruan Terkini
 
----
-
-## ⚡ Proyek Produksi Teruji Meja Servis
-
-### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
-**21 Modul Keahlian Operasional Tingkat Sirkuit untuk AI Coding Agents**  
-Koleksi keahlian produksi dan portal telemetri web interaktif untuk 6 orchestrator agen AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex). Dibangun dengan FastAPI SSR single-worker, SQLite WAL Fortress, Apple Liquid Dark UI, ladder AI dwibahasa hemat token (0 token LLM), dan installer bash 1-klik universal. Konsumsi RAM <65MB, 0% CPU standby.  
-`Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
-
-### 🚀 [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
-**Daemon Ekstraksi Otomatis Berbasis Event Kernel untuk Linux Desktop (KDE/GNOME)**  
-Menghilangkan friksi ekstraksi arsip saat import file-picker di Linux. Berjalan mulus di latar belakang via kernel event (`inotify`) dengan **0% idle CPU** dan **~1.5 MB RAM**. Dilengkapi 9 sekring pengaman (proteksi loop self-compression, limit storage, pengaman file gambar).  
-`Shell` • `inotify-tools` • `Systemd User Unit` • `libnotify` • `unar/7z`
-
-### 🔌 [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
-**Desktop GUI untuk Programmer USB CH341A**  
-Membungkus engine `flashrom` untuk kebutuhan meja servis laptop. Menghilangkan kewajiban mengingat parameter CLI rumit, deteksi otomatis IC target, verifikasi read/write, dan mencegah kegagalan flashing BIOS.  
-`Tauri v2` • `Rust` • `TypeScript` • `Python` • `flashrom`
-
-### 🤖 [ADB Uninstaller](https://github.com/4ntiDandruff/adb-uninstaller)
-**Debloater Android Otomatis untuk Workstation Servis**  
-Membersihkan aplikasi bawaan vendor secara massal pada perangkat pelanggan via USB, dilengkapi panduan keamanan paket agar HP tidak *bootloop*.  
-`Tauri v2` • `React` • `TypeScript` • `Android Debug Bridge (ADB)`
-
-### 🌐 [kalenderia.my.id](https://github.com/4ntiDandruff/kalenderia.my.id)
-**Engine Cetak Produksi & Manajemen Percetakan**  
-Aplikasi web komersial untuk bisnis percetakan kalender di Sidoarjo. Dibangun dengan filosofi *no-build* (Flask + HTMX) untuk akses instan dan ringan.  
-`Python Flask` • `HTMX` • `Tailwind CSS v4` • `Jinja2`
-
----
-
-## 🗺️ Roadmap Rekayasa
-
-- [x] Implementasi 5-Node Heterogeneous Linux Mesh dengan enkripsi SSH ControlMaster.
-- [x] Daemon auto-extract berbasis event kernel inotify dengan 9 sekring pengaman.
-- [x] Deployment produksi CH341A BIOS Flasher Tauri GUI.
-- [x] Peluncuran produksi Zero-Bloat Skills Hub & portal interaktif telemetri (`skill.megapass.web.id`).
-- [ ] Utilitas perekaman bentuk gelombang digital osiloskop langsung untuk workstation Linux.
-- [ ] Daemon sinkronisasi backup multi-node terenkripsi dengan protokol *zero-knowledge*.
-
-## 📜 Pembaruan & Changelog Terkini
-
-- **v2.5.0 (2026-09-10)**: Peluncuran Zero-Bloat Skills Hub (21 modul), rilis portal telemetri web live di `skill.megapass.web.id`, sinkronisasi matrix 6-agent simetris ke Google Antigravity CLI, dan perolehan pencapaian resmi GitHub (Quickdraw & PR milestones).
-- **v2.4.0 (2026-08-31)**: Standardisasi 10 Elemen Baku Dokumentasi (R10), pembaruan topologi sirkuit 5-Node Linux Mesh, audit benchmark inotify 0% CPU standby, dan struktur dwibahasa terpisah.
-- Rincian catatan rilis lengkap dapat dilihat pada file [CHANGELOG.md](./CHANGELOG.md).
+- **v2.6.0 (2026-09-16)**: Perombakan total profil dengan standar Copywriting Manusiawi (Tes Warung Kopi & Jembatan Fisik). Penambahan showcase proyek publik baru `windows-optimizer`, perluasan 25 modul Zero-Bloat Skills Hub, dan peresmian etalase armada web ruko mandiri (AGY Router, PDF Workbench, Edge CCTV, Kas Servis, Mega-Speech).
+- **v2.5.0 (2026-09-10)**: Peluncuran Zero-Bloat Skills Hub awal, rilis portal live di `skill.megapass.web.id`, sinkronisasi matrix 6-agent, dan perolehan badge resmi GitHub.
+- Catatan riwayat rilis lengkap tersedia pada file [CHANGELOG.md](./CHANGELOG.md).
 
 ---
 

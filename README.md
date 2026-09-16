@@ -87,21 +87,6 @@ All automation pipelines, workshop web systems, and autonomous AI agents are coo
 
 ---
 
-## 🏆 Official GitHub Achievements
-
-<div align="center">
-
-| Quickdraw | Pull Shark | YOLO | Pair Extraordinaire |
-|:---:|:---:|:---:|:---:|
-| <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/quickdraw.png" width="76" alt="Quickdraw" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/pull-shark.png" width="76" alt="Pull Shark" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/yolo.png" width="76" alt="YOLO" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/pair-extraordinaire.png" width="76" alt="Pair Extraordinaire" /></a> |
-| **Quickdraw**<br/>*Closed issue in < 5 mins* | **Pull Shark**<br/>*Merged Pull Request* | **YOLO**<br/>*Merged directly without review* | **Pair Extraordinaire**<br/>*Co-authored commit* |
-
-*Earned through automated Git workflows, fail-safe branch merging, and rapid problem resolution.*
-
-</div>
-
----
-
 ## ⚡ Production Projects Tested on the Bench
 
 Every project listed below was built to resolve tangible daily bottlenecks in electronics servicing and local infrastructure:

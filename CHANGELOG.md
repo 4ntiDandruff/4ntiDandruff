@@ -8,7 +8,7 @@ All notable changes to this profile repository and system architecture will be d
 * **Windows Optimizer Flagship Feature**: Featured `windows-optimizer` public repository in Category 1 for automated client telemetry removal, bloatware stripping, and registry performance tuning.
 * **Live Self-Hosted Workshop Systems Category**: Added dedicated showcase for active repair bench services running on Megapass infrastructure: AGY Router (AI Multi-Account Pool & 429 Shield), PDF Workbench (`pdf.megapass.web.id`), Edge CCTV Fleet (`cctv.megapass.web.id`), Workshop Ledger (`kas.megapass.web.id`), Mega-Speech Voice HUD (Linux Wayland KWin), and Kalenderia (`kalenderia.my.id`).
 * **Hardware Translation Bridge ("What It Means")**: Embedded physical impact explanations connecting low-level engineering specifications to tangible repair bench outcomes (anti-data loss, 0% CPU standby, hardware longevity).
-* **Official Achievements Table Synchronization**: Added missing GitHub verified achievements table (Quickdraw, Pull Shark, YOLO, Pair Extraordinaire) to English `README.md`.
+* **De-bloat Achievements Section**: Removed GitHub achievements table across all profile READMEs to maintain a clean, zero-bloat engineering layout.
 
 ### Changed
 * **Zero-Bloat Skills Expansion**: Updated total modular production skills count from 21 to 25 skills across both documentation files and badge counters.

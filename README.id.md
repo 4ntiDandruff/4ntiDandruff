@@ -87,21 +87,6 @@ Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan p
 
 ---
 
-## 🏆 Lencana Resmi GitHub (*Official Achievements*)
-
-<div align="center">
-
-| Quickdraw | Pull Shark | YOLO | Pair Extraordinaire |
-|:---:|:---:|:---:|:---:|
-| <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/quickdraw.png" width="76" alt="Quickdraw" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/pull-shark.png" width="76" alt="Pull Shark" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/yolo.png" width="76" alt="YOLO" /></a> | <a href="https://github.com/4ntiDandruff?tab=achievements"><img src="./assets/pair-extraordinaire.png" width="76" alt="Pair Extraordinaire" /></a> |
-| **Quickdraw**<br/>*Tutup issue < 5 menit* | **Pull Shark**<br/>*Merge Pull Request* | **YOLO**<br/>*Merge mandiri tanpa review* | **Pair Extraordinaire**<br/>*Commit duet kolaborator* |
-
-*Diperoleh melalui otomatisasi pipeline Git, merge cabang fail-safe, dan resolusi issue responsif.*
-
-</div>
-
----
-
 ## ⚡ Proyek Unggulan Teruji di Meja Servis
 
 Semua proyek di bawah ini lahir langsung dari kebutuhan nyata di bengkel servis laptop dan jaringan ruko, bukan sekadar tugas kuliah atau proyek coba-coba:

@@ -165,7 +165,7 @@ Alongside desktop software, I architect and host internal production services fo
 | **Skema Boardview**<br/>`skema.megapass.web.id` | Interactive laptop motherboard schematic & PDF canvas viewer with isolated IC part location search. | *Tracing motherboard voltage rails and signal paths on monitor is instant with zero loading lag.* |
 | **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Self-hosted multi-camera streaming via go2rtc WebRTC pass-through on low-power STB/i3 nodes. | *Workshop cameras can be audited live from mobile with zero cloud subscriptions and <30MB server RAM.* |
 | **Workshop Bookkeeping**<br/>`kas.megapass.web.id` | Daily repair ledger featuring a bilingual natural language transaction parser powered by a 0-token AI Ladder. | *Technicians record service jobs via spoken dictation, and the WAL database survives sudden power cuts.* |
-| **Pastree Workbench**<br/>`pastree.megapass.web.id` | Ultra-lean, high-throughput code clipboard & pastebin sync across workshop nodes with zero login and auto-expiration. | *Sharing terminal logs, bash snippets, and config files between bench PCs takes under 1 second.* |
+| **Pastree Link-in-Bio**<br/>`pastree.megapass.web.id` | Self-hosted ultra-lean link-in-bio micro-site engine (Linktree alternative) with ~6ms latency and zero monthly subscriptions. | *Social media visitors connect instantly to WhatsApp and workshop services without slow loading or third-party Linktree ads.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Hands-free voice-to-text floating HUD featuring native KWin glassmorphism and local faster-whisper streaming. | *Technicians can dictate diagnostic notes without removing their hands from hot air and soldering tools.* |
 
 ---

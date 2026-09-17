@@ -165,7 +165,7 @@ Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi m
 | **Skema Boardview**<br/>`skema.megapass.web.id` | Viewer skema motherboard laptop & PDF canvas interaktif dengan pencarian lokasi part IC terisolasi. | *Penelusuran jalur tegangan motherboard super cepat di layar monitor tanpa jeda loading.* |
 | **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Pemantau CCTV mandiri via go2rtc WebRTC pass-through di hardware hemat daya (STB/i3). | *CCTV bisa dipantau langsung dari HP tanpa biaya langganan cloud dan RAM server <30MB.* |
 | **Kas Harian Meja Servis**<br/>`kas.megapass.web.id` | Pembukuan kas bengkel dengan pengurai kalimat transaksi dwibahasa berbasis AI Ladder 0-token. | *Catat nota cukup ketik bahasa santai, kasir rapi, dan database aman dari mati lampu PLN mendadak.* |
-| **Pastree Workbench**<br/>`pastree.megapass.web.id` | Pastebin & clipboard kode instan antar-node ruko, zero-bloat, tanpa login, dan auto-expire. | *Kirim snippet skrip, log terminal, dan konfigurasi antar-perangkat selesai dalam 1 detik.* |
+| **Pastree Link-in-Bio**<br/>`pastree.megapass.web.id` | Platform mikro-situs link-in-bio mandiri (alternatif Linktree) ultra-cepat (~6ms) untuk etalase tautan & kontak ruko. | *Pengunjung medsos langsung terhubung ke nomor WhatsApp teknisi dan katalog servis tanpa iklan Linktree berbayar.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Antarmuka pencatat suara ke teks melayang dengan KWin Glassmorphism dan faster-whisper lokal. | *Teknisi bisa mendikte catatan kerusakan perangkat saat kedua tangan sibuk memegang solder.* |
 
 ---

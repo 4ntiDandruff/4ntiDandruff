@@ -16,7 +16,7 @@ All notable changes to this profile repository and system architecture will be d
 ## [v2.7.0] - 2026-09-17
 
 ### Added
-* **Live Workshop Fleet Portals (Skema & Pastree)**: Inducted `skema.megapass.web.id` (interactive laptop motherboard schematic & PDF canvas viewer) and `pastree.megapass.web.id` (zero-bloat code clipboard & pastebin sync) into Category 2 live self-hosted services showcase.
+* **Live Workshop Fleet Portals (Skema & Pastree)**: Inducted `skema.megapass.web.id` (interactive laptop motherboard schematic & PDF canvas viewer) and `pastree.megapass.web.id` (zero-bloat Linktree alternative link-in-bio platform) into Category 2 live self-hosted services showcase.
 
 ### Changed
 * **Zero-Bloat Skills Module Count**: Synchronized total modular skill count from 25 to 26 circuit-level workbench skills across all README profiles, ASCII circuit topologies, and shields badges.

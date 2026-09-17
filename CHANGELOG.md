@@ -7,6 +7,7 @@ All notable changes to this profile repository and system architecture will be d
 ### Added
 * **The `@4ntiDandruff` Moniker & Debloating Philosophy**: Inducted dedicated narrative section explaining the origin of handle `@4ntiDandruff` (classic 2000s leetspeak hacker heritage + anti-bloatware system purifier mission).
 * **Automated Circuit Probing Station HUD Banner**: Embedded animated hardware micro-probing SVG (`circuit-probing-station.svg`) directly into the workbench philosophy section.
+* **Crypto Market Circuit Decoder Showcase**: Inducted `trading.megapass.web.id` (PWA offline field guide & Solana on-chain decoder translating degen market tricks to physical circuit logic) into Category 2 live self-hosted services.
 
 ### Changed
 * **Narrative Overhaul**: Harmonized workbench philosophy connecting hardware circuit repair with anti-bloatware software engineering across all bilingual README documentation.

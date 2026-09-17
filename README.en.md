@@ -166,6 +166,7 @@ Alongside desktop software, I architect and host internal production services fo
 | **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Self-hosted multi-camera streaming via go2rtc WebRTC pass-through on low-power STB/i3 nodes. | *Workshop cameras can be audited live from mobile with zero cloud subscriptions and <30MB server RAM.* |
 | **Workshop Bookkeeping**<br/>`kas.megapass.web.id` | Daily repair ledger featuring a bilingual natural language transaction parser powered by a 0-token AI Ladder. | *Technicians record service jobs via spoken dictation, and the WAL database survives sudden power cuts.* |
 | **Pastree Link-in-Bio**<br/>`pastree.megapass.web.id` | Self-hosted ultra-lean link-in-bio micro-site engine (Linktree alternative) with ~6ms latency and zero monthly subscriptions. | *Social media visitors connect instantly to WhatsApp and workshop services without slow loading or third-party Linktree ads.* |
+| **On-Chain Circuit Decoder**<br/>`trading.megapass.web.id` | PWA offline trading field guide & Solana on-chain decoder: translates degen market mechanics (bundles, cabal snipers, bonding curves) into physical circuit logic. | *Technicians and beginners spot smart-contract traps in 5 seconds before capital gets wiped out.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Hands-free voice-to-text floating HUD featuring native KWin glassmorphism and local faster-whisper streaming. | *Technicians can dictate diagnostic notes without removing their hands from hot air and soldering tools.* |
 
 ---

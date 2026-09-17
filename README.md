@@ -166,6 +166,7 @@ Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi m
 | **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Pemantau CCTV mandiri via go2rtc WebRTC pass-through di hardware hemat daya (STB/i3). | *CCTV bisa dipantau langsung dari HP tanpa biaya langganan cloud dan RAM server <30MB.* |
 | **Kas Harian Meja Servis**<br/>`kas.megapass.web.id` | Pembukuan kas bengkel dengan pengurai kalimat transaksi dwibahasa berbasis AI Ladder 0-token. | *Catat nota cukup ketik bahasa santai, kasir rapi, dan database aman dari mati lampu PLN mendadak.* |
 | **Pastree Link-in-Bio**<br/>`pastree.megapass.web.id` | Platform mikro-situs link-in-bio mandiri (alternatif Linktree) ultra-cepat (~6ms) untuk etalase tautan & kontak ruko. | *Pengunjung medsos langsung terhubung ke nomor WhatsApp teknisi dan katalog servis tanpa iklan Linktree berbayar.* |
+| **Dekoder Pasar Crypto**<br/>`trading.megapass.web.id` | Buku saku PWA offline dan dekoder on-chain Solana: mengonversi istilah gaul pasar (bundle, cabal, sniper, bonding curve) ke logika fisik sirkuit elektronika. | *Teknisi dan pemula paham risiko jebakan kontrak pintar dalam 5 detik sebelum uang tabungan amblas.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Antarmuka pencatat suara ke teks melayang dengan KWin Glassmorphism dan faster-whisper lokal. | *Teknisi bisa mendikte catatan kerusakan perangkat saat kedua tangan sibuk memegang solder.* |
 
 ---

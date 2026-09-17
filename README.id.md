@@ -43,19 +43,27 @@ Di meja servis laptop dan smartphone, komponen mati tidak bisa ditipu dengan kat
 Prinsip fisik yang sama saya bawa ke dunia rekayasa perangkat lunak:
 - **Tolak dependensi berat**: Kalau masalah bisa tuntas dengan skrip shell ringan atau satu file SQLite WAL, jangan pernah pasang server database raksasa atau tumpukan framework JavaScript yang rakus memori.
 - **Nol beban saat diam (0% CPU standby)**: Sistem yang baik bekerja seperti relay elektronika. Diam tanpa membebani daya saat menganggur, dan menyambar secepat kilat saat ada event nyata dari kernel.
-- **Bisa langsung diperbaiki**: Kode harus transparan, mudah dilacak nomor baris error-nya, dan langsung jalan tanpa proses kompilasi (*build-step*) yang membingungkan saat darurat.
+- **Bisa langsung diperbaiki saat darurat**: Kode harus transparan, nomor baris error langsung terbaca di log terminal, dan siap ditambal di server tanpa proses kompilasi (*build-step*) yang membingungkan saat listrik padam.
+
+---
 
 ### 🧼 Di Balik Nama `@4ntiDandruff`: Filosofi Pembasmi Ketombe Sistem
 
-> *"Ketombe di kepala itu kotoran yang bikin gatal dan panas tanpa pernah kita minta. Di dunia komputer dan sistem operasi, ketombe itu bernama bloatware pabrikan, telemetri rakus disk, dan tumpukan framework JavaScript yang bikin kipas laptop menjerit."*
+> *"Ketombe di kepala itu kotoran yang bikin gatal dan panas tanpa pernah kita minta. Di dunia komputer dan sistem operasi, ketombe itu bernama bloatware bawaan vendor, telemetri rakus disk, dan tumpukan framework JavaScript yang bikin kipas laptop menjerit padahal tidak dipakai."*
 
-Handle **`@4ntiDandruff`** bukan sekadar alias acak, melainkan cerminan langsung dari seluruh perkakas yang dibangun di meja servis ini:
-* **Tradisi Leetspeak Angka 4**: Ketika username `antidandruff` sudah terpakai di internet, tradisi teknisi dan hacker era 2000-an adalah mengganti huruf `A` dengan angka `4`. Bukan menambah angka tanggal lahir atau embel-embel canggung, melainkan mempertahankan satu kesatuan kata yang bersih di baris perintah terminal.
-* **Misi Meja Servis (Anti-Bloatware)**: Seluruh repositori ini lahir sebagai obat pembersih untuk sistem yang tersiksa:
-  * **`windows-optimizer`**: Rontokkan telemetri dan aplikasi sampah Windows agar PC pelanggan kembali enteng seketika.
-  * **`adb-uninstaller`**: Bersihkan puluhan bloatware pabrikan di ponsel Android tanpa risiko *bootloop*.
-  * **`zero-bloat-skills`**: Pangkas kebiasaan buruk AI coding agent yang gemar menginstal dependensi raksasa tak berguna.
-  * **`auto-extract-downloads`**: Ekstraksi arsip otomatis 0% CPU di level kernel tanpa klik kanan berulang.
+Handle **`@4ntiDandruff`** bukan sekadar nama panggung acak, melainkan manifesto kerja di balik seluruh perkakas yang dirancang di bengkel ini:
+
+1. **Tradisi Leetspeak Angka 4 (Warisan Hacker 2000-an)**:  
+   Ketika nama `antidandruff` sudah terpakai di internet, tradisi teknisi dan penggiat open-source era 2000-an adalah mengganti huruf `A` menjadi angka `4`. Bukan menambah angka tanggal lahir atau embel-embel canggung (`_real`, `_official`), melainkan mempertahankan satu kesatuan kata yang bersih dan nyaman diketik di baris perintah terminal.
+
+2. **Misi Meja Servis (Pembersih Bloatware Fisik & Digital)**:  
+   Seluruh perkakas di repositori ini bekerja layaknya sampo pembersih untuk sistem yang tersiksa:
+   - **`windows-optimizer`**: Merontokkan pelacak telemetri dan aplikasi sampah Windows agar laptop pelanggan langsung enteng seketika.
+   - **`adb-uninstaller`**: Mencopot puluhan bloatware bawaan pabrikan ponsel Android tanpa resiko bootloop atau mati sistem.
+   - **`zero-bloat-skills`**: Mendisiplinkan 6 AI coding agent agar tidak mengotori server ruko dengan tumpukan library JavaScript gemuk.
+   - **`auto-extract-downloads`**: Membuang kebiasaan klik kanan manual dengan daemon kernel inotify yang bekerja senyap di 0% CPU.
+
+> *"Prinsipnya sederhana: Kalau kepala gatal ketombean obatnya keramas, kalau laptop gatal lemot obatnya diservis pakai perkakas 4ntiDandruff."*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-probing-station.svg?raw=true" width="100%" alt="Automated Circuit Micro-Probing & Debloating Station" />
@@ -65,7 +73,7 @@ Handle **`@4ntiDandruff`** bukan sekadar alias acak, melainkan cerminan langsung
 
 ## 📐 Topologi Sirkuit & Jaringan 5-Node Linux Mesh
 
-Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan privat terenkripsi tanpa port forwarding publik yang membahayakan sistem:
+Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan privat terenkripsi tanpa membuka port forwarding publik yang membahayakan sistem:
 
 ```
                       +======================================================+
@@ -73,8 +81,8 @@ Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan p
                       |   Hizam Nahari (Megapass Intra Solusindo, Sidoarjo)   |
                       +======================================================+
                                                  |
-                                     (Tailscale / WireGuard)
-                                 [Terenkripsi RSA-4096 / 100.x.x.x]
+                                      (Tailscale / WireGuard)
+                                  [Terenkripsi RSA-4096 / 100.x.x.x]
                                                  |
          +-------------------+-------------------+-------------------+-------------------+
          |                   |                   |                   |                   |
@@ -88,8 +96,8 @@ Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan p
          |                   |                   |                   |                   |
          +-------------------+-------------------+-------------------+-------------------+
                                                  |
-                                     [Autonomous AI Mesh]
-              (Antigravity • Claude Code • OpenCode • Hermes • OMP • Codex)
+                                      [Autonomous AI Mesh]
+               (Antigravity • Claude Code • OpenCode • Hermes • OMP • Codex)
                                                  |
                                                  v
                       +======================================================+
@@ -105,50 +113,50 @@ Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan p
 
 ## ⚡ Proyek Unggulan Teruji di Meja Servis
 
-Semua proyek di bawah ini lahir langsung dari kebutuhan nyata di bengkel servis laptop dan jaringan ruko, bukan sekadar tugas kuliah atau proyek coba-coba:
+Semua proyek di bawah ini lahir langsung dari kebutuhan nyata di meja servis laptop dan jaringan ruko, bukan sekadar tugas kuliah atau proyek coba-coba:
 
 ### 🛠️ Kategori 1: Perkakas Desktop & CLI Terbuka (Open Source)
 
 #### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
 **26 Modul Keahlian Operasional Tingkat Sirkuit untuk Multi-Agent AI Orchestrators**
-*   **Masalah Nyata**: AI coding agent sering melantur, menulis kode penuh bloat, dan merusak dependensi server saat disuruh memperbaiki sistem.
-*   **Solusi Lapangan**: Menghubungkan 6 orchestrator AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) ke 26 SOP teknisi siap pakai. Dilengkapi portal telemetri web mandiri, UI Apple Liquid, proteksi SQLite WAL, dan AI Ladder 0-token.
-*   **Jembatan Fisik**: *AI agent bekerja mandiri seperti teknisi senior → yang artinya sistem langsung selesai tanpa operator perlu mengetik ulang kode atau mengajari dari nol.*  
+*   **Masalah Lapangan (PAS)**: AI coding agent sering melantur, menulis kode penuh bloat, dan merusak dependensi server saat disuruh memperbaiki sistem. Akibatnya, server kehabisan memori dan teknisi harus bersih-bersih manual.
+*   **Solusi Meja Servis**: Menghubungkan 6 orchestrator AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) ke 26 SOP teknisi senior siap pakai. Dilengkapi portal telemetri web mandiri, UI Apple Liquid, proteksi SQLite WAL, dan AI Ladder 0-token.
+*   **Jembatan Fisik (*Yang Artinya...*)**: *AI agent bekerja mandiri dengan disiplin teknisi senior → yang artinya sistem langsung tuntas tanpa Anda perlu mengetik ulang kode atau mengajari agen dari nol.*  
 `Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
 
 #### 🚀 [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
 **Penyetel Performa & Pembersih Telemetri Otomatis untuk PC Pelanggan**
-*   **Masalah Nyata**: Laptop dan PC pelanggan ruko sering lambat parah gara-gara bloatware pabrikan, service telemetri Microsoft yang rakus disk, dan startup berantakan.
-*   **Solusi Lapangan**: Toolkit otomasi berbasis skrip native (PowerShell & Batch) untuk mematikan pelacak telemetri, memangkas aplikasi bawaan tak terpakai, dan menyetel konfigurasi register tanpa software pembersih pihak ketiga yang mencurigakan.
-*   **Jembatan Fisik**: *Penyetelan sistem secara native → yang artinya laptop pelanggan langsung enteng seketika dan proses servis selesai dalam hitungan menit.*  
+*   **Masalah Lapangan (PAS)**: Laptop pelanggan ruko sering lambat parah gara-gara aplikasi bawaan pabrik, telemetri Microsoft yang menyiksa harddisk, dan startup berantakan. Penggunaan software pembersih pihak ketiga sering kali justru menyisipkan iklan dan merusak sistem.
+*   **Solusi Meja Servis**: Toolkit otomasi berbasis skrip native (PowerShell & Batch) dengan 28 modul aman, pencadangan registri otomatis, dan pembuatan titik pulih (*System Restore Point*) sebelum eksekusi.
+*   **Jembatan Fisik (*Yang Artinya...*)**: *Penyetelan sistem secara native tanpa software luar → yang artinya laptop pelanggan langsung enteng seketika dan proses servis tuntas dalam hitungan menit.*  
 `PowerShell` • `Batch` • `Windows Internals` • `Zero Dependency`
 
 #### 🔌 [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
 **Desktop GUI Native untuk Alat Flash BIOS USB CH341A**
-*   **Masalah Nyata**: Flashing chip BIOS laptop pakai terminal Linux sering bikin pusing karena harus menghafal puluhan parameter panjang, rawan salah ketik, dan chip bisa rusak jika voltage jumper salah.
-*   **Solusi Lapangan**: Membungkus engine `flashrom` ke dalam antarmuka desktop native Tauri v2 yang super enteng. Deteksi otomatis tipe IC seri 24/25, validasi checksum SHA-256 bit-per-bit, dan peringatan level tegangan 1.8V.
-*   **Jembatan Fisik**: *Verifikasi checksum otomatis → yang artinya file BIOS hasil flash dijamin identik 100% dan laptop pelanggan tidak akan mati total.*  
+*   **Masalah Lapangan (PAS)**: Flashing chip BIOS laptop menggunakan terminal Linux sering menyulitkan teknisi karena harus menghafal puluhan parameter rumit, rawan salah ketik alamat memori, dan chip 1.8V bisa terbakar jika jumper tegangan terlewat.
+*   **Solusi Meja Servis**: Membungkus engine `flashrom` ke dalam aplikasi desktop native Tauri v2 yang super enteng. Menyediakan deteksi otomatis tipe IC seri 24/25, validasi checksum SHA-256 bit-per-bit, dan pengingat visual level tegangan 1.8V.
+*   **Jembatan Fisik (*Yang Artinya...*)**: *Verifikasi bit-per-bit otomatis → yang artinya file BIOS hasil flash dijamin identik 100% dan laptop pelanggan tidak akan mati suri.*  
 `Tauri v2` • `Rust` • `TypeScript` • `Python` • `flashrom`
 
 #### ⚡ [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
 **Daemon Ekstraksi Arsip Otomatis Berbasis Event Kernel (0% CPU Standby)**
-*   **Masalah Nyata**: Saat mengimpor skema laptop atau driver di file-picker Linux, harus bolak-balik klik kanan ekstrak arsip zip/rar secara manual yang membuang waktu teknisi.
-*   **Solusi Lapangan**: Daemon kernel murni berbasis `inotify` yang memantau folder unduhan. Bekerja senyap di background dengan 9 sekring pengaman (pencegah loop rekursif, batas sisa ruang disk, proteksi file gambar).
-*   **Jembatan Fisik**: *Hook event kernel murni → yang artinya arsip otomatis terbuka dalam 1 detik, RAM cuma 1.5MB, dan laptop tetap dingin tanpa kipas berdengung.*  
+*   **Masalah Lapangan (PAS)**: Saat teknisi sibuk mengunduh puluhan skema laptop atau file driver di Linux, bolak-balik klik kanan ekstrak arsip zip/rar sangat membuang waktu dan mengacaukan jendela kerja.
+*   **Solusi Meja Servis**: Daemon kernel murni berbasis `inotify` yang memantau folder unduhan. Bekerja senyap di background dengan 9 sekring pengaman (deteksi loop rekursif, batas sisa ruang disk, dan proteksi file gambar).
+*   **Jembatan Fisik (*Yang Artinya...*)**: *Hook event kernel murni tanpa polling loop → yang artinya arsip otomatis terbuka dalam 1 detik, RAM cuma 1.5MB, dan laptop tetap dingin tanpa suara kipas.*  
 `POSIX Shell` • `inotify-tools` • `Systemd User Unit` • `libnotify` • `unar/7z`
 
 #### 📱 [ADB Mobile Debloater](https://github.com/4ntiDandruff/adb-uninstaller)
 **Debloater Android Massal untuk Workstation Meja Servis**
-*   **Masalah Nyata**: Ponsel Android murah milik pelanggan sering kepenuhan memori internal gara-gara aplikasi bawaan vendor (Samsung, Xiaomi, Oppo, Vivo) yang tidak bisa di-uninstall biasa.
-*   **Solusi Lapangan**: Aplikasi desktop pembungkus ADB dengan katalog paket aman. Memungkinkan teknisi mencopot aplikasi sampah pabrikan secara massal via USB tanpa perlu akses root.
-*   **Jembatan Fisik**: *Katalog proteksi paket sistem → yang artinya memori HP pelanggan kembali lega tanpa resiko bootloop atau mati sistem.*  
+*   **Masalah Lapangan (PAS)**: Ponsel Android murah milik pelanggan sering kehabisan memori internal gara-gara aplikasi bawaan pabrikan (Samsung, Xiaomi, Oppo, Vivo) yang tidak bisa dicopot lewat menu setelan biasa.
+*   **Solusi Meja Servis**: Aplikasi desktop pembungkus ADB dengan katalog proteksi paket sistem. Memungkinkan teknisi mencopot aplikasi sampah pabrikan secara massal via kabel USB tanpa membutuhkan akses root.
+*   **Jembatan Fisik (*Yang Artinya...*)**: *Katalog proteksi paket sistem bawaan → yang artinya memori HP pelanggan kembali lega dan baterai lebih awet tanpa resiko bootloop.*  
 `Tauri v2` • `React` • `TypeScript` • `Android Debug Bridge (ADB)`
 
 ---
 
 ### 🌐 Kategori 2: Ekosistem Web & Edge Mandiri Ruko (Live Self-Hosted)
 
-Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi mandiri di ruko Megapass Intra Solusindo dengan prinsip *zero-bloat*:
+Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi mandiri di bengkel Megapass Intra Solusindo dengan standar ketat *zero-bloat*:
 
 | Sistem Ruko & Layanan | Fungsi Lapangan & Manfaat Nyata | Jembatan "Yang Artinya..." |
 |---|---|---|
@@ -172,7 +180,7 @@ Setiap teknologi yang dipilih memiliki alasan fisik yang jelas, bukan sekadar ik
 
 | Lapisan Teknologi | Pilihan Alat | Dampak Fisik di Meja Kerja (*Yang Artinya...*) |
 |---|---|---|
-| **Mesin Belakang (Backend)** | Python FastAPI / Flask | *Validasi tipe data ketat dan log nomor baris jelas, sehingga perbaikan bug selesai dalam hitungan detik.* |
+| **Mesin Belakang (Backend)** | Python FastAPI / Flask | *Validasi tipe data ketat dan log nomor baris jelas, sehingga perbaikan bug tuntas dalam hitungan detik.* |
 | **Basis Data (Database)** | SQLite dengan WAL Mode | *Satu file database lokal ultra-cepat, tahan banting saat listrik ruko padam mendadak tanpa data korup.* |
 | **Layar Depan (Frontend)** | HTML5 + Tailwind CDN + Alpine.js + HTMX | *Antarmuka web instan tanpa proses build JavaScript yang boros memori, bisa langsung diedit di server.* |
 | **Aplikasi Desktop** | Tauri v2 (Rust) | *Pengganti Electron yang hemat daya; aplikasi desktop membuka instan dengan konsumsi RAM di bawah 40MB.* |
@@ -251,9 +259,9 @@ Seluruh rekayasa perangkat keras dan integrasi sistem didasarkan pada kompetensi
 
 ## 📜 Catatan Rilis & Pembaruan Terkini
 
+- **v2.8.0 (2026-09-17)**: Overhaul total narasi copywriting profil berbasis filosofi nama `@4ntiDandruff` (Pembersih Ketombe Sistem / Anti-Bloatware) dan penyematan animasi HUD stasiun probing sirkuit mikroskopik (`circuit-probing-station.svg`).
 - **v2.7.0 (2026-09-17)**: Sinkronisasi ekspansi 26 modul Zero-Bloat Skills Hub. Decommissioning armada percetakan kalender (`kalenderia.my.id`), dan peresmian etalase dua armada live baru meja servis: Skema Boardview (`skema.megapass.web.id`) dan Pastree Clipboard Sync (`pastree.megapass.web.id`).
 - **v2.6.0 (2026-09-16)**: Perombakan total profil dengan standar Copywriting Manusiawi (Tes Warung Kopi & Jembatan Fisik). Penambahan showcase proyek publik baru `windows-optimizer`, perluasan modul Zero-Bloat Skills Hub, dan peresmian etalase armada web ruko mandiri.
-- **v2.5.0 (2026-09-10)**: Peluncuran Zero-Bloat Skills Hub awal, rilis portal live di `skill.megapass.web.id`, sinkronisasi matrix 6-agent, dan perolehan badge resmi GitHub.
 - Catatan riwayat rilis lengkap tersedia pada file [CHANGELOG.md](./CHANGELOG.md).
 
 ---

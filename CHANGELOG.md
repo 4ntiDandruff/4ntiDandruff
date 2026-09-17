@@ -2,6 +2,19 @@
 
 All notable changes to this profile repository and system architecture will be documented in this file.
 
+## [v2.7.0] - 2026-09-17
+
+### Added
+* **Live Workshop Fleet Portals (Skema & Pastree)**: Inducted `skema.megapass.web.id` (interactive laptop motherboard schematic & PDF canvas viewer) and `pastree.megapass.web.id` (zero-bloat code clipboard & pastebin sync) into Category 2 live self-hosted services showcase.
+
+### Changed
+* **Zero-Bloat Skills Module Count**: Synchronized total modular skill count from 25 to 26 circuit-level workbench skills across all README profiles, ASCII circuit topologies, and shields badges.
+
+### Removed
+* **Decommissioned Printing Service**: Removed `kalenderia.my.id` from production fleet showcases following full decommissioning of repository and local runtime.
+
+---
+
 ## [v2.6.0] - 2026-09-16
 
 ### Added

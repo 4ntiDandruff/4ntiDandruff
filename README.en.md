@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Circuit+Technician+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;25+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Devices+Fixed+%E2%80%A2+BNSP+100%2F100+Theory)](https://github.com/4ntiDandruff)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Circuit+Technician+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;26+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Devices+Fixed+%E2%80%A2+BNSP+100%2F100+Theory)](https://github.com/4ntiDandruff)
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -23,7 +23,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Hardware%20Experience-12%2B%20Years-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI%20Ecosystem-25%20Modular%20Skills-0071E3?style=flat-square" />
+  <img src="https://img.shields.io/badge/AI%20Ecosystem-26%20Modular%20Skills-0071E3?style=flat-square" />
   <img src="https://img.shields.io/badge/Infrastructure-5--Node%20Mesh-blueviolet?style=flat-square" />
   <img src="https://img.shields.io/badge/Devices%20Repaired-1000%2B%20Units-success?style=flat-square" />
   <img src="https://img.shields.io/badge/BNSP%20Theory-100%2F100%20Perfect-orange?style=flat-square" />
@@ -80,7 +80,7 @@ All automation pipelines, workshop web systems, and autonomous AI agents are coo
                       |         PRODUCTION DEPLOYMENT & FAIL-SAFE RUN        |
                       |  • 0% Idle CPU Watchdog Daemon (Inotify Kernel Sync)  |
                       |  • Low-Level Hardware Flashing GUI (CH341A / SPI)    |
-                      |  • 25 Circuit-Level Skills Hub (Multi-Agent SOPs)    |
+                      |  • 26 Circuit-Level Skills Hub (Multi-Agent SOPs)    |
                       |  • High-Performance Lean Web Engine (FastAPI + WAL)  |
                       +======================================================+
 ```
@@ -94,9 +94,9 @@ Every project listed below was built to resolve tangible daily bottlenecks in el
 ### 🛠️ Category 1: Open Source Desktop Tools & CLI Engines
 
 #### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
-**25 Circuit-Level Operational Skills for Multi-Agent AI Orchestrators**
+**26 Circuit-Level Operational Skills for Multi-Agent AI Orchestrators**
 *   **The Real Friction**: Autonomous AI coding agents routinely hallucinate bloated dependencies, break server configurations, and waste tokens on basic operations.
-*   **The Bench Solution**: Connects 6 major AI orchestrators (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) to 25 field-tested SOP modules. Includes an interactive live telemetry web portal, Apple Liquid Dark UI, SQLite WAL Fortress, and a 0-token AI Ladder.
+*   **The Bench Solution**: Connects 6 major AI orchestrators (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) to 26 field-tested SOP modules. Includes an interactive live telemetry web portal, Apple Liquid Dark UI, SQLite WAL Fortress, and a 0-token AI Ladder.
 *   **Hardware Bridge**: *Agents execute autonomously with senior technician SOPs → which means zero manual babysitting and zero wasted LLM tokens.*  
 `Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
 
@@ -138,9 +138,10 @@ Alongside desktop software, I architect and host internal production services fo
 |---|---|---|
 | **AGY Router**<br/>*(AI Gateway & Token Pool)* | Multi-account token pooling reverse proxy for Google Antigravity CLI with automatic 429 failover and zero-buffer SSE streaming. | *Coding sessions never stall due to rate limits or exhausted API quotas.* |
 | **PDF Workbench**<br/>`pdf.megapass.web.id` | 600 DPI Poppler rendering, instant A4 photo grid generator, local OCR, and interactive PDF repair without third-party cloud uploads. | *Customer identity documents stay private (auto-expunged in 15 mins) with clean print output.* |
+| **Skema Boardview**<br/>`skema.megapass.web.id` | Interactive laptop motherboard schematic & PDF canvas viewer with isolated IC part location search. | *Tracing motherboard voltage rails and signal paths on monitor is instant with zero loading lag.* |
 | **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Self-hosted multi-camera streaming via go2rtc WebRTC pass-through on low-power STB/i3 nodes. | *Workshop cameras can be audited live from mobile with zero cloud subscriptions and <30MB server RAM.* |
 | **Workshop Bookkeeping**<br/>`kas.megapass.web.id` | Daily repair ledger featuring a bilingual natural language transaction parser powered by a 0-token AI Ladder. | *Technicians record service jobs via spoken dictation, and the WAL database survives sudden power cuts.* |
-| **Kalenderia Print Engine**<br/>`kalenderia.my.id` | Automated quote calculator and order intake engine for the commercial calendar printing workshop in Sidoarjo. | *Printing customers get instant specifications and pricing without manual back-and-forth.* |
+| **Pastree Workbench**<br/>`pastree.megapass.web.id` | Ultra-lean, high-throughput code clipboard & pastebin sync across workshop nodes with zero login and auto-expiration. | *Sharing terminal logs, bash snippets, and config files between bench PCs takes under 1 second.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Hands-free voice-to-text floating HUD featuring native KWin glassmorphism and local faster-whisper streaming. | *Technicians can dictate diagnostic notes without removing their hands from hot air and soldering tools.* |
 
 ---
@@ -227,13 +228,14 @@ All hardware diagnostic and software systems engineering are anchored in formal 
 - [x] 5-Node Heterogeneous Linux Mesh deployment with Tailscale encryption & SSH ControlMaster.
 - [x] Inotify kernel-triggered auto-extraction daemon with 9 safety fuses and 0% CPU standby.
 - [x] Production deployment of CH341A BIOS Flasher Tauri GUI for hardware benches.
-- [x] Production launch of Zero-Bloat Skills Hub (25 skills) at `skill.megapass.web.id`.
+- [x] Production launch of Zero-Bloat Skills Hub (26 skills) at `skill.megapass.web.id`.
 - [x] Public release of Windows Optimizer Toolkit for client system maintenance.
 - [ ] Direct oscilloscope digital waveform capture utility for Linux workstations.
 - [ ] Automated multi-node remote backup sync daemon with encrypted zero-knowledge storage.
 
 ## 📜 Latest Updates & Changelog
 
+- **v2.7.0 (2026-09-17)**: Synchronized 26 Zero-Bloat Skills Hub modules. Decommissioned printing engine (`kalenderia.my.id`), and inducted two new live workshop fleet portals: Skema Boardview (`skema.megapass.web.id`) and Pastree Clipboard Sync (`pastree.megapass.web.id`).
 - **v2.6.0 (2026-09-16)**: Complete profile overhaul integrating Human Copywriting standards (The Coffee Shop Test & Hardware Translation Bridge). Featured new public open-source project `windows-optimizer`, expanded Zero-Bloat Skills Hub to 25 skills, and launched the Live Self-Hosted Workshop Systems showcase (AGY Router, PDF Workbench, Edge CCTV, Kas Servis, Mega-Speech).
 - **v2.5.0 (2026-09-10)**: Initial launch of Zero-Bloat Skills Hub, live telemetry portal at `skill.megapass.web.id`, 6-agent symmetric synchronization, and verified GitHub achievements.
 - Full release notes and historical changes available in [CHANGELOG.md](./CHANGELOG.md).

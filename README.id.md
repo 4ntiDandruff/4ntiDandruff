@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Teknisi+Sirkuit+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;25+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Perangkat+Selesai+%E2%80%A2+BNSP+100%2F100+Teori)](https://github.com/4ntiDandruff)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Teknisi+Sirkuit+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;26+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Perangkat+Selesai+%E2%80%A2+BNSP+100%2F100+Teori)](https://github.com/4ntiDandruff)
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -23,7 +23,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Pengalaman%20Hardware-12%2B%20Tahun-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Keahlian%20AI-25%20Skills%20Modular-0071E3?style=flat-square" />
+  <img src="https://img.shields.io/badge/Keahlian%20AI-26%20Skills%20Modular-0071E3?style=flat-square" />
   <img src="https://img.shields.io/badge/Infrastruktur-5--Node%20Mesh-blueviolet?style=flat-square" />
   <img src="https://img.shields.io/badge/Perangkat%20Selesai-1000%2B%20Unit-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Ujian%20Teori%20BNSP-100%2F100%20Sempurna-orange?style=flat-square" />
@@ -80,7 +80,7 @@ Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan p
                       |          DEPLOY PRODUKSI & SISTEM FAIL-SAFE          |
                       |  • Watchdog Daemon 0% CPU Idle (Event Kernel Inotify)|
                       |  • GUI Flashing Hardware Low-Level (CH341A / SPI)    |
-                      |  • 25 Modul Keahlian Meja Servis (Zero-Bloat Skills) |
+                      |  • 26 Modul Keahlian Meja Servis (Zero-Bloat Skills) |
                       |  • Web Produksi Ringan Cepat (FastAPI + SQLite WAL)  |
                       +======================================================+
 ```
@@ -94,9 +94,9 @@ Semua proyek di bawah ini lahir langsung dari kebutuhan nyata di bengkel servis 
 ### 🛠️ Kategori 1: Perkakas Desktop & CLI Terbuka (Open Source)
 
 #### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
-**25 Modul Keahlian Operasional Tingkat Sirkuit untuk Multi-Agent AI Orchestrators**
+**26 Modul Keahlian Operasional Tingkat Sirkuit untuk Multi-Agent AI Orchestrators**
 *   **Masalah Nyata**: AI coding agent sering melantur, menulis kode penuh bloat, dan merusak dependensi server saat disuruh memperbaiki sistem.
-*   **Solusi Lapangan**: Menghubungkan 6 orchestrator AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) ke 25 SOP teknisi siap pakai. Dilengkapi portal telemetri web mandiri, UI Apple Liquid, proteksi SQLite WAL, dan AI Ladder 0-token.
+*   **Solusi Lapangan**: Menghubungkan 6 orchestrator AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) ke 26 SOP teknisi siap pakai. Dilengkapi portal telemetri web mandiri, UI Apple Liquid, proteksi SQLite WAL, dan AI Ladder 0-token.
 *   **Jembatan Fisik**: *AI agent bekerja mandiri seperti teknisi senior → yang artinya sistem langsung selesai tanpa operator perlu mengetik ulang kode atau mengajari dari nol.*  
 `Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
 
@@ -138,9 +138,10 @@ Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi m
 |---|---|---|
 | **AGY Router**<br/>*(AI Token Pool Gateway)* | Reverse proxy multi-akun untuk Google Antigravity CLI dengan failover HTTP 429 otomatis dan SSE stream tanpa buffer. | *Koding otonom jalan terus tanpa takut kehabisan kuota atau terhenti limit API.* |
 | **PDF Workbench**<br/>`pdf.megapass.web.id` | Generator pas foto A4 siap potong, OCR lokal, dan perbaikan dokumen rusak tanpa upload ke cloud pihak ketiga. | *Data privasi KTP/ijazah pelanggan aman (auto-hapus 15 menit) dan hasil cetak tajam 600 DPI.* |
+| **Skema Boardview**<br/>`skema.megapass.web.id` | Viewer skema motherboard laptop & PDF canvas interaktif dengan pencarian lokasi part IC terisolasi. | *Penelusuran jalur tegangan motherboard super cepat di layar monitor tanpa jeda loading.* |
 | **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Pemantau CCTV mandiri via go2rtc WebRTC pass-through di hardware hemat daya (STB/i3). | *CCTV bisa dipantau langsung dari HP tanpa biaya langganan cloud dan RAM server <30MB.* |
 | **Kas Harian Meja Servis**<br/>`kas.megapass.web.id` | Pembukuan kas bengkel dengan pengurai kalimat transaksi dwibahasa berbasis AI Ladder 0-token. | *Catat nota cukup ketik bahasa santai, kasir rapi, dan database aman dari mati lampu PLN mendadak.* |
-| **Kalenderia Print Engine**<br/>`kalenderia.my.id` | Mesin hitung otomatis ongkos cetak dan manajemen pesanan kalender komersial di Sidoarjo. | *Pelanggan percetakan langsung tahu total harga dan spesifikasi tanpa antre tanya ke admin.* |
+| **Pastree Workbench**<br/>`pastree.megapass.web.id` | Pastebin & clipboard kode instan antar-node ruko, zero-bloat, tanpa login, dan auto-expire. | *Kirim snippet skrip, log terminal, dan konfigurasi antar-perangkat selesai dalam 1 detik.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Antarmuka pencatat suara ke teks melayang dengan KWin Glassmorphism dan faster-whisper lokal. | *Teknisi bisa mendikte catatan kerusakan perangkat saat kedua tangan sibuk memegang solder.* |
 
 ---
@@ -227,14 +228,15 @@ Seluruh rekayasa perangkat keras dan integrasi sistem didasarkan pada kompetensi
 - [x] Pembangunan jaringan 5-Node Heterogeneous Linux Mesh dengan enkripsi Tailscale & SSH ControlMaster.
 - [x] Pembuatan daemon auto-extract kernel inotify dengan 9 sekring pengaman dan 0% beban CPU.
 - [x] Rilis desktop GUI CH341A BIOS Flasher Tauri v2 untuk teknisi hardware.
-- [x] Peluncuran publik Zero-Bloat Skills Hub (25 modul keahlian meja servis) di `skill.megapass.web.id`.
+- [x] Peluncuran publik Zero-Bloat Skills Hub (26 modul keahlian meja servis) di `skill.megapass.web.id`.
 - [x] Rilis publik Windows Optimizer Toolkit untuk pemeliharaan PC pelanggan.
 - [ ] Integrasi perekam bentuk gelombang digital osiloskop langsung ke workstation Linux.
 - [ ] Daemon sinkronisasi backup multi-node otomatis dengan enkripsi zero-knowledge.
 
 ## 📜 Catatan Rilis & Pembaruan Terkini
 
-- **v2.6.0 (2026-09-16)**: Perombakan total profil dengan standar Copywriting Manusiawi (Tes Warung Kopi & Jembatan Fisik). Penambahan showcase proyek publik baru `windows-optimizer`, perluasan 25 modul Zero-Bloat Skills Hub, dan peresmian etalase armada web ruko mandiri (AGY Router, PDF Workbench, Edge CCTV, Kas Servis, Mega-Speech).
+- **v2.7.0 (2026-09-17)**: Sinkronisasi ekspansi 26 modul Zero-Bloat Skills Hub. Decommissioning armada percetakan kalender (`kalenderia.my.id`), dan peresmian etalase dua armada live baru meja servis: Skema Boardview (`skema.megapass.web.id`) dan Pastree Clipboard Sync (`pastree.megapass.web.id`).
+- **v2.6.0 (2026-09-16)**: Perombakan total profil dengan standar Copywriting Manusiawi (Tes Warung Kopi & Jembatan Fisik). Penambahan showcase proyek publik baru `windows-optimizer`, perluasan modul Zero-Bloat Skills Hub, dan peresmian etalase armada web ruko mandiri.
 - **v2.5.0 (2026-09-10)**: Peluncuran Zero-Bloat Skills Hub awal, rilis portal live di `skill.megapass.web.id`, sinkronisasi matrix 6-agent, dan perolehan badge resmi GitHub.
 - Catatan riwayat rilis lengkap tersedia pada file [CHANGELOG.md](./CHANGELOG.md).
 

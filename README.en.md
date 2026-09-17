@@ -45,6 +45,22 @@ I enforce the exact same physical discipline across systems architecture and sof
 - **Zero standby overhead (0.00% idle CPU)**: Solid systems behave like physical electronic relays. Completely dormant when idle, and instantaneous when triggered by real kernel events.
 - **Instant maintainability**: Code must remain fully readable, transparent with clear line numbers in stack traces, and deployable without convoluted build pipelines that fail during emergencies.
 
+### 🧼 Behind the Moniker `@4ntiDandruff`: The System Debloating Philosophy
+
+> *"Dandruff on a scalp is irritating debris that causes itchiness and thermal discomfort without ever being invited. In operating systems and hardware, that dandruff is called OEM bloatware, runaway telemetry, and bloated software stacks that make fans scream at idle."*
+
+The handle **`@4ntiDandruff`** is not an arbitrary pseudonym; it is the direct operating manifesto behind every utility forged on this workbench:
+* **Classic Leetspeak Heritage**: When `antidandruff` was unavailable, old-school hacker and sysadmin tradition dictated replacing `A` with `4`. Rather than appending random birth years or awkward suffixes, substituting `4` preserved an unbroken, single-word CLI command handle.
+* **The Debloating Mission**: Every repository in this ecosystem acts as an industrial purifier for crippled systems:
+  * **`windows-optimizer`**: Strips invasive Windows telemetry and OEM bloat so client machines run lean and cool.
+  * **`adb-uninstaller`**: Safely purges vendor shovelware on budget Android hardware with zero bootloop risk.
+  * **`zero-bloat-skills`**: Guards AI coding agents from polluting Linux servers with runaway npm dependency trees.
+  * **`auto-extract-downloads`**: Kernel-level inotify daemon eliminating manual extraction clicks with 0.00% standby CPU load.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-probing-station.svg?raw=true" width="100%" alt="Automated Circuit Micro-Probing & Debloating Station" />
+</p>
+
 ---
 
 ## 📐 Circuit Topology & 5-Node Linux Mesh Network

@@ -2,6 +2,17 @@
 
 All notable changes to this profile repository and system architecture will be documented in this file.
 
+## [v2.8.0] - 2026-09-17
+
+### Added
+* **The `@4ntiDandruff` Moniker & Debloating Philosophy**: Inducted dedicated narrative section explaining the origin of handle `@4ntiDandruff` (classic 2000s leetspeak hacker heritage + anti-bloatware system purifier mission).
+* **Automated Circuit Probing Station HUD Banner**: Embedded animated hardware micro-probing SVG (`circuit-probing-station.svg`) directly into the workbench philosophy section.
+
+### Changed
+* **Narrative Overhaul**: Harmonized workbench philosophy connecting hardware circuit repair with anti-bloatware software engineering across all bilingual README documentation.
+
+---
+
 ## [v2.7.0] - 2026-09-17
 
 ### Added

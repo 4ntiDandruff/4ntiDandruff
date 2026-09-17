@@ -45,6 +45,22 @@ Prinsip fisik yang sama saya bawa ke dunia rekayasa perangkat lunak:
 - **Nol beban saat diam (0% CPU standby)**: Sistem yang baik bekerja seperti relay elektronika. Diam tanpa membebani daya saat menganggur, dan menyambar secepat kilat saat ada event nyata dari kernel.
 - **Bisa langsung diperbaiki**: Kode harus transparan, mudah dilacak nomor baris error-nya, dan langsung jalan tanpa proses kompilasi (*build-step*) yang membingungkan saat darurat.
 
+### 🧼 Di Balik Nama `@4ntiDandruff`: Filosofi Pembasmi Ketombe Sistem
+
+> *"Ketombe di kepala itu kotoran yang bikin gatal dan panas tanpa pernah kita minta. Di dunia komputer dan sistem operasi, ketombe itu bernama bloatware pabrikan, telemetri rakus disk, dan tumpukan framework JavaScript yang bikin kipas laptop menjerit."*
+
+Handle **`@4ntiDandruff`** bukan sekadar alias acak, melainkan cerminan langsung dari seluruh perkakas yang dibangun di meja servis ini:
+* **Tradisi Leetspeak Angka 4**: Ketika username `antidandruff` sudah terpakai di internet, tradisi teknisi dan hacker era 2000-an adalah mengganti huruf `A` dengan angka `4`. Bukan menambah angka tanggal lahir atau embel-embel canggung, melainkan mempertahankan satu kesatuan kata yang bersih di baris perintah terminal.
+* **Misi Meja Servis (Anti-Bloatware)**: Seluruh repositori ini lahir sebagai obat pembersih untuk sistem yang tersiksa:
+  * **`windows-optimizer`**: Rontokkan telemetri dan aplikasi sampah Windows agar PC pelanggan kembali enteng seketika.
+  * **`adb-uninstaller`**: Bersihkan puluhan bloatware pabrikan di ponsel Android tanpa risiko *bootloop*.
+  * **`zero-bloat-skills`**: Pangkas kebiasaan buruk AI coding agent yang gemar menginstal dependensi raksasa tak berguna.
+  * **`auto-extract-downloads`**: Ekstraksi arsip otomatis 0% CPU di level kernel tanpa klik kanan berulang.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-probing-station.svg?raw=true" width="100%" alt="Automated Circuit Micro-Probing & Debloating Station" />
+</p>
+
 ---
 
 ## 📐 Topologi Sirkuit & Jaringan 5-Node Linux Mesh

@@ -260,6 +260,7 @@ All hardware diagnostics and systems engineering work are backed by official cre
 
 ## 📜 Latest Updates & Changelog
 
+- **v2.9.0 (2026-09-24)**: Synchronized 30 Zero-Bloat Skills modules (v2.10.0), fortified OPSEC anti-leak circuits, and integrated Ed25519 cryptographic commit signing.
 - **v2.8.0 (2026-09-17)**: Complete narrative copywriting overhaul integrating the `@4ntiDandruff` moniker origin (System Debloating Philosophy) and animated circuit micro-probing HUD (`circuit-probing-station.svg`).
 - **v2.7.0 (2026-09-17)**: Synchronized 26 Zero-Bloat Skills Hub modules. Decommissioned printing engine (`kalenderia.my.id`), and inducted two new live workshop fleet portals: Skema Boardview (`skema.megapass.web.id`) and Pastree Clipboard Sync (`pastree.megapass.web.id`).
 - **v2.6.0 (2026-09-16)**: Complete profile overhaul integrating Human Copywriting standards (The Coffee Shop Test & Hardware Translation Bridge). Featured new public open-source project `windows-optimizer`, expanded Zero-Bloat Skills Hub, and inducted live workshop web services.

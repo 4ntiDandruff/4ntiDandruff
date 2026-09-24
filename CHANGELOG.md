@@ -2,6 +2,19 @@
 
 All notable changes to this profile repository and system architecture will be documented in this file.
 
+## [v2.9.0] - 2026-09-24
+
+### Added
+* **Ed25519 Cryptographic Commit Signing**: Integrated dedicated hardware-backed Ed25519 SSH key (`workbench-linux-ed25519` / `workbench-linux-signing`) delivering Verified commit badges across all public repositories.
+* **Safety Fuse Branch Rulesets**: Implemented active branch protection rulesets across all 6 public repositories preventing non-fast-forward pushes and accidental branch deletions.
+* **Open Source Legal Compliance**: Officially licensed public tool suites (`adb-uninstaller`, `CH341A-BIOS-Flasher-Tauri`, `auto-extract-downloads`) under the MIT License for Megapass Intra Solusindo.
+
+### Changed
+* **Zero-Bloat Skills Expansion**: Synchronized modular skill count from 26 to 30 modules across profile headers, dynamic SVGs, shields badges, and bilingual documentation following the v2.10.0 release.
+* **OPSEC Email Sanitization**: Migrated global Git commit identity to verified GitHub noreply gateway (`148306345+4ntiDandruff@users.noreply.github.com`) and resolved legacy secret scanning alerts.
+
+---
+
 ## [v2.8.0] - 2026-09-17
 
 ### Added

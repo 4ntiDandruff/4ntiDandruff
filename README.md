@@ -260,6 +260,7 @@ Seluruh rekayasa perangkat keras dan integrasi sistem didasarkan pada kompetensi
 
 ## 📜 Catatan Rilis & Pembaruan Terkini
 
+- **v2.9.0 (2026-09-24)**: Sinkronisasi katalog 30 modul Zero-Bloat Skills (v2.10.0), perkuatan sekring OPSEC anti-leak, dan integrasi tanda tangan commit kriptografis Ed25519.
 - **v2.8.0 (2026-09-17)**: Overhaul total narasi copywriting profil berbasis filosofi nama `@4ntiDandruff` (Pembersih Ketombe Sistem / Anti-Bloatware) dan penyematan animasi HUD stasiun probing sirkuit mikroskopik (`circuit-probing-station.svg`).
 - **v2.7.0 (2026-09-17)**: Sinkronisasi ekspansi 26 modul Zero-Bloat Skills Hub. Decommissioning armada percetakan kalender (`kalenderia.my.id`), dan peresmian etalase dua armada live baru meja servis: Skema Boardview (`skema.megapass.web.id`) dan Pastree Clipboard Sync (`pastree.megapass.web.id`).
 - **v2.6.0 (2026-09-16)**: Perombakan total profil dengan standar Copywriting Manusiawi (Tes Warung Kopi & Jembatan Fisik). Penambahan showcase proyek publik baru `windows-optimizer`, perluasan modul Zero-Bloat Skills Hub, dan peresmian etalase armada web ruko mandiri.

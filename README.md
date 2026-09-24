@@ -51,7 +51,7 @@ Prinsip fisik yang sama saya bawa ke dunia rekayasa perangkat lunak:
 
 > *"Ketombe di kepala itu kotoran yang bikin gatal dan panas tanpa pernah kita minta. Di dunia komputer dan sistem operasi, ketombe itu bernama bloatware bawaan vendor, telemetri rakus disk, dan tumpukan framework JavaScript yang bikin kipas laptop menjerit padahal tidak dipakai."*
 
-Handle **`@4ntiDandruff`** bukan sekadar nama panggung acak, melainkan manifesto kerja di balik seluruh perkakas yang dirancang di bengkel ini:
+Handle **`@4ntiDandruff`** bukan sekadar nama panggung acak, melainkan manifesto kerja di balik seluruh perkakas yang dirancang di meja servis ini:
 
 1. **Tradisi Leetspeak Angka 4 (Warisan Hacker 2000-an)**:  
    Ketika nama `antidandruff` sudah terpakai di internet, tradisi teknisi dan penggiat open-source era 2000-an adalah mengganti huruf `A` menjadi angka `4`. Bukan menambah angka tanggal lahir atau embel-embel canggung (`_real`, `_official`), melainkan mempertahankan satu kesatuan kata yang bersih dan nyaman diketik di baris perintah terminal.
@@ -156,7 +156,7 @@ Semua proyek di bawah ini lahir langsung dari kebutuhan nyata di meja servis lap
 
 ### 🌐 Kategori 2: Ekosistem Web & Edge Mandiri Ruko (Live Self-Hosted)
 
-Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi mandiri di bengkel Megapass Intra Solusindo dengan standar ketat *zero-bloat*:
+Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi mandiri di meja kerja Megapass Intra Solusindo dengan standar ketat *zero-bloat*:
 
 | Sistem Ruko & Layanan | Fungsi Lapangan & Manfaat Nyata | Jembatan "Yang Artinya..." |
 |---|---|---|
@@ -164,7 +164,7 @@ Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi m
 | **PDF Workbench**<br/>*(Workshop Print Engine)* | Generator pas foto A4 siap potong, OCR lokal, dan perbaikan dokumen rusak tanpa upload ke cloud pihak ketiga. | *Data privasi KTP/ijazah pelanggan aman (auto-hapus 15 menit) dan hasil cetak tajam 600 DPI.* |
 | **Skema Boardview**<br/>*(Motherboard PDF Canvas)* | Viewer skema motherboard laptop & PDF canvas interaktif dengan pencarian lokasi part IC terisolasi. | *Penelusuran jalur tegangan motherboard super cepat di layar monitor tanpa jeda loading.* |
 | **Edge CCTV Fleet**<br/>*(WebRTC Media Streamer)* | Pemantau CCTV mandiri via go2rtc WebRTC pass-through di hardware hemat daya (STB/i3). | *CCTV bisa dipantau langsung dari HP tanpa biaya langganan cloud dan RAM server <30MB.* |
-| **Kas Harian Meja Servis**<br/>*(Zero-Token Ledger)* | Pembukuan kas bengkel dengan pengurai kalimat transaksi dwibahasa berbasis AI Ladder 0-token. | *Catat nota cukup ketik bahasa santai, kasir rapi, dan database aman dari mati lampu PLN mendadak.* |
+| **Kas Harian Meja Servis**<br/>*(Zero-Token Ledger)* | Pembukuan kas servis harian dengan pengurai kalimat transaksi dwibahasa berbasis AI Ladder 0-token. | *Catat nota cukup ketik bahasa santai, kasir rapi, dan database aman dari mati lampu PLN mendadak.* |
 | **Pastree Link-in-Bio**<br/>*(Creator Micro-Site)* | Platform mikro-situs link-in-bio mandiri (alternatif Linktree) ultra-cepat (~6ms) untuk etalase tautan & kontak ruko. | *Pengunjung medsos langsung terhubung ke nomor WhatsApp teknisi dan katalog servis tanpa iklan Linktree berbayar.* |
 | **Dekoder Pasar Crypto**<br/>*(On-Chain PWA Decoder)* | Buku saku PWA offline dan dekoder on-chain Solana: mengonversi istilah gaul pasar (bundle, cabal, sniper, bonding curve) ke logika fisik sirkuit elektronika. | *Teknisi dan pemula paham risiko jebakan kontrak pintar dalam 5 detik sebelum uang tabungan amblas.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Antarmuka pencatat suara ke teks melayang dengan KWin Glassmorphism dan faster-whisper lokal. | *Teknisi bisa mendikte catatan kerusakan perangkat saat kedua tangan sibuk memegang solder.* |
@@ -192,7 +192,7 @@ Setiap teknologi yang dipilih memiliki alasan fisik yang jelas, bukan sekadar ik
 
 ## 📊 Matriks Audit Kualitas & Uji Performa Lapangan
 
-Seluruh angka di bawah ini diambil dari mesin fisik di bengkel servis, bukan hasil simulasi lab virtual:
+Seluruh angka di bawah ini diambil dari mesin fisik di meja kerja servis, bukan hasil simulasi lab virtual:
 
 | Parameter Audit / Metrik | Standar Uji | Hasil Nyata di Lapangan | Status |
 |---|---|---|:---:|

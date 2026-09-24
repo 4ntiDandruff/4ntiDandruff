@@ -227,7 +227,16 @@ Pekerjaan harian saya meliputi:
 - **Pelacakan Jalur Korslet**: Menemukan kapasitor atau MOSFET bocor pada motherboard laptop yang mati total menggunakan metode suntik tegangan dan analisa arus panas.
 - **Rework IC & Micro-Soldering**: Mengangkat dan mencetak ulang kaki-kaki IC (reballing BGA) pada perangkat seluler dan laptop.
 - **Pemulihan Firmware Mati Total**: Flashing dan perbaikan chip BIOS EEPROM yang korup menggunakan programmer fisik dan analisa heksadesimal.
-- **Sistem Otomasi Mandiri**: Membangun tool otomasi Linux dan armada agen AI untuk mempercepat diagnosa teknis dan pencatatan bengkel.
+- **Sistem Otomasi Mandiri**: Membangun tool otomasi Linux dan armada agen AI untuk mempercepat diagnosa teknis dan administrasi meja servis.
+
+### 💡 Di Balik Nama: MEGAPASS
+
+Nama **Megapass** lahir dari perjumpaan dua makna di meja kerja:
+
+* **Mega**: Penghormatan untuk nama istri tercinta, sekaligus simbol skala komitmen dan tanggung jawab yang besar dalam membangun usaha mandiri.
+* **PASS**: Standar kelayakan mutlak dalam rekayasa perangkat keras dan lunak. Tulisan **PASS** berlatar hijau adalah pemandangan paling melegakan bagi seorang teknisi ketika flashing firmware Samsung via Odin rampung tanpa cacat, atau saat seluruh voltase dan fungsi hardware lolos uji menyeluruh (*smoke test*) sebelum unit diserahkan kembali.
+
+**Megapass** adalah janji teknis: setiap ponsel, laptop, dan baris kode yang masuk ke meja kerja ditangani dengan presisi tinggi hingga mengantongi status **PASS**.
 
 ---
 

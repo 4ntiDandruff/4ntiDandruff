@@ -161,12 +161,12 @@ Selain perkakas desktop, saya merancang dan mengoperasikan sistem web produksi m
 | Sistem Ruko & Layanan | Fungsi Lapangan & Manfaat Nyata | Jembatan "Yang Artinya..." |
 |---|---|---|
 | **AGY Router**<br/>*(AI Token Pool Gateway)* | Reverse proxy multi-akun untuk Google Antigravity CLI dengan failover HTTP 429 otomatis dan SSE stream tanpa buffer. | *Koding otonom jalan terus tanpa takut kehabisan kuota atau terhenti limit API.* |
-| **PDF Workbench**<br/>`pdf.megapass.web.id` | Generator pas foto A4 siap potong, OCR lokal, dan perbaikan dokumen rusak tanpa upload ke cloud pihak ketiga. | *Data privasi KTP/ijazah pelanggan aman (auto-hapus 15 menit) dan hasil cetak tajam 600 DPI.* |
-| **Skema Boardview**<br/>`skema.megapass.web.id` | Viewer skema motherboard laptop & PDF canvas interaktif dengan pencarian lokasi part IC terisolasi. | *Penelusuran jalur tegangan motherboard super cepat di layar monitor tanpa jeda loading.* |
-| **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Pemantau CCTV mandiri via go2rtc WebRTC pass-through di hardware hemat daya (STB/i3). | *CCTV bisa dipantau langsung dari HP tanpa biaya langganan cloud dan RAM server <30MB.* |
-| **Kas Harian Meja Servis**<br/>`kas.megapass.web.id` | Pembukuan kas bengkel dengan pengurai kalimat transaksi dwibahasa berbasis AI Ladder 0-token. | *Catat nota cukup ketik bahasa santai, kasir rapi, dan database aman dari mati lampu PLN mendadak.* |
-| **Pastree Link-in-Bio**<br/>`pastree.megapass.web.id` | Platform mikro-situs link-in-bio mandiri (alternatif Linktree) ultra-cepat (~6ms) untuk etalase tautan & kontak ruko. | *Pengunjung medsos langsung terhubung ke nomor WhatsApp teknisi dan katalog servis tanpa iklan Linktree berbayar.* |
-| **Dekoder Pasar Crypto**<br/>`trading.megapass.web.id` | Buku saku PWA offline dan dekoder on-chain Solana: mengonversi istilah gaul pasar (bundle, cabal, sniper, bonding curve) ke logika fisik sirkuit elektronika. | *Teknisi dan pemula paham risiko jebakan kontrak pintar dalam 5 detik sebelum uang tabungan amblas.* |
+| **PDF Workbench**<br/>*(Workshop Print Engine)* | Generator pas foto A4 siap potong, OCR lokal, dan perbaikan dokumen rusak tanpa upload ke cloud pihak ketiga. | *Data privasi KTP/ijazah pelanggan aman (auto-hapus 15 menit) dan hasil cetak tajam 600 DPI.* |
+| **Skema Boardview**<br/>*(Motherboard PDF Canvas)* | Viewer skema motherboard laptop & PDF canvas interaktif dengan pencarian lokasi part IC terisolasi. | *Penelusuran jalur tegangan motherboard super cepat di layar monitor tanpa jeda loading.* |
+| **Edge CCTV Fleet**<br/>*(WebRTC Media Streamer)* | Pemantau CCTV mandiri via go2rtc WebRTC pass-through di hardware hemat daya (STB/i3). | *CCTV bisa dipantau langsung dari HP tanpa biaya langganan cloud dan RAM server <30MB.* |
+| **Kas Harian Meja Servis**<br/>*(Zero-Token Ledger)* | Pembukuan kas bengkel dengan pengurai kalimat transaksi dwibahasa berbasis AI Ladder 0-token. | *Catat nota cukup ketik bahasa santai, kasir rapi, dan database aman dari mati lampu PLN mendadak.* |
+| **Pastree Link-in-Bio**<br/>*(Creator Micro-Site)* | Platform mikro-situs link-in-bio mandiri (alternatif Linktree) ultra-cepat (~6ms) untuk etalase tautan & kontak ruko. | *Pengunjung medsos langsung terhubung ke nomor WhatsApp teknisi dan katalog servis tanpa iklan Linktree berbayar.* |
+| **Dekoder Pasar Crypto**<br/>*(On-Chain PWA Decoder)* | Buku saku PWA offline dan dekoder on-chain Solana: mengonversi istilah gaul pasar (bundle, cabal, sniper, bonding curve) ke logika fisik sirkuit elektronika. | *Teknisi dan pemula paham risiko jebakan kontrak pintar dalam 5 detik sebelum uang tabungan amblas.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Antarmuka pencatat suara ke teks melayang dengan KWin Glassmorphism dan faster-whisper lokal. | *Teknisi bisa mendikte catatan kerusakan perangkat saat kedua tangan sibuk memegang solder.* |
 
 ---
@@ -262,7 +262,7 @@ Seluruh rekayasa perangkat keras dan integrasi sistem didasarkan pada kompetensi
 
 - **v2.9.0 (2026-09-24)**: Sinkronisasi katalog 30 modul Zero-Bloat Skills (v2.10.0), perkuatan sekring OPSEC anti-leak, dan integrasi tanda tangan commit kriptografis Ed25519.
 - **v2.8.0 (2026-09-17)**: Overhaul total narasi copywriting profil berbasis filosofi nama `@4ntiDandruff` (Pembersih Ketombe Sistem / Anti-Bloatware) dan penyematan animasi HUD stasiun probing sirkuit mikroskopik (`circuit-probing-station.svg`).
-- **v2.7.0 (2026-09-17)**: Sinkronisasi ekspansi 26 modul Zero-Bloat Skills Hub. Decommissioning armada percetakan kalender (`kalenderia.my.id`), dan peresmian etalase dua armada live baru meja servis: Skema Boardview (`skema.megapass.web.id`) dan Pastree Clipboard Sync (`pastree.megapass.web.id`).
+- **v2.7.0 (2026-09-17)**: Sinkronisasi ekspansi 26 modul Zero-Bloat Skills Hub. Decommissioning armada percetakan kalender (`kalenderia.my.id`), dan peresmian etalase dua armada live baru meja servis: Skema Boardview dan Pastree Clipboard Sync.
 - **v2.6.0 (2026-09-16)**: Perombakan total profil dengan standar Copywriting Manusiawi (Tes Warung Kopi & Jembatan Fisik). Penambahan showcase proyek publik baru `windows-optimizer`, perluasan modul Zero-Bloat Skills Hub, dan peresmian etalase armada web ruko mandiri.
 - Catatan riwayat rilis lengkap tersedia pada file [CHANGELOG.md](./CHANGELOG.md).
 

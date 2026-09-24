@@ -20,7 +20,7 @@ All notable changes to this profile repository and system architecture will be d
 ### Added
 * **The `@4ntiDandruff` Moniker & Debloating Philosophy**: Inducted dedicated narrative section explaining the origin of handle `@4ntiDandruff` (classic 2000s leetspeak hacker heritage + anti-bloatware system purifier mission).
 * **Automated Circuit Probing Station HUD Banner**: Embedded animated hardware micro-probing SVG (`circuit-probing-station.svg`) directly into the workbench philosophy section.
-* **Crypto Market Circuit Decoder Showcase**: Inducted `trading.megapass.web.id` (PWA offline field guide & Solana on-chain decoder translating degen market tricks to physical circuit logic) into Category 2 live self-hosted services.
+* **Crypto Market Circuit Decoder Showcase**: Inducted Crypto Circuit Decoder (PWA offline field guide & Solana on-chain decoder translating degen market tricks to physical circuit logic) into Category 2 live self-hosted services.
 
 ### Changed
 * **Narrative Overhaul**: Harmonized workbench philosophy connecting hardware circuit repair with anti-bloatware software engineering across all bilingual README documentation.
@@ -30,7 +30,7 @@ All notable changes to this profile repository and system architecture will be d
 ## [v2.7.0] - 2026-09-17
 
 ### Added
-* **Live Workshop Fleet Portals (Skema & Pastree)**: Inducted `skema.megapass.web.id` (interactive laptop motherboard schematic & PDF canvas viewer) and `pastree.megapass.web.id` (zero-bloat Linktree alternative link-in-bio platform) into Category 2 live self-hosted services showcase.
+* **Live Workshop Fleet Portals (Skema & Pastree)**: Inducted Skema Boardview (interactive laptop motherboard schematic & PDF canvas viewer) and Pastree Link-in-Bio (zero-bloat Linktree alternative link-in-bio platform) into Category 2 live self-hosted services showcase.
 
 ### Changed
 * **Zero-Bloat Skills Module Count**: Synchronized total modular skill count from 25 to 26 circuit-level workbench skills across all README profiles, ASCII circuit topologies, and shields badges.
@@ -44,7 +44,7 @@ All notable changes to this profile repository and system architecture will be d
 
 ### Added
 * **Windows Optimizer Flagship Feature**: Featured `windows-optimizer` public repository in Category 1 for automated client telemetry removal, bloatware stripping, and registry performance tuning.
-* **Live Self-Hosted Workshop Systems Category**: Added dedicated showcase for active repair bench services running on Megapass infrastructure: AGY Router (AI Multi-Account Pool & 429 Shield), PDF Workbench (`pdf.megapass.web.id`), Edge CCTV Fleet (`cctv.megapass.web.id`), Workshop Ledger (`kas.megapass.web.id`), Mega-Speech Voice HUD (Linux Wayland KWin), and Kalenderia (`kalenderia.my.id`).
+* **Live Self-Hosted Workshop Systems Category**: Added dedicated showcase for active repair bench services running on Megapass infrastructure: AGY Router (AI Multi-Account Pool & 429 Shield), PDF Workbench (Workshop Print Engine), Edge CCTV Fleet (WebRTC Media Streamer), Workshop Ledger (Zero-Token Ledger), and Mega-Speech Voice HUD (Linux Wayland KWin).
 * **Hardware Translation Bridge ("What It Means")**: Embedded physical impact explanations connecting low-level engineering specifications to tangible repair bench outcomes (anti-data loss, 0% CPU standby, hardware longevity).
 * **De-bloat Achievements Section**: Removed GitHub achievements table across all profile READMEs to maintain a clean, zero-bloat engineering layout.
 

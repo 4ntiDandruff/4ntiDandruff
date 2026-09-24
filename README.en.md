@@ -161,12 +161,12 @@ Alongside desktop software, I architect and host internal production services fo
 | System & Portal | Field Function & Tangible Impact | What It Means (*Hardware Translation*) |
 |---|---|---|
 | **AGY Router**<br/>*(AI Gateway & Token Pool)* | Multi-account token pooling reverse proxy for Google Antigravity CLI with automatic 429 failover and zero-buffer SSE streaming. | *Coding sessions never stall due to rate limits or exhausted API quotas.* |
-| **PDF Workbench**<br/>`pdf.megapass.web.id` | 600 DPI Poppler rendering, instant A4 photo grid generator, local OCR, and interactive PDF repair without third-party cloud uploads. | *Customer identity documents stay private (auto-expunged in 15 mins) with clean print output.* |
-| **Skema Boardview**<br/>`skema.megapass.web.id` | Interactive laptop motherboard schematic & PDF canvas viewer with isolated IC part location search. | *Tracing motherboard voltage rails and signal paths on monitor is instant with zero loading lag.* |
-| **Edge CCTV Fleet**<br/>`cctv.megapass.web.id` | Self-hosted multi-camera streaming via go2rtc WebRTC pass-through on low-power STB/i3 nodes. | *Workshop cameras can be audited live from mobile with zero cloud subscriptions and <30MB server RAM.* |
-| **Workshop Bookkeeping**<br/>`kas.megapass.web.id` | Daily repair ledger featuring a bilingual natural language transaction parser powered by a 0-token AI Ladder. | *Technicians record service jobs via spoken dictation, and the WAL database survives sudden power cuts.* |
-| **Pastree Link-in-Bio**<br/>`pastree.megapass.web.id` | Self-hosted ultra-lean link-in-bio micro-site engine (Linktree alternative) with ~6ms latency and zero monthly subscriptions. | *Social media visitors connect instantly to WhatsApp and workshop services without slow loading or third-party Linktree ads.* |
-| **On-Chain Circuit Decoder**<br/>`trading.megapass.web.id` | PWA offline trading field guide & Solana on-chain decoder: translates degen market mechanics (bundles, cabal snipers, bonding curves) into physical circuit logic. | *Technicians and beginners spot smart-contract traps in 5 seconds before capital gets wiped out.* |
+| **PDF Workbench**<br/>*(Workshop Print Engine)* | 600 DPI Poppler rendering, instant A4 photo grid generator, local OCR, and interactive PDF repair without third-party cloud uploads. | *Customer identity documents stay private (auto-expunged in 15 mins) with clean print output.* |
+| **Skema Boardview**<br/>*(Motherboard PDF Canvas)* | Interactive laptop motherboard schematic & PDF canvas viewer with isolated IC part location search. | *Tracing motherboard voltage rails and signal paths on monitor is instant with zero loading lag.* |
+| **Edge CCTV Fleet**<br/>*(WebRTC Media Streamer)* | Self-hosted multi-camera streaming via go2rtc WebRTC pass-through on low-power STB/i3 nodes. | *Workshop cameras can be audited live from mobile with zero cloud subscriptions and <30MB server RAM.* |
+| **Workshop Bookkeeping**<br/>*(Zero-Token Ledger)* | Daily repair ledger featuring a bilingual natural language transaction parser powered by a 0-token AI Ladder. | *Technicians record service jobs via spoken dictation, and the WAL database survives sudden power cuts.* |
+| **Pastree Link-in-Bio**<br/>*(Creator Micro-Site)* | Self-hosted ultra-lean link-in-bio micro-site engine (Linktree alternative) with ~6ms latency and zero monthly subscriptions. | *Social media visitors connect instantly to WhatsApp and workshop services without slow loading or third-party Linktree ads.* |
+| **On-Chain Circuit Decoder**<br/>*(On-Chain PWA Decoder)* | PWA offline trading field guide & Solana on-chain decoder: translates degen market mechanics (bundles, cabal snipers, bonding curves) into physical circuit logic. | *Technicians and beginners spot smart-contract traps in 5 seconds before capital gets wiped out.* |
 | **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Hands-free voice-to-text floating HUD featuring native KWin glassmorphism and local faster-whisper streaming. | *Technicians can dictate diagnostic notes without removing their hands from hot air and soldering tools.* |
 
 ---
@@ -262,7 +262,7 @@ All hardware diagnostics and systems engineering work are backed by official cre
 
 - **v2.9.0 (2026-09-24)**: Synchronized 30 Zero-Bloat Skills modules (v2.10.0), fortified OPSEC anti-leak circuits, and integrated Ed25519 cryptographic commit signing.
 - **v2.8.0 (2026-09-17)**: Complete narrative copywriting overhaul integrating the `@4ntiDandruff` moniker origin (System Debloating Philosophy) and animated circuit micro-probing HUD (`circuit-probing-station.svg`).
-- **v2.7.0 (2026-09-17)**: Synchronized 26 Zero-Bloat Skills Hub modules. Decommissioned printing engine (`kalenderia.my.id`), and inducted two new live workshop fleet portals: Skema Boardview (`skema.megapass.web.id`) and Pastree Clipboard Sync (`pastree.megapass.web.id`).
+- **v2.7.0 (2026-09-17)**: Synchronized 26 Zero-Bloat Skills Hub modules. Decommissioned printing engine (`kalenderia.my.id`), and inducted two new live workshop fleet portals: Skema Boardview and Pastree Clipboard Sync.
 - **v2.6.0 (2026-09-16)**: Complete profile overhaul integrating Human Copywriting standards (The Coffee Shop Test & Hardware Translation Bridge). Featured new public open-source project `windows-optimizer`, expanded Zero-Bloat Skills Hub, and inducted live workshop web services.
 - Full release notes and historical changes available in [CHANGELOG.md](./CHANGELOG.md).
 

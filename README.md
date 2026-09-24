@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Teknisi+Sirkuit+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;26+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Perangkat+Selesai+%E2%80%A2+BNSP+100%2F100+Teori)](https://github.com/4ntiDandruff)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Teknisi+Sirkuit+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;30+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Perangkat+Selesai+%E2%80%A2+BNSP+100%2F100+Teori)](https://github.com/4ntiDandruff)
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -23,7 +23,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Pengalaman%20Hardware-12%2B%20Tahun-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Keahlian%20AI-26%20Skills%20Modular-0071E3?style=flat-square" />
+  <img src="https://img.shields.io/badge/Keahlian%20AI-30%20Skills%20Modular-0071E3?style=flat-square" />
   <img src="https://img.shields.io/badge/Infrastruktur-5--Node%20Mesh-blueviolet?style=flat-square" />
   <img src="https://img.shields.io/badge/Perangkat%20Selesai-1000%2B%20Unit-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Ujian%20Teori%20BNSP-100%2F100%20Sempurna-orange?style=flat-square" />
@@ -104,7 +104,7 @@ Seluruh ekosistem otomasi, web ruko, dan agen AI diorkestrasi melalui jaringan p
                       |          DEPLOY PRODUKSI & SISTEM FAIL-SAFE          |
                       |  • Watchdog Daemon 0% CPU Idle (Event Kernel Inotify)|
                       |  • GUI Flashing Hardware Low-Level (CH341A / SPI)    |
-                      |  • 26 Modul Keahlian Meja Servis (Zero-Bloat Skills) |
+                      |  • 30 Modul Keahlian Meja Servis (Zero-Bloat Skills) |
                       |  • Web Produksi Ringan Cepat (FastAPI + SQLite WAL)  |
                       +======================================================+
 ```
@@ -118,9 +118,9 @@ Semua proyek di bawah ini lahir langsung dari kebutuhan nyata di meja servis lap
 ### 🛠️ Kategori 1: Perkakas Desktop & CLI Terbuka (Open Source)
 
 #### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
-**26 Modul Keahlian Operasional Tingkat Sirkuit untuk Multi-Agent AI Orchestrators**
+**30 Modul Keahlian Operasional Tingkat Sirkuit untuk Multi-Agent AI Orchestrators**
 *   **Masalah Lapangan (PAS)**: AI coding agent sering melantur, menulis kode penuh bloat, dan merusak dependensi server saat disuruh memperbaiki sistem. Akibatnya, server kehabisan memori dan teknisi harus bersih-bersih manual.
-*   **Solusi Meja Servis**: Menghubungkan 6 orchestrator AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) ke 26 SOP teknisi senior siap pakai. Dilengkapi portal telemetri web mandiri, UI Apple Liquid, proteksi SQLite WAL, dan AI Ladder 0-token.
+*   **Solusi Meja Servis**: Menghubungkan 6 orchestrator AI (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) ke 30 SOP teknisi senior siap pakai. Dilengkapi portal telemetri web mandiri, UI Apple Liquid, proteksi SQLite WAL, dan AI Ladder 0-token.
 *   **Jembatan Fisik (*Yang Artinya...*)**: *AI agent bekerja mandiri dengan disiplin teknisi senior → yang artinya sistem langsung tuntas tanpa Anda perlu mengetik ulang kode atau mengajari agen dari nol.*  
 `Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
 
@@ -253,7 +253,7 @@ Seluruh rekayasa perangkat keras dan integrasi sistem didasarkan pada kompetensi
 - [x] Pembangunan jaringan 5-Node Heterogeneous Linux Mesh dengan enkripsi Tailscale & SSH ControlMaster.
 - [x] Pembuatan daemon auto-extract kernel inotify dengan 9 sekring pengaman dan 0% beban CPU.
 - [x] Rilis desktop GUI CH341A BIOS Flasher Tauri v2 untuk teknisi hardware.
-- [x] Peluncuran publik Zero-Bloat Skills Hub (26 modul keahlian meja servis) di `skill.megapass.web.id`.
+- [x] Peluncuran publik Zero-Bloat Skills Hub (30 modul keahlian meja servis) di `skill.megapass.web.id`.
 - [x] Rilis publik Windows Optimizer Toolkit untuk pemeliharaan PC pelanggan.
 - [ ] Integrasi perekam bentuk gelombang digital osiloskop langsung ke workstation Linux.
 - [ ] Daemon sinkronisasi backup multi-node otomatis dengan enkripsi zero-knowledge.

@@ -2,6 +2,16 @@
 
 All notable changes to this profile repository and system architecture will be documented in this file.
 
+## [v2.10.0] - 2026-09-28
+
+### Changed
+* **Tone & Humility Alignment**: Refactored bilingual profile READMEs (`README.md`, `README.id.md`, `README.en.md`) to a grounded, humble learner persona, centering on hardware repair roots and genuine software engineering learning.
+
+### Removed
+* **Vanity & Financial Flexing**: Removed speculative financial ROI valuation table, aggressive developer comparisons, and score badges (100/100, 1000+ units) to eliminate boasting and present an authentic, welcoming profile.
+
+---
+
 ## [v2.9.0] - 2026-09-24
 
 ### Added

@@ -1,69 +1,46 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Circuit Technician, AI Agent Architect & Systems Automation" />
+<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Electronics Technician & Software Engineering Learner" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Circuit+Technician+%7C+AI+Agent+Architect+%7C+Linux+Bare-Metal;30+Zero-Bloat+Skills+%E2%80%A2+5-Node+Mesh+%E2%80%A2+0%25+CPU+Standby;1000%2B+Devices+Fixed+%E2%80%A2+BNSP+100%2F100+Theory)](https://github.com/4ntiDandruff)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Electronics+Technician+%7C+Linux+Enthusiast;Tinkering+with+Automation+%E2%80%A2+Lightweight+Web+Experiments;Learning+Software+Engineering+from+the+Workbench)](https://github.com/4ntiDandruff)
 
 <p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
-  <a href="./README.en.md"><img src="https://img.shields.io/badge/%5B%20US%20English%20%5D-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="English" /></a>
+  <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%5D-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
+  <a href="./README.en.md"><img src="https://img.shields.io/badge/%5B%20US%20English%20%28Active%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="English" /></a>
 </p>
 
 <p align="center">
-  <a href="https://skill.megapass.web.id"><img src="https://img.shields.io/badge/Live%20Portal-skill.megapass.web.id-0071E3?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Portal" /></a>
+  <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Portfolio-megapass.web.id%2Fteknisi-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Technician Profile" /></a>
   <a href="https://github.com/4ntiDandruff/zero-bloat-skills"><img src="https://img.shields.io/github/stars/4ntiDandruff/zero-bloat-skills?style=flat-square&color=0071E3&label=Zero-Bloat%20Skills" alt="Zero-Bloat Stars" /></a>
-  <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Credentials-megapass.web.id%2Fteknisi-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Technician Profile" /></a>
-  <img src="https://img.shields.io/badge/Location-Sidoarjo%2C%20Indonesia-D32F2F?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
-  <img src="https://img.shields.io/badge/Certification-BNSP%20%26%20BMY%20Certified-4EAA25?style=flat-square&logo=target&logoColor=white" alt="Certified" />
-  <a href="https://github.com/4ntiDandruff?tab=followers"><img src="https://img.shields.io/github/followers/4ntiDandruff?style=flat-square&color=blueviolet&label=Followers" alt="Followers" /></a>
+  <img src="https://img.shields.io/badge/Location-Sidoarjo%2C%20East%20Java-D32F2F?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
+  <img src="https://img.shields.io/badge/Certification-BNSP%20Electronics-4EAA25?style=flat-square&logo=target&logoColor=white" alt="Certified" />
+  <img src="https://img.shields.io/badge/Focus-Software%20%26%20Hardware%20Learner-blueviolet?style=flat-square" alt="Focus" />
   <img src="https://komarev.com/ghpvc/?username=4ntiDandruff&style=flat-square&color=0A66C2&label=Profile+Views" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Hardware%20Experience-12%2B%20Years-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI%20Ecosystem-30%20Modular%20Skills-0071E3?style=flat-square" />
-  <img src="https://img.shields.io/badge/Infrastructure-5--Node%20Mesh-blueviolet?style=flat-square" />
-  <img src="https://img.shields.io/badge/Devices%20Repaired-1000%2B%20Units-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/BNSP%20Theory-100%2F100%20Perfect-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Shop%20Rating-4.9%20★%20Google-yellow?style=flat-square" />
 </p>
 
 ---
 
 </div>
 
-## 💡 Workbench Philosophy: Zero Bloat, Zero Theory, Low-Footprint
+## Greetings from the Workbench
 
-> **"I am not a corporate programmer burning expensive cloud RAM on vanity frameworks. I am a workbench electronics technician who bridges physical circuit diagnostics with ultra-lean Linux bare-metal automation."**
+Hello! I am **Hizam Nahari**, an electronics technician based in Sidoarjo, East Java, Indonesia. My daily routine revolves around the repair workbench: soldering stations, multimeters, oscilloscopes, boardview schematics, and diagnosing laptop and smartphone circuit boards.
 
-At the laptop and smartphone repair bench, a dead circuit board cannot be fixed with corporate buzzwords. Shorted power rails must be isolated down to the exact SMD pin, voltage drops must be verified on a real oscilloscope, and fried ICs must be micro-soldered with precision.
+Alongside hardware repair, I have a strong enthusiasm for Linux systems, workbench task automation, and am actively exploring **Software Engineering & Web Development**.
 
-I enforce that exact same physical discipline across software and systems architecture:
-- **Reject heavy dependencies**: If a task can be solved with a lean POSIX shell script or an atomic SQLite WAL database, never spin up bloated database servers or runaway JavaScript node_modules trees.
-- **Zero standby overhead (0.00% idle CPU)**: Solid systems behave like electronic relays. Completely silent and consuming zero power when idle, yet instantaneous the microsecond a kernel event fires.
-- **Instant emergency repair**: Code must remain fully readable, transparent with clear line numbers in stack traces, and deployable without convoluted build pipelines that break during power outages.
+For me, tracing electrical rails on a motherboard shares a similar joy with organizing application logic: both require patience, careful root-cause analysis, and the desire to build dependable, resource-friendly systems.
 
 ---
 
-### 🧼 Behind the Moniker `@4ntiDandruff`: The System Debloating Philosophy
+### The Story Behind the Handle `@4ntiDandruff`
 
-> *"Dandruff on a scalp is irritating debris that causes itchiness and thermal discomfort without ever being invited. In operating systems and hardware, that dandruff is called OEM bloatware, runaway telemetry, and bloated software stacks that make fans scream at idle."*
+The handle **`@4ntiDandruff`** originated from a simple analogy at the repair bench:
 
-The handle **`@4ntiDandruff`** is not an arbitrary pseudonym; it is the direct operating manifesto behind every utility forged on this workbench:
-
-1. **Classic Leetspeak Heritage (The Number 4)**:  
-   When the handle `antidandruff` was unavailable, old-school hacker and sysadmin tradition dictated replacing `A` with `4`. Rather than appending random birth years or clumsy suffixes (`_real`, `_official`), substituting `4` preserved an unbroken, single-word CLI command handle that is fast to type in terminals.
-
-2. **The Debloating Mission (Physical & Digital Purifier)**:  
-   Every repository in this ecosystem acts as an industrial purifier for crippled systems:
-   - **`windows-optimizer`**: Strips invasive Windows telemetry and vendor bloat so client machines run lean, fast, and cool.
-   - **`adb-uninstaller`**: Safely purges vendor shovelware on budget Android hardware with zero bootloop risk.
-   - **`zero-bloat-skills`**: Guards AI coding agents from polluting Linux servers with runaway npm dependency trees.
-   - **`auto-extract-downloads`**: Kernel-level inotify daemon eliminating manual extraction clicks with 0.00% standby CPU load.
-
-> *"The rule is simple: If your head has dandruff, wash it with shampoo. If your machine is bogged down with bloatware, service it with 4ntiDandruff tools."*
+* **System "Dandruff"**: To a hardware technician, "dandruff" refers to bloatware, pre-installed vendor junk, and runaway background processes that cause customer laptop fans to whine unnecessarily while idle.
+* **The Number 4 (Leetspeak Tradition)**: Replacing `A` with `4` follows the classic open-source convention to keep the username clean, readable, and easy to type in a shell terminal.
+* **Clean-Up Utilities**: This handle serves as a constant reminder to keep scripts and utilities lean, purposeful, and focused on decluttering systems.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-probing-station.svg?raw=true" width="100%" alt="Automated Circuit Micro-Probing & Debloating Station" />
@@ -71,222 +48,100 @@ The handle **`@4ntiDandruff`** is not an arbitrary pseudonym; it is the direct o
 
 ---
 
-## 📐 Circuit Topology & 5-Node Linux Mesh Network
+## Workbench Experiments & Everyday Utilities
 
-All automation pipelines, workshop web systems, and autonomous AI agents are coordinated across a private encrypted mesh without vulnerable public port forwarding:
+Most repositories on this profile are personal learning journals and lightweight utilities created to assist everyday repair work:
 
-```
-                      +======================================================+
-                      |               OPERATOR / MEJA SERVIS                 |
-                      |   Hizam Nahari (Megapass Intra Solusindo, Sidoarjo)   |
-                      +======================================================+
-                                                 |
-                                      (Tailscale / WireGuard)
-                                  [Terenkripsi RSA-4096 / 100.x.x.x]
-                                                 |
-         +-------------------+-------------------+-------------------+-------------------+
-         |                   |                   |                   |                   |
-         v                   v                   v                   v                   v
-+-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
-|   PRIMARY RIG   | | WORKSTATION GUI | |  STANDBY DUAL   | | FIELD TERMINAL  | | LEGACY TESTBED  |
-| Dedicated Host  | | Desktop Suite   | | High-Compute OS | | Node Diagnosa   | | Node Terisolasi |
-| 24/7 Automation | | Antarmuka KDE   | | Rig Dual-Boot   | | Servis Lapangan | | Meja Hardware   |
-| Subnet AI Hub   | | Workstation Rig | | Standby Engine  | | Thin Client     | | Lab Flashing    |
-+-----------------+ +-----------------+ +-----------------+ +-----------------+ +-----------------+
-         |                   |                   |                   |                   |
-         +-------------------+-------------------+-------------------+-------------------+
-                                                 |
-                                      [Autonomous AI Mesh]
-               (Antigravity • Claude Code • OpenCode • Hermes • OMP • Codex)
-                                                 |
-                                                 v
-                      +======================================================+
-                      |         PRODUCTION DEPLOYMENT & FAIL-SAFE RUN        |
-                      |  • 0% Idle CPU Watchdog Daemon (Inotify Kernel Sync)  |
-                      |  • Low-Level Hardware Flashing GUI (CH341A / SPI)    |
-                      |  • 30 Circuit-Level Skills Hub (Multi-Agent SOPs)    |
-                      |  • High-Performance Lean Web Engine (FastAPI + WAL)  |
-                      +======================================================+
-```
+### [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills)
+**Curated SOPs and Lightweight Guidelines for AI Coding Assistants**
+* **Context**: While experimenting with AI coding assistants on modest workshop PCs, AI models frequently suggested bloated libraries that strained memory.
+* **Experiment**: Gathering modular guidelines to keep AI-generated code clean, build-step-free, and frugal with system memory.
+* **Practical Benefit (*Which Means...*)**: *Code experiments run smoothly on workshop hardware without choking background resources.*  
+`Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS`
 
----
+### [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
+**Lightweight System Cleanup Scripts for Customer PCs**
+* **Context**: Customer laptops frequently suffer from accumulated temporary caches and unused OEM startup software.
+* **Experiment**: Combining native PowerShell and Batch routines to safely clean temporary directories and disable unnecessary background startups.
+* **Practical Benefit (*Which Means...*)**: *Streamlines routine PC maintenance without downloading untrusted third-party cleaner tools.*  
+`PowerShell` • `Batch` • `Windows Utilities`
 
-## ⚡ Production Projects Tested on the Bench
+### [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
+**Simple Desktop GUI Wrapper for USB EEPROM Programmers**
+* **Context**: Reading and writing physical BIOS chips via the Linux terminal often requires lengthy CLI parameter chains.
+* **Experiment**: Building a clear graphical interface with Tauri v2 around the native `flashrom` utility.
+* **Practical Benefit (*Which Means...*)**: *Simplifies verifying chip signatures and backup dumps before soldering chips back to the board.*  
+`Tauri v2` • `Rust` • `TypeScript` • `flashrom`
 
-Every project listed below was built to resolve tangible daily bottlenecks in electronics servicing and local infrastructure:
+### [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
+**Event-Driven Archive Extraction via Linux Kernel Inotify**
+* **Context**: Frequently downloading zip/rar boardview schematics and driver archives throughout the workday.
+* **Experiment**: Using `inotify` hooks so the system detects finished downloads and extracts them automatically without manual right-clicking.
+* **Practical Benefit (*Which Means...*)**: *Schematic archives are immediately unpacked and ready to inspect without interrupting the bench workflow.*  
+`POSIX Shell` • `inotify-tools` • `Systemd User Unit`
 
-### 🛠️ Category 1: Open Source Desktop Tools & CLI Engines
-
-#### 🌟 [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills) & [skill.megapass.web.id](https://skill.megapass.web.id)
-**30 Circuit-Level Operational Skills for Multi-Agent AI Orchestrators**
-*   **The Real Friction (PAS)**: Autonomous AI coding agents routinely hallucinate bloated dependencies, break server configurations, and waste tokens on basic operations, forcing technicians into tedious manual cleanup.
-*   **The Bench Solution**: Connects 6 major AI orchestrators (Antigravity CLI, Claude Code, OpenCode, Hermes, OMP, Codex) to 30 field-tested technician SOPs. Includes an interactive live telemetry web portal, Apple Liquid Dark UI, SQLite WAL Fortress, and a 0-token AI Ladder.
-*   **Hardware Bridge (*What It Means*)**: *Agents execute autonomously with senior technician discipline → which means zero manual babysitting and zero wasted LLM tokens.*  
-`Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS` • `Cloudflare Tunnel` • `PM2`
-
-#### 🚀 [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
-**Automated Maintenance, Telemetry Debloater & System Tuning for Client PCs**
-*   **The Real Friction (PAS)**: Customer laptops entering the shop are bogged down by manufacturer bloatware, aggressive background telemetry, and runaway disk usage. Generic third-party optimizer software often installs adware and destabilizes Windows.
-*   **The Bench Solution**: Native automation toolkit (PowerShell & Batch) featuring 28 safe modules, automated registry backups, and automatic System Restore Point creation prior to execution.
-*   **Hardware Bridge (*What It Means*)**: *Native low-level tuning scripts without third-party utilities → which means immediate performance gains and faster turnaround times on client machines.*  
-`PowerShell` • `Batch` • `Windows Internals` • `Zero Dependency`
-
-#### 🔌 [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
-**Professional Desktop GUI for CH341A USB EEPROM Programmer**
-*   **The Real Friction (PAS)**: Flashing motherboard BIOS chips via Linux terminal requires memorizing dozens of parameters. A single misplaced hex address or overlooked 1.8V level-shifter jumper can permanently destroy a customer's motherboard.
-*   **The Bench Solution**: Wraps the battle-tested `flashrom` utility into a featherlight Tauri v2 desktop application. Features auto-detection for 24/25 series ICs, SHA-256 bit-for-bit checksum verification, and visual 1.8V level-shift warnings.
-*   **Hardware Bridge (*What It Means*)**: *Automated bit-for-bit checksum verification → which means flashed BIOS firmware is guaranteed 100% identical and boards never end up bricked.*  
-`Tauri v2` • `Rust` • `TypeScript` • `Python` • `flashrom`
-
-#### ⚡ [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
-**Kernel Event-Driven Archive Extraction Daemon (0% CPU Standby)**
-*   **The Real Friction (PAS)**: While downloading dozens of laptop schematics and boardviews, constantly right-clicking to extract nested archives wastes valuable technician time.
-*   **The Bench Solution**: Pure POSIX kernel daemon powered by `inotify` monitoring the incoming download directory. Runs silently in the background protected by 9 physical circuit fuses (loop detection, disk space ceiling, image safeguards).
-*   **Hardware Bridge (*What It Means*)**: *Kernel-level event hooks without polling loops → which means archives extract in 1 second, memory stays at ~1.5MB RAM, and fans remain dead silent.*  
-`POSIX Shell` • `inotify-tools` • `Systemd User Unit` • `libnotify` • `unar/7z`
-
-#### 📱 [ADB Mobile Debloater](https://github.com/4ntiDandruff/adb-uninstaller)
-**Batch Android Debloater for Mobile Servicing Workstations**
-*   **The Real Friction (PAS)**: Budget Android smartphones are crippled by unremovable OEM bloatware that fills limited internal storage and degrades battery health.
-*   **The Bench Solution**: Desktop GUI wrapping the Android Debug Bridge (ADB) with a curated package safety catalog, enabling technicians to batch-remove unwanted vendor packages without root access.
-*   **Hardware Bridge (*What It Means*)**: *Pre-classified safety lists → which means customer storage is reclaimed safely with zero bootloop risk.*  
-`Tauri v2` • `React` • `TypeScript` • `Android Debug Bridge (ADB)`
+### [ADB Mobile Debloater](https://github.com/4ntiDandruff/adb-uninstaller)
+**Android App Management Interface via USB ADB**
+* **Context**: Helping customers reclaim internal storage on budget Android devices bogged down by non-removable pre-installed apps.
+* **Experiment**: A desktop interface wrapping ADB commands with a curated safe-list of removable OEM packages.
+* **Practical Benefit (*Which Means...*)**: *Assists in safely freeing device storage without causing bootloops.*  
+`Tauri v2` • `TypeScript` • `Android Debug Bridge (ADB)`
 
 ---
 
-### 🌐 Category 2: Live Self-Hosted Workshop Systems
-
-Alongside desktop software, I architect and host internal production services for the repair shop with strict zero-bloat standards:
-
-| System & Portal | Field Function & Tangible Impact | What It Means (*Hardware Translation*) |
-|---|---|---|
-| **AGY Router**<br/>*(AI Gateway & Token Pool)* | Multi-account token pooling reverse proxy for Google Antigravity CLI with automatic 429 failover and zero-buffer SSE streaming. | *Coding sessions never stall due to rate limits or exhausted API quotas.* |
-| **PDF Workbench**<br/>*(Workshop Print Engine)* | 600 DPI Poppler rendering, instant A4 photo grid generator, local OCR, and interactive PDF repair without third-party cloud uploads. | *Customer identity documents stay private (auto-expunged in 15 mins) with clean print output.* |
-| **Skema Boardview**<br/>*(Motherboard PDF Canvas)* | Interactive laptop motherboard schematic & PDF canvas viewer with isolated IC part location search. | *Tracing motherboard voltage rails and signal paths on monitor is instant with zero loading lag.* |
-| **Edge CCTV Fleet**<br/>*(WebRTC Media Streamer)* | Self-hosted multi-camera streaming via go2rtc WebRTC pass-through on low-power STB/i3 nodes. | *Workshop cameras can be audited live from mobile with zero cloud subscriptions and <30MB server RAM.* |
-| **Workshop Bookkeeping**<br/>*(Zero-Token Ledger)* | Daily repair ledger featuring a bilingual natural language transaction parser powered by a 0-token AI Ladder. | *Technicians record service jobs via spoken dictation, and the WAL database survives sudden power cuts.* |
-| **Pastree Link-in-Bio**<br/>*(Creator Micro-Site)* | Self-hosted ultra-lean link-in-bio micro-site engine (Linktree alternative) with ~6ms latency and zero monthly subscriptions. | *Social media visitors connect instantly to WhatsApp and workshop services without slow loading or third-party Linktree ads.* |
-| **On-Chain Circuit Decoder**<br/>*(On-Chain PWA Decoder)* | PWA offline trading field guide & Solana on-chain decoder: translates degen market mechanics (bundles, cabal snipers, bonding curves) into physical circuit logic. | *Technicians and beginners spot smart-contract traps in 5 seconds before capital gets wiped out.* |
-| **Mega-Speech Voice HUD**<br/>*(Linux KDE Wayland)* | Hands-free voice-to-text floating HUD featuring native KWin glassmorphism and local faster-whisper streaming. | *Technicians can dictate diagnostic notes without removing their hands from hot air and soldering tools.* |
-
----
-
-## 💻 Tech Stack Rationale & Physical Impact
+## Tools & Technologies Being Explored
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,rust,tauri,python,fastapi,flask,htmx,tailwind,sqlite,git,docker&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,python,fastapi,html,css,tailwind,sqlite,git&theme=dark" alt="Tech Stack" />
 </p>
 
-Every framework and language in this stack was chosen for mechanical reliability, not industry hype:
+Each tool is chosen for its practical value in day-to-day work:
 
-| Layer | Tooling Selection | Tangible Workbench Impact (*What It Means*) |
+| Domain | Tool | Practical Value at the Workbench |
 |---|---|---|
-| **Backend Engine** | Python FastAPI / Flask | *Strict type enforcement and unambiguous line numbers in logs ensure bug fixes take seconds.* |
-| **Database Architecture** | SQLite with WAL Mode | *Atomic single-file local storage that survives sudden workshop power outages without data corruption.* |
-| **Frontend Interface** | HTML5 + Tailwind CDN + Alpine.js + HTMX | *Instant server-driven UI with zero JavaScript compilation build-steps that bloat system memory.* |
-| **Desktop Software** | Tauri v2 (Rust) | *High-performance alternative to Electron; desktop applications launch instantly with under 40MB RAM.* |
-| **Media & Vision** | go2rtc + WebRTC Pass-Through | *High-framerate video delivery without CPU transcoding overhead on low-power STB/i3 hardware.* |
-| **Networking & Mesh** | Tailscale Mesh + Cloudflare Tunnel | *All nodes interconnect securely across private tunnels without exposing dangerous public port-forwards.* |
+| **Operating System** | Linux (Ubuntu / Debian) | *Stable, transparent, and ideal for understanding computer architecture.* |
+| **Scripting** | Bash / Shell & Python | *Quick for daily utilities and automating routine operating tasks.* |
+| **Backend & Web** | Python FastAPI & SQLite | *Straightforward code flow, readable error logs, and atomic SQLite WAL storage without heavyweight setup.* |
+| **Frontend UI** | HTML5, Tailwind CSS, Alpine.js | *Immediate testing and live editing in the browser without complex bundling.* |
+| **Version Control** | Git & GitHub | *Keeping track of code revisions and learning structured collaboration.* |
 
 ---
 
-## 📊 Quality Audit & Verified Benchmarks
+## The Story Behind the Name MEGAPASS
 
-Every metric below was recorded on physical hardware under real repair bench workloads, not virtual cloud simulations:
+My electronics repair workshop in Sidoarjo is named **Megapass Intra Solusindo**. The name carries a meaningful personal background:
 
-| Audit Parameter / Metric | Standard Threshold | Verified Field Measurement | Status |
-|---|---|---|:---:|
-| **Watchdog Standby CPU Load** | < 0.1% CPU | **0.00% CPU (Inotify Kernel Event Hook)** | PASS |
-| **Background Daemon Memory** | < 10 MB RAM | **~1.5 MB RAM (POSIX Shell + Libnotify)** | PASS |
-| **Private Mesh Latency** | < 20 ms | **0.8 ms (Local Tailscale Socket Multiplexing)** | PASS |
-| **BIOS Read/Write Verification** | 100% Bit-for-Bit | **100% SHA-256 Checksum Match** | PASS |
-| **Production Web Response** | < 50 ms | **12 ms - 28 ms (FastAPI + SQLite WAL)** | PASS |
-| **CCTV Streaming RAM (go2rtc)** | < 100 MB RAM | **< 28 MB RAM (Zero CPU Transcoding)** | PASS |
+* **Mega**: My beloved wife's name, a reminder of personal dedication and family responsibility.
+* **PASS**: The most satisfying visual at the technician bench. The bright green **PASS** indicator confirms that a device has been successfully repaired, passed all hardware tests, and is ready to return to its owner.
+
+This philosophy guides my learning: whether soldering an IC or writing lines of code, the goal is to work thoughtfully until the result earns a genuine **PASS**.
 
 ---
 
-## 💰 Operational Valuation & Infrastructure ROI
+## Technical Training & Hardware Certifications
 
-Building self-reliant bare-metal infrastructure produces substantial recurring savings over commercial cloud SaaS platforms:
+My foundational technical knowledge is backed by structured education in electronics and computing:
 
-| Component | Commercial SaaS / Cloud Alternative | Self-Hosted In-House Solution | Annual Value Saved |
-|---|---|---|---|
-| **Multi-Node Mesh** | Managed VPN Gateway ($30/mo) | Encrypted WireGuard / Tailscale ($0) | **$360 / yr (~Rp 5.6M)** |
-| **24/7 Watchdogs** | Cloud Monitoring Platform ($45/mo) | Native Inotify Kernel Daemons ($0) | **$540 / yr (~Rp 8.4M)** |
-| **Firmware Flashing Tool** | Proprietary Commercial Hardware ($150) | Open Source (`flashrom` + Tauri GUI) | **$150 (~Rp 2.3M)** |
-| **Application Hosting** | Managed Container Platform ($60/mo) | Self-Hosted Linux Hardware ($0) | **$720 / yr (~Rp 11.4M)** |
-| **TOTAL VERIFIED ROI** | -- | -- | **$1,770+ / yr (~Rp 27.7M+)** |
+* **BNSP (National Professional Certification Agency)** - Certified Electronics & Mobile Device Technician
+* **BMY Yogyakarta** - Laptop Schematics & Motherboard Hardware Diagnostics
+* **ITS Surabaya (PRODISTIK)** - D1 Information Technology & Circuit Fundamentals
+* **PTC Indonesia & Arsalabs** - Advanced Mobile Device Hardware Repair
+* **Magistra Utama** - Computer Hardware & Network Engineering Program
 
----
-
-## 🔧 About Me & The Megapass Workbench
-
-My daily work centers around the workbench at **Megapass Intra Solusindo** in Sidoarjo, East Java, Indonesia. The station is equipped with digital storage oscilloscopes, precision multimeters, micro-soldering hot air, inspection microscopes, and schematic boardviews.
-
-Daily operational responsibilities include:
-- **Power Rail Short-Circuit Isolation**: Localizing leaky capacitors and breached MOSFETs on totally dead motherboards via safe voltage injection and thermal curve analysis.
-- **BGA Reballing & Micro-Soldering**: Lifting, cleaning, and re-soldering micro-scale IC ball grids on mobile and laptop logic boards.
-- **Corrupt Firmware Recovery**: Recovering corrupted UEFI/BIOS SPI EEPROM chips using low-level hardware programmers and hex disassembly.
-- **Self-Healing Systems Engineering**: Constructing lightweight Linux toolkits and autonomous multi-agent systems to accelerate bench testing and workshop administration.
-
-### 💡 Behind the Name: MEGAPASS
-
-The name **Megapass** comes from two grounding elements at my workbench:
-
-* **Mega**: A tribute to my wife's name, as well as a symbol of immense commitment and long-term vision in running an independent hardware lab.
-* **PASS**: The ultimate benchmark in hardware and software diagnostics. **PASS** is the green status every technician strives for when Samsung firmware flashing completes flawlessly in Odin, or when laptop power rails and components clear rigorous smoke tests before handover.
-
-**Megapass** is an engineering pledge: every phone, laptop, and automation script that crosses my bench is serviced with zero shortcuts until it earns a definitive **PASS**.
-
----
-
-## 📜 Official Certifications & Credentials
-
-All hardware diagnostics and systems engineering work are backed by official credentials:
-
-| Issuing Body | Technical Scope | Honors & Qualifications |
-|---|---|---|
-| 🏆 **BNSP (National Professional Certification Board)** | Mobile & Electronics Technician | **Perfect Score (100/100)** Circuit Architecture & Electronics Theory |
-| 🔬 **BMY Yogyakarta** | Laptop Motherboard Diagnostics | Component-level troubleshooting on dead logic boards via oscilloscope |
-| 🎓 **ITS Surabaya (PRODISTIK)** | D1 Information Technology | Circuit design, PCB fabrication, and high-precision soldering standards |
-| 📱 **PTC Indonesia & Arsalabs** | Advanced Mobile Hardware Servicing | IC reballing, logic board diagnostics, and trace power sequencing |
-| 💻 **Magistra Utama** | Hardware & Computer Networking | Systems maintenance, local area network topologies, and web infrastructure |
-| 🤝 **TESPOIN** | Indonesian Mobile Technician Guild | Official member of the nationwide mobile technicians guild |
-
-👉 *Official physical certificates and workshop bench photography:* **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
-
----
-
-## 🗺️ Future Engineering Roadmap
-
-- [x] 5-Node Heterogeneous Linux Mesh deployment with Tailscale encryption & SSH ControlMaster.
-- [x] Inotify kernel-triggered auto-extraction daemon with 9 safety fuses and 0% CPU standby.
-- [x] Production deployment of CH341A BIOS Flasher Tauri GUI for hardware benches.
-- [x] Production launch of Zero-Bloat Skills Hub (30 skills) at `skill.megapass.web.id`.
-- [x] Public release of Windows Optimizer Toolkit for client system maintenance.
-- [ ] Direct oscilloscope digital waveform capture utility for Linux workstations.
-- [ ] Automated multi-node remote backup sync daemon with encrypted zero-knowledge storage.
-
-## 📜 Latest Updates & Changelog
-
-- **v2.9.0 (2026-09-24)**: Synchronized 30 Zero-Bloat Skills modules (v2.10.0), fortified OPSEC anti-leak circuits, and integrated Ed25519 cryptographic commit signing.
-- **v2.8.0 (2026-09-17)**: Complete narrative copywriting overhaul integrating the `@4ntiDandruff` moniker origin (System Debloating Philosophy) and animated circuit micro-probing HUD (`circuit-probing-station.svg`).
-- **v2.7.0 (2026-09-17)**: Synchronized 26 Zero-Bloat Skills Hub modules. Decommissioned printing engine (`kalenderia.my.id`), and inducted two new live workshop fleet portals: Skema Boardview and Pastree Clipboard Sync.
-- **v2.6.0 (2026-09-16)**: Complete profile overhaul integrating Human Copywriting standards (The Coffee Shop Test & Hardware Translation Bridge). Featured new public open-source project `windows-optimizer`, expanded Zero-Bloat Skills Hub, and inducted live workshop web services.
-- Full release notes and historical changes available in [CHANGELOG.md](./CHANGELOG.md).
+Portfolio documentation and certificates can be viewed at: **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
 
 ---
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="Dynamic GitHub Contribution Matrix - HIZAM NAHARI CIRCUIT LINUX DEV AI AGENT ARCHITECT" />
+<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="GitHub Contribution Matrix - Hizam Nahari" />
 
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/Website-megapass.web.id-000?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Website" /></a>
-  <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Credentials-megapass.web.id%2Fteknisi-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Technician" /></a>
+  <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Portfolio-megapass.web.id%2Fteknisi-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Technician" /></a>
 </p>
 
 **Megapass Intra Solusindo • Sidoarjo, Indonesia**  
-*Precision Circuit Engineering & Bare-Metal Linux Systems*
+*Electronics Technician & Software Engineering Learner*
 
 </div>

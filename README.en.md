@@ -1,10 +1,7 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Electronics Technician & Software Engineering Learner" />
-
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Electronics+Technician+%7C+Linux+Enthusiast;Tinkering+with+Automation+%E2%80%A2+Lightweight+Web+Experiments;Learning+Software+Engineering+from+the+Workbench)](https://github.com/4ntiDandruff)
+# Hizam Nahari
+### Electronics Technician & Software Engineering Learner
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%5D-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -91,10 +88,6 @@ Most repositories on this profile are personal learning journals and lightweight
 
 ## Tools & Technologies Being Explored
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,fastapi,html,css,tailwind,sqlite,git&theme=dark" alt="Tech Stack" />
-</p>
-
 Each tool is chosen for its practical value in day-to-day work:
 
 | Domain | Tool | Practical Value at the Workbench |
@@ -133,8 +126,6 @@ Portfolio documentation and certificates can be viewed at: **[megapass.web.id/te
 ---
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="GitHub Contribution Matrix - Hizam Nahari" />
 
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/Website-megapass.web.id-000?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Website" /></a>

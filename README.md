@@ -1,10 +1,7 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-header.svg?raw=true" width="100%" alt="Hizam Nahari - Teknisi Elektronika & Pembelajar Software Engineering" />
-
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Teknisi+Elektronika+%7C+Pegiat+Linux+Sederhana;Suka+Oprek+Otomasi+%E2%80%A2+Eksperimen+Web+Hemat+Daya;Belajar+Software+Engineering+dari+Meja+Servis)](https://github.com/4ntiDandruff)
+# Hizam Nahari
+### Teknisi Elektronika & Pembelajar Software Engineering
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -91,11 +88,7 @@ Repositori di akun ini sebagian besar adalah catatan belajar pribadi dan perkaka
 
 ## Teknologi & Alat yang Sedang Dipelajari
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,fastapi,html,css,tailwind,sqlite,git&theme=dark" alt="Tech Stack" />
-</p>
-
-Setiap alat yang saya pelajari dipilih karena kepraktisannya untuk kebutuhan nyata:
+Setiap alat yang saya pelajari dipilih karena kepraktisannya untuk kebutuhan nyata di meja kerja:
 
 | Bidang | Alat | Alasan & Manfaat di Meja Belajar |
 |---|---|---|
@@ -133,8 +126,6 @@ Dokumentasi sertifikat dan kegiatan teknisi dapat dilihat di: **[megapass.web.id
 ---
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/contribution-matrix-words.svg?raw=true" width="100%" alt="GitHub Contribution Matrix - Hizam Nahari" />
 
 <p align="center">
   <a href="https://megapass.web.id"><img src="https://img.shields.io/badge/Website-megapass.web.id-000?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Website" /></a>

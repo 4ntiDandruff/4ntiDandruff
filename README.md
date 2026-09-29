@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Portofolio-megapass.web.id%2Fteknisi-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Profil Teknisi" /></a>
-  <a href="https://github.com/4ntiDandruff/zero-bloat-skills"><img src="https://img.shields.io/github/stars/4ntiDandruff/zero-bloat-skills?style=flat-square&color=0071E3&label=Zero-Bloat%20Skills" alt="Bintang Zero-Bloat" /></a>
+  <a href="https://github.com/4ntiDandruff/mobile-view"><img src="https://img.shields.io/badge/Ekstensi-Mobile%20View-0071E3?style=flat-square&logo=googlechrome&logoColor=white" alt="Ekstensi Mobile View" /></a>
   <img src="https://img.shields.io/badge/Lokasi-Sidoarjo%2C%20Jawa%20Timur-D32F2F?style=flat-square&logo=googlemaps&logoColor=white" alt="Lokasi" />
   <img src="https://img.shields.io/badge/Sertifikasi-BNSP%20Elektronika-4EAA25?style=flat-square&logo=target&logoColor=white" alt="Tersertifikasi" />
   <img src="https://img.shields.io/badge/Fokus-Belajar%20Software%20%26%20Hardware-blueviolet?style=flat-square" alt="Fokus" />
@@ -49,12 +49,12 @@ Nama **`@4ntiDandruff`** berawal dari analogi sederhana di meja kerja servis:
 
 Repositori di akun ini sebagian besar adalah catatan belajar pribadi dan perkakas bantu sederhana yang saya kembangkan untuk mempermudah pekerjaan servis di ruko:
 
-### [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills)
-**Kumpulan Dokumentasi & Panduan Kerja Ringan untuk AI Coding Assistant**
-* **Latar Belakang**: Saat bereksperimen dengan AI coding agent di PC ruko yang spesifikasinya pas-pasan, sering kali AI menyarankan library yang terlalu berat dan membuat sistem lambat.
-* **Eksperimen**: Mengumpulkan modul panduan kerja agar AI mengutamakan kode yang ringkas, tanpa langkah kompilasi rumit, dan ramah memori.
-* **Dampak Praktis (*Yang Artinya...*)**: *Eksperimen kode bisa dijalankan lancar di komputer ruko tanpa membebani memori kerja.*  
-`Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS`
+### [Mobile View Browser Extension](https://github.com/4ntiDandruff/mobile-view)
+**Ekstensi Browser Workbench untuk Pratinjau Tampilan Mobile Sekali Klik**
+* **Latar Belakang**: Saat belajar membuat tampilan web responsif, membuka inspect element browser (F12) terasa kaku dan tidak mencerminkan wujud fisik layar ponsel yang sesungguhnya.
+* **Eksperimen**: Membangun ekstensi browser Chromium Manifest V3 tanpa bundler rumit, lengkap dengan bingkai smartphone presisi dan dev-watcher auto-reload berbasis kernel inotify Linux.
+* **Dampak Praktis (*Yang Artinya...*)**: *Memudahkan pengujian tampilan web di layar ponsel langsung dari browser desktop tanpa perlu bolak-balik meraih HP.*  
+`JavaScript` • `Chromium Manifest V3` • `Tailwind CSS` • `HTML5`
 
 ### [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
 **Kumpulan Skrip Pembersih Sistem Sederhana untuk PC Pelanggan**

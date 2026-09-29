@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Portfolio-megapass.web.id%2Fteknisi-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Technician Profile" /></a>
-  <a href="https://github.com/4ntiDandruff/zero-bloat-skills"><img src="https://img.shields.io/github/stars/4ntiDandruff/zero-bloat-skills?style=flat-square&color=0071E3&label=Zero-Bloat%20Skills" alt="Zero-Bloat Stars" /></a>
+  <a href="https://github.com/4ntiDandruff/mobile-view"><img src="https://img.shields.io/badge/Extension-Mobile%20View-0071E3?style=flat-square&logo=googlechrome&logoColor=white" alt="Mobile View Extension" /></a>
   <img src="https://img.shields.io/badge/Location-Sidoarjo%2C%20East%20Java-D32F2F?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
   <img src="https://img.shields.io/badge/Certification-BNSP%20Electronics-4EAA25?style=flat-square&logo=target&logoColor=white" alt="Certified" />
   <img src="https://img.shields.io/badge/Focus-Software%20%26%20Hardware%20Learner-blueviolet?style=flat-square" alt="Focus" />
@@ -49,12 +49,12 @@ The handle **`@4ntiDandruff`** originated from a simple analogy at the repair be
 
 Most repositories on this profile are personal learning journals and lightweight utilities created to assist everyday repair work:
 
-### [Zero-Bloat Skills Hub](https://github.com/4ntiDandruff/zero-bloat-skills)
-**Curated SOPs and Lightweight Guidelines for AI Coding Assistants**
-* **Context**: While experimenting with AI coding assistants on modest workshop PCs, AI models frequently suggested bloated libraries that strained memory.
-* **Experiment**: Gathering modular guidelines to keep AI-generated code clean, build-step-free, and frugal with system memory.
-* **Practical Benefit (*Which Means...*)**: *Code experiments run smoothly on workshop hardware without choking background resources.*  
-`Python FastAPI` • `SQLite WAL` • `Alpine.js` • `Tailwind CSS`
+### [Mobile View Browser Extension](https://github.com/4ntiDandruff/mobile-view)
+**Workbench Browser Extension for Instant Pixel-Accurate Mobile Previews**
+* **Context**: While learning responsive web layout design, opening browser developer tools (F12) felt clunky and lacked the physical context of actual smartphone screens.
+* **Experiment**: Building a lightweight Chromium Manifest V3 extension without heavy bundlers, featuring pixel-accurate smartphone frames and a Linux inotify auto-reload dev-watcher.
+* **Practical Benefit (*Which Means...*)**: *Enables instant testing of mobile web layouts directly inside the desktop browser without having to constantly reach for a physical phone.*  
+`JavaScript` • `Chromium Manifest V3` • `Tailwind CSS` • `HTML5`
 
 ### [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
 **Lightweight System Cleanup Scripts for Customer PCs**

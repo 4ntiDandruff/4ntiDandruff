@@ -2,6 +2,16 @@
 
 All notable changes to this profile repository and system architecture will be documented in this file.
 
+## [v2.11.0] - 2026-09-29
+
+### Added
+* **Mobile View Extension Showcase**: Inducted `mobile-view` (Chromium Manifest V3 browser extension for 1-click pixel-accurate mobile previews with physical phone bezels) into Category 1 workbench utilities across bilingual profile READMEs.
+
+### Changed
+* **Public Link Integrity Audit**: Replaced private repository link `zero-bloat-skills` with publicly accessible `mobile-view`, ensuring 100% HTTP 200 OK link availability across all profile badges and showcased project links.
+
+---
+
 ## [v2.10.0] - 2026-09-28
 
 ### Changed

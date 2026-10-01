@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hizam Nahari
-### Electronics Technician & Software Engineering Learner
+### Certified Hardware Technician (BNSP) & Systems Automation Practitioner
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%5D-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -10,10 +10,10 @@
 
 <p align="center">
   <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Portfolio-megapass.web.id%2Fteknisi-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Technician Profile" /></a>
-  <a href="https://github.com/4ntiDandruff/mobile-view"><img src="https://img.shields.io/badge/Extension-Mobile%20View-0071E3?style=flat-square&logo=googlechrome&logoColor=white" alt="Mobile View Extension" /></a>
+  <a href="https://github.com/4ntiDandruff/zero-bloat-skills"><img src="https://img.shields.io/badge/Repository-zero--bloat--skills-0071E3?style=flat-square&logo=github&logoColor=white" alt="zero-bloat-skills" /></a>
   <img src="https://img.shields.io/badge/Location-Sidoarjo%2C%20East%20Java-D32F2F?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
   <img src="https://img.shields.io/badge/Certification-BNSP%20Electronics-4EAA25?style=flat-square&logo=target&logoColor=white" alt="Certified" />
-  <img src="https://img.shields.io/badge/Focus-Software%20%26%20Hardware%20Learner-blueviolet?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Focus-Hardware%20Repair%20%26%20Zero--Bloat%20Software-blueviolet?style=flat-square" alt="Focus" />
   <img src="https://komarev.com/ghpvc/?username=4ntiDandruff&style=flat-square&color=0A66C2&label=Profile+Views" alt="Profile Views" />
 </p>
 
@@ -23,9 +23,9 @@
 
 ## Greetings from the Workbench
 
-Hello! I am **Hizam Nahari**, an electronics technician based in Sidoarjo, East Java, Indonesia. My daily routine revolves around the repair workbench: soldering stations, multimeters, oscilloscopes, boardview schematics, and diagnosing laptop and smartphone circuit boards.
+Hello! I am **Hizam Nahari**, an electronics technician based in Sidoarjo, East Java, Indonesia. My daily routine revolves around the repair workbench: soldering stations, digital multimeters, DC power injection, boardview schematics, and diagnosing laptop and smartphone circuit boards.
 
-Alongside hardware repair, I have a strong enthusiasm for Linux systems, workbench task automation, and am actively exploring **Software Engineering & Web Development**.
+Alongside hardware repair, I specialize in Linux environments, workbench workflow automation, and engineering **resource-frugal, zero-bloat software systems**.
 
 For me, tracing electrical rails on a motherboard shares a similar joy with organizing application logic: both require patience, careful root-cause analysis, and the desire to build dependable, resource-friendly systems.
 
@@ -45,9 +45,16 @@ The handle **`@4ntiDandruff`** originated from a simple analogy at the repair be
 
 ---
 
-## Workbench Experiments & Everyday Utilities
+## Workbench Tools & Practical Automation Systems
 
-Most repositories on this profile are personal learning journals and lightweight utilities created to assist everyday repair work:
+The repositories on this profile are purpose-built workbench tools, automation daemons, and modular systems crafted directly from hands-on repair shop needs:
+
+### [Zero-Bloat Skills](https://github.com/4ntiDandruff/zero-bloat-skills)
+**31 Circuit-Level Workbench, Linux Bare-Metal, and Multi-Agent AI Gateway Modules**
+* **Context**: Need to orchestrate shop service daemons, BIOS programmers, CCTV edge relays, and multi-agent AI tools on low-power host machines without memory bloat.
+* **Architecture**: A battle-tested collection of 31 technician SOP modules, symmetrically linked to Google Antigravity, Claude Code, OMP, OpenCode, and Codex with zero runtime `node_modules` overhead (RAM <50MB).
+* **Practical Benefit (*Which Means...*)**: *Standardized shop automation that runs efficiently on dual-core Core i3 hosts without CPU strain.*  
+`Linux Bare-Metal` • `AI Agent Skills` • `Zero-Bloat Architecture` • `Bash/Python`
 
 ### [Mobile View Browser Extension](https://github.com/4ntiDandruff/mobile-view)
 **Workbench Browser Extension for Instant Pixel-Accurate Mobile Previews**
@@ -133,6 +140,6 @@ Portfolio documentation and certificates can be viewed at: **[megapass.web.id/te
 </p>
 
 **Megapass Intra Solusindo • Sidoarjo, Indonesia**  
-*Electronics Technician & Software Engineering Learner*
+*Certified Hardware Technician (BNSP) & Systems Automation Practitioner*
 
 </div>

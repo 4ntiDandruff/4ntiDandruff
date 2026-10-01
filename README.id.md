@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hizam Nahari
-### Teknisi Elektronika & Pembelajar Software Engineering
+### Teknisi Perangkat Keras Bersertifikasi BNSP & Praktisi Otomasi Sistem
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -10,10 +10,10 @@
 
 <p align="center">
   <a href="https://megapass.web.id/teknisi/"><img src="https://img.shields.io/badge/Portofolio-megapass.web.id%2Fteknisi-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Profil Teknisi" /></a>
-  <a href="https://github.com/4ntiDandruff/mobile-view"><img src="https://img.shields.io/badge/Ekstensi-Mobile%20View-0071E3?style=flat-square&logo=googlechrome&logoColor=white" alt="Ekstensi Mobile View" /></a>
+  <a href="https://github.com/4ntiDandruff/zero-bloat-skills"><img src="https://img.shields.io/badge/Repositori-zero--bloat--skills-0071E3?style=flat-square&logo=github&logoColor=white" alt="zero-bloat-skills" /></a>
   <img src="https://img.shields.io/badge/Lokasi-Sidoarjo%2C%20Jawa%20Timur-D32F2F?style=flat-square&logo=googlemaps&logoColor=white" alt="Lokasi" />
   <img src="https://img.shields.io/badge/Sertifikasi-BNSP%20Elektronika-4EAA25?style=flat-square&logo=target&logoColor=white" alt="Tersertifikasi" />
-  <img src="https://img.shields.io/badge/Fokus-Belajar%20Software%20%26%20Hardware-blueviolet?style=flat-square" alt="Fokus" />
+  <img src="https://img.shields.io/badge/Fokus-Hardware%20Repair%20%26%20Zero--Bloat%20Software-blueviolet?style=flat-square" alt="Fokus" />
   <img src="https://komarev.com/ghpvc/?username=4ntiDandruff&style=flat-square&color=0A66C2&label=Profile+Views" alt="Profile Views" />
 </p>
 
@@ -23,9 +23,9 @@
 
 ## Salam Kenal dari Meja Servis
 
-Halo! Saya **Hizam Nahari**, seorang teknisi elektronika dari Sidoarjo, Jawa Timur. Keseharian saya banyak dihabiskan di meja servis berhadapan dengan solder, multitester, osiloskop, skematik boardview, dan bongkar-pasang komponen laptop maupun ponsel.
+Halo! Saya **Hizam Nahari**, seorang teknisi elektronika dari Sidoarjo, Jawa Timur. Keseharian saya banyak dihabiskan di meja servis berhadapan dengan stasiun solder, multitester, injeksi tegangan, skematik boardview, dan bongkar-pasang komponen laptop maupun ponsel.
 
-Di sela-sela pekerjaan hardware, saya punya ketertarikan besar pada sistem operasi Linux, otomasi pekerjaan ruko, dan saat ini sedang aktif belajar **Software Engineering & Web Development**. 
+Di sela-sela pekerjaan hardware, saya mendalami sistem operasi Linux, otomasi pekerjaan ruko, dan aktif mengembangkan **software mandiri berprinsip zero-bloat**. 
 
 Bagi saya, logika menelusuri jalur tegangan pada motherboard memiliki kepuasan yang mirip dengan menyusun alur logika pada kode program: sama-sama menuntut ketelitian, kesabaran mencari akar masalah, dan keinginan membuat sistem berjalan stabil serta efisien.
 
@@ -47,7 +47,14 @@ Nama **`@4ntiDandruff`** berawal dari analogi sederhana di meja kerja servis:
 
 ## Perkakas & Catatan Eksperimen dari Meja Kerja
 
-Repositori di akun ini sebagian besar adalah catatan belajar pribadi dan perkakas bantu sederhana yang saya kembangkan untuk mempermudah pekerjaan servis di ruko:
+Repositori di akun ini adalah perkakas bantu otomasi, sistem mandiri, dan modul keahlian yang lahir langsung dari kebutuhan nyata di meja kerja bengkel ruko:
+
+### [Zero-Bloat Skills](https://github.com/4ntiDandruff/zero-bloat-skills)
+**31 Modul Keahlian Tingkat Sirkuit Meja Servis, Linux Bare-Metal, dan Multi-Agent AI Gateway**
+* **Latar Belakang**: Kebutuhan mengorkestrasi sistem pendukung bengkel, flasher BIOS, media edge CCTV, dan AI orchestrator di komputer hemat daya tanpa beban memori tinggi.
+* **Arsitektur**: Kumpulan 31 modul SOP teknisi teruji lapangan, tersinkronisasi simetris ke Google Antigravity, Claude Code, OMP, OpenCode, dan Codex tanpa ketergantungan node_modules di runtime (RAM <50MB).
+* **Dampak Praktis (*Yang Artinya...*)**: *Standarisasi otomasi bengkel yang berjalan ringan di mesin Core i3 tanpa membuat CPU tersiksa.*  
+`Linux Bare-Metal` • `AI Agent Skills` • `Zero-Bloat Architecture` • `Bash/Python`
 
 ### [Mobile View Browser Extension](https://github.com/4ntiDandruff/mobile-view)
 **Ekstensi Browser Workbench untuk Pratinjau Tampilan Mobile Sekali Klik**
@@ -133,6 +140,6 @@ Dokumentasi sertifikat dan kegiatan teknisi dapat dilihat di: **[megapass.web.id
 </p>
 
 **Megapass Intra Solusindo • Sidoarjo, Indonesia**  
-*Teknisi Elektronika & Pembelajar Software Engineering*
+*Teknisi Perangkat Keras Bersertifikasi BNSP & Praktisi Otomasi Sistem*
 
 </div>

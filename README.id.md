@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hizam Nahari
-### Teknisi Perangkat Keras Bersertifikasi BNSP & Praktisi Otomasi Sistem
+### Teknisi Bersertifikasi BNSP & Praktisi Otomasi Sistem
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -140,6 +140,6 @@ Dokumentasi sertifikat dan kegiatan teknisi dapat dilihat di: **[megapass.web.id
 </p>
 
 **Megapass Intra Solusindo • Sidoarjo, Indonesia**  
-*Teknisi Perangkat Keras Bersertifikasi BNSP & Praktisi Otomasi Sistem*
+*Teknisi Bersertifikasi BNSP & Praktisi Otomasi Sistem*
 
 </div>

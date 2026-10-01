@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hizam Nahari
-### Certified Hardware Technician (BNSP) & Systems Automation Practitioner
+### Certified Technician (BNSP) & Systems Automation Practitioner
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%5D-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -140,6 +140,6 @@ Portfolio documentation and certificates can be viewed at: **[megapass.web.id/te
 </p>
 
 **Megapass Intra Solusindo • Sidoarjo, Indonesia**  
-*Certified Hardware Technician (BNSP) & Systems Automation Practitioner*
+*Certified Technician (BNSP) & Systems Automation Practitioner*
 
 </div>

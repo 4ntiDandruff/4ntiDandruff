@@ -23,21 +23,21 @@
 
 ## Greetings from the Workbench
 
-Hello! I am **Hizam Nahari**, an electronics technician based in Sidoarjo, East Java, Indonesia. My daily routine revolves around the repair workbench: soldering stations, digital multimeters, DC power injection, boardview schematics, and diagnosing laptop and smartphone circuit boards.
+Hello! I am **Hizam Nahari**, a hardware technician based in Sidoarjo, East Java, Indonesia. My workdays are spent at the repair bench: soldering irons, hot air rework stations, multimeters, DC power injection, boardview schematics, and component-level board repairs on laptops and mobile devices.
 
-Alongside hardware repair, I specialize in Linux environments, workbench workflow automation, and engineering **resource-frugal, zero-bloat software systems**.
+Alongside physical board repairs, I run Linux environments, build automation tools to streamline shop workflows, and design **resource-frugal, zero-bloat software systems**.
 
-For me, tracing electrical rails on a motherboard shares a similar joy with organizing application logic: both require patience, careful root-cause analysis, and the desire to build dependable, resource-friendly systems.
+For me, tracking down a shorted power rail on a motherboard delivers the exact same satisfaction as structuring clean application logic: both demand patient schematic reading, disciplined root-cause analysis, and the joy of restoring a system to stable, reliable operation.
 
 ---
 
 ### The Story Behind the Handle `@4ntiDandruff`
 
-The handle **`@4ntiDandruff`** originated from a simple analogy at the repair bench:
+The handle **`@4ntiDandruff`** originated from a simple observation while cleaning up customer PCs:
 
-* **System "Dandruff"**: To a hardware technician, "dandruff" refers to bloatware, pre-installed vendor junk, and runaway background processes that cause customer laptop fans to whine unnecessarily while idle.
-* **The Number 4 (Leetspeak Tradition)**: Replacing `A` with `4` follows the classic open-source convention to keep the username clean, readable, and easy to type in a shell terminal.
-* **Clean-Up Utilities**: This handle serves as a constant reminder to keep scripts and utilities lean, purposeful, and focused on decluttering systems.
+* **System "Dandruff"**: To me, "dandruff" describes the clutter of bloatware, pre-installed vendor junk, and stealth background tasks that make customer laptop fans spin up to maximum heat during simple typing tasks.
+* **The Number 4 in Leetspeak**: Swapping `A` for `4` follows the classic open-source hacker habit, remaining compact and effortless to type in any Linux terminal.
+* **Purpose-Built Cleaners**: This handle is a constant reminder to write scripts and tools that strip away unnecessary overhead, restoring machines to responsive, lightweight performance.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-probing-station.svg?raw=true" width="100%" alt="Automated Circuit Micro-Probing & Debloating Station" />
@@ -45,76 +45,76 @@ The handle **`@4ntiDandruff`** originated from a simple analogy at the repair be
 
 ---
 
-## Workbench Tools & Practical Automation Systems
+## Real Workbench Projects & Shop Utilities
 
-The repositories on this profile are purpose-built workbench tools, automation daemons, and modular systems crafted directly from hands-on repair shop needs:
+Every repository on this profile is built to solve real-world operational problems encountered directly at the repair shop bench:
 
 ### [Zero-Bloat Skills](https://github.com/4ntiDandruff/zero-bloat-skills)
 **31 Circuit-Level Workbench, Linux Bare-Metal, and Multi-Agent AI Gateway Modules**
-* **Context**: Need to orchestrate shop service daemons, BIOS programmers, CCTV edge relays, and multi-agent AI tools on low-power host machines without memory bloat.
-* **Architecture**: A battle-tested collection of 31 technician SOP modules, symmetrically linked to Google Antigravity, Claude Code, OMP, OpenCode, and Codex with zero runtime `node_modules` overhead (RAM <50MB).
-* **Practical Benefit (*Which Means...*)**: *Standardized shop automation that runs efficiently on dual-core Core i3 hosts without CPU strain.*  
+* **Field Challenge**: Orchestrating shop services, BIOS flashing tools, RTSP CCTV streams, and AI coding agents on low-power workshop hardware (Core i3-3240) without memory bloat.
+* **Technical Solution**: 31 field-tested technician SOP modules symmetrically synced to AI agents (Google Antigravity, Claude Code, OMP, OpenCode, Codex). Zero build-step, zero runtime node_modules, maintaining RAM usage under 50MB.
+* **Practical Benefit (*Which Means...*)**: *Daily shop automation runs quietly in the background without hogging CPU cycles or making fans whine.*  
 `Linux Bare-Metal` • `AI Agent Skills` • `Zero-Bloat Architecture` • `Bash/Python`
 
 ### [Mobile View Browser Extension](https://github.com/4ntiDandruff/mobile-view)
 **Workbench Browser Extension for Instant Pixel-Accurate Mobile Previews**
-* **Context**: While learning responsive web layout design, opening browser developer tools (F12) felt clunky and lacked the physical context of actual smartphone screens.
-* **Experiment**: Building a lightweight Chromium Manifest V3 extension without heavy bundlers, featuring pixel-accurate smartphone frames and a Linux inotify auto-reload dev-watcher.
-* **Practical Benefit (*Which Means...*)**: *Enables instant testing of mobile web layouts directly inside the desktop browser without having to constantly reach for a physical phone.*  
+* **Field Challenge**: Default browser developer tools (F12) feel rigid and fail to represent the physical ergonomics of single-handed smartphone thumb interaction.
+* **Technical Solution**: Pure Chromium Manifest V3 extension built without heavy bundlers, featuring accurate smartphone bezels and automatic live reload via Linux kernel inotify events.
+* **Practical Benefit (*Which Means...*)**: *Test responsive mobile layouts directly on the desktop monitor without constantly reaching for a physical phone.*  
 `JavaScript` • `Chromium Manifest V3` • `Tailwind CSS` • `HTML5`
 
 ### [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
 **Lightweight System Cleanup Scripts for Customer PCs**
-* **Context**: Customer laptops frequently suffer from accumulated temporary caches and unused OEM startup software.
-* **Experiment**: Combining native PowerShell and Batch routines to safely clean temporary directories and disable unnecessary background startups.
-* **Practical Benefit (*Which Means...*)**: *Streamlines routine PC maintenance without downloading untrusted third-party cleaner tools.*  
+* **Field Challenge**: Almost every customer laptop arriving at the shop crawls under heaps of temporary cache junk and dozens of unidentified OEM startup applications.
+* **Technical Solution**: Pure native PowerShell and Batch routines to purge temp clutter and safely disable stealth startup processes without risky registry alterations.
+* **Practical Benefit (*Which Means...*)**: *Routine tune-ups finish in seconds without installing questionable third-party cleaner utilities packed with ads.*  
 `PowerShell` • `Batch` • `Windows Utilities`
 
 ### [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
-**Simple Desktop GUI Wrapper for USB EEPROM Programmers**
-* **Context**: Reading and writing physical BIOS chips via the Linux terminal often requires lengthy CLI parameter chains.
-* **Experiment**: Building a clear graphical interface with Tauri v2 around the native `flashrom` utility.
-* **Practical Benefit (*Which Means...*)**: *Simplifies verifying chip signatures and backup dumps before soldering chips back to the board.*  
+**Streamlined Desktop GUI for USB EEPROM Programmers**
+* **Field Challenge**: Typing lengthy flashrom CLI parameter chains in the terminal invites accidental errors when quickly programming physical BIOS chips.
+* **Technical Solution**: Clean desktop GUI built with Tauri v2 (Rust) that wraps flashrom commands into clear, foolproof visual action buttons.
+* **Practical Benefit (*Which Means...*)**: *Quick chip identification, dump backup verification, and safe firmware flashing before soldering the chip back to the PCB.*  
 `Tauri v2` • `Rust` • `TypeScript` • `flashrom`
 
 ### [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
 **Event-Driven Archive Extraction via Linux Kernel Inotify**
-* **Context**: Frequently downloading zip/rar boardview schematics and driver archives throughout the workday.
-* **Experiment**: Using `inotify` hooks so the system detects finished downloads and extracts them automatically without manual right-clicking.
-* **Practical Benefit (*Which Means...*)**: *Schematic archives are immediately unpacked and ready to inspect without interrupting the bench workflow.*  
+* **Field Challenge**: Repeatedly right-clicking to extract downloaded boardview schematics and driver archives disrupts workbench focus.
+* **Technical Solution**: POSIX Shell daemon backed by inotify-tools that monitors the Downloads folder at 0% idle CPU, automatically extracting archives the moment downloads finish.
+* **Practical Benefit (*Which Means...*)**: *Schematics and firmware files unpack immediately into clean folders, keeping hands firmly on the keyboard.*  
 `POSIX Shell` • `inotify-tools` • `Systemd User Unit`
 
 ### [ADB Mobile Debloater](https://github.com/4ntiDandruff/adb-uninstaller)
 **Android App Management Interface via USB ADB**
-* **Context**: Helping customers reclaim internal storage on budget Android devices bogged down by non-removable pre-installed apps.
-* **Experiment**: A desktop interface wrapping ADB commands with a curated safe-list of removable OEM packages.
-* **Practical Benefit (*Which Means...*)**: *Assists in safely freeing device storage without causing bootloops.*  
+* **Field Challenge**: Customer phones (Samsung, Xiaomi, Oppo, Vivo) constantly run out of storage due to factory bloatware that cannot be removed through standard settings.
+* **Technical Solution**: Desktop utility built with Tauri v2 interfacing with Android Debug Bridge (ADB), leveraging curated safety filters (package whitelist/blacklist) without requiring root.
+* **Practical Benefit (*Which Means...*)**: *Safely frees up internal storage and RAM without risking system crashes or bootloops.*  
 `Tauri v2` • `TypeScript` • `Android Debug Bridge (ADB)`
 
 ---
 
-## Tools & Technologies Being Explored
+## Technical Foundation & Daily Workbench Stack
 
-Each tool is chosen for its practical value in day-to-day work:
+Every tool is chosen based on simplicity, transparency, and practical resilience in the field:
 
-| Domain | Tool | Practical Value at the Workbench |
+| Domain | Tool | Practical Value in the Field |
 |---|---|---|
-| **Operating System** | Linux (Ubuntu / Debian) | *Stable, transparent, and ideal for understanding computer architecture.* |
-| **Scripting** | Bash / Shell & Python | *Quick for daily utilities and automating routine operating tasks.* |
-| **Backend & Web** | Python FastAPI & SQLite | *Straightforward code flow, readable error logs, and atomic SQLite WAL storage without heavyweight setup.* |
-| **Frontend UI** | HTML5, Tailwind CSS, Alpine.js | *Immediate testing and live editing in the browser without complex bundling.* |
-| **Version Control** | Git & GitHub | *Keeping track of code revisions and learning structured collaboration.* |
+| **Operating System** | Linux (Ubuntu / Debian) | *Primary workstation OS. Rock-solid stability, transparent logs, and complete system visibility without hidden background tasks.* |
+| **Scripting** | Bash / Shell & Python | *Core language for daily shop automation, fast data parsing, and interconnecting system services.* |
+| **Backend & Web** | Python FastAPI & SQLite | *Straightforward code flow, readable error logs, and SQLite WAL storage that survives sudden workshop power cuts without heavy DB servers.* |
+| **Web Frontend** | HTML5, Tailwind CSS, Alpine.js | *Responsive interfaces without complicated build tools (zero build-step), edited directly in files and rendered instantly in the browser.* |
+| **Version Control** | Git & GitHub | *Structured change tracking, shop infrastructure version control, and open documentation.* |
 
 ---
 
 ## The Story Behind the Name MEGAPASS
 
-My electronics repair workshop in Sidoarjo is named **Megapass Intra Solusindo**. The name carries a meaningful personal background:
+My electronics repair workshop in Sidoarjo is named **Megapass Intra Solusindo**. The name carries a meaningful personal foundation:
 
-* **Mega**: My beloved wife's name, a reminder of personal dedication and family responsibility.
-* **PASS**: The most satisfying visual at the technician bench. The bright green **PASS** indicator confirms that a device has been successfully repaired, passed all hardware tests, and is ready to return to its owner.
+* **Mega**: My beloved wife's name — the constant reminder of dedication, integrity, and daily responsibility.
+* **PASS**: The most satisfying sight on a technician's bench. The bold green **PASS** indicator on testing screens is the official proof that a broken device has been restored, every hardware test cleared, and it is ready to go back to its owner.
 
-This philosophy guides my learning: whether soldering an IC or writing lines of code, the goal is to work thoughtfully until the result earns a genuine **PASS**.
+This philosophy is embedded in everything I do: whether soldering a microscopic component or writing software logic, every task is carried out with thorough care until it genuinely earns a **PASS**.
 
 ---
 

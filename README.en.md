@@ -23,23 +23,24 @@
 
 ## Greetings from the Workbench
 
-Hello! I am **Hizam Nahari**, a laptop and mobile hardware technician based in Sidoarjo, East Java, Indonesia.
+I am **Hizam Nahari**, a laptop and mobile phone hardware technician based in Sidoarjo, East Java, Indonesia.
 
-My daily work unfolds across the repair bench: handling soldering irons, hot-air rework stations, digital multimeters, injecting DC voltage to isolate overheated micro-components, reading boardview schematics, and replacing damaged surface-mount ICs on laptop motherboards and mobile phones.
+My workdays revolve around the repair bench: holding soldering irons, hot air rework stations, multimeters, injecting DC voltage to track down overheated shorted components, reading boardview schematics, and replacing damaged ICs on motherboards.
 
-Alongside physical board-level repairs, I administer bare-metal Linux workstations in our shop, engineer automation pipelines, and build **zero-bloat software systems**.
+**Why does a hardware technician write software?**  
+Because repetitive, manual tasks waste valuable time. Instead of repeatedly right-clicking to extract schematic archives, typing lengthy, error-prone BIOS flashing parameters, or cleaning customer phones one by one, I build dedicated scripts and desktop utilities to automate the routine.
 
-In my view, tracking down a short circuit on a 19V VIN power rail shares the exact same essence as isolating a defect in a Linux terminal: both demand meticulous schematic analysis, addressing the root cause rather than applying temporary patches, and the rewarding moment of seeing a system power on and run rock-solid.
+To me, tracking down a 19V short circuit on a motherboard feels identical to debugging a script in a Linux terminal: both require patience to study the schematics, digging until the real root cause is solved, and that genuine sense of relief when the machine boots back up cleanly.
 
 ---
 
-### The Story Behind `@4ntiDandruff`
+### Why the Name `@4ntiDandruff`?
 
-The handle **`@4ntiDandruff`** originated from real-world repair bench servicing:
+This handle came straight from everyday bench work fixing customer laptops and phones:
 
-* **System "Dandruff"**: To me, "dandruff" describes the clutter of vendor bloatware, pre-installed promotional software, runaway telemetry, and stealth background tasks that cause customer laptop fans to whine at maximum speed during basic word processing.
-* **Classic Terminal Aesthetics (4)**: Replacing the letter 'A' with '4' follows traditional leetspeak conventions, keeping the command string compact and swift to type in terminal sessions.
-* **Zero-Bloat Mission**: This handle serves as an enduring reminder to engineer software that strips away superfluous bloat, delivering calm, lightweight, and responsive systems.
+* **System "Dandruff"**: Most slow machines aren't broken physically. They're just clogged with "dandruff"—factory bloatware, aggressive telemetry, and background junk that spins cooling fans to max speed while typing a simple text document.
+* **Leetspeak Style (4)**: Swapping the letter 'A' for '4' is a classic terminal habit—short, clean, and quick to type.
+* **Personal Reminder**: A constant prompt that every script or tool I build should do one clear job: cut out the waste, save RAM, and keep systems feeling snappy.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-probing-station.svg?raw=true" width="100%" alt="Automated Circuit Micro-Probing & Debloating Station" />
@@ -47,105 +48,87 @@ The handle **`@4ntiDandruff`** originated from real-world repair bench servicing
 
 ---
 
-## Real Workbench Projects & Shop Utilities
+## Daily Tools & Workbench Projects
 
-Every line of code on this profile was created to solve operational challenges directly at the repair bench and workshop:
+The repositories here aren't classroom homework or throwaway experiments. These are tools I built to solve actual bottlenecks on my repair bench:
 
 ### [Megabox Releases](https://github.com/4ntiDandruff/megabox-releases)
-**Multi-Platform Desktop Workspace for Hardware Technicians (Windows & Linux)**
-* **Field Challenge**: Technicians often juggle dozens of disconnected utility windows (terminals, web docs, flash tools, resistor decoders), cluttering screens and exhausting system RAM.
-* **Technical Solution**: Unified standalone workspace built with Tauri v2 (Rust) consolidating workbench tools into a single desktop interface with under 40MB RAM usage.
-* **Practical Benefit (*Which Means...*)**: *The technician's digital workbench stays organized, tool switching is instantaneous, and low-spec workstations remain responsive without Electron overhead.*  
+A unified multi-platform desktop workspace for technicians (Windows & Linux).  
+Instead of cluttering screens with dozens of disconnected terminal tabs, web reference pages, and cheat sheets that eat up RAM, everything is combined into a lightweight native app built on Tauri v2 (Rust). Fast startup, zero clutter, and memory usage under 40MB.  
 `Tauri v2` • `Rust` • `Desktop Native` • `Windows & Linux`
 
 ### [Zero-Bloat Skills Ecosystem](https://skill.megapass.web.id)
-**39 Circuit-Level SOP Modules for Bare-Metal Linux & Multi-Agent AI Gateways**
-* **Field Challenge**: Coordinating shop servers, BIOS programmers, CCTV streams, and AI orchestrators on energy-frugal workshop hardware (Core i3-3240) without memory exhaustion.
-* **Technical Solution**: 39 field-tested technician SOP modules interfaced directly with AI orchestrators (Google Antigravity, Claude Code, OMP, OpenCode, Codex). Built on a zero build-step architecture without runtime node_modules, maintaining RAM usage under 50MB.
-* **Practical Benefit (*Which Means...*)**: *Daily workshop automation runs silently in the background without hogging CPU cycles or spinning up fans.*  
+A collection of 39 technician SOP modules for workbench hardware and bare-metal Linux.  
+Real repair bench playbooks synced directly to AI coding agents (Google Antigravity, Claude Code, OMP, OpenCode, Codex). Engineered with a zero build-step design and no runtime node_modules, running smoothly on low-power workshop PCs (Core i3-3240) under 50MB RAM.  
 `Linux Bare-Metal` • `AI Agent Skills` • `Zero-Bloat Architecture` • `Python/Bash`
 
-### [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
-**Streamlined Desktop GUI for USB EEPROM Programmers**
-* **Field Challenge**: Typing lengthy flashrom command chains in the terminal invites syntax mistakes during time-critical motherboard repairs.
-* **Technical Solution**: Desktop GUI built with Tauri v2 (Rust) that wraps flashrom commands into intuitive, disciplined action controls (chip detection, dump backup, 3-pass verification, and flashing).
-* **Practical Benefit (*Which Means...*)**: *Firmware verification and writing finish quickly with minimal misclicks before the chip is soldered back to the motherboard.*  
+### [CH341A BIOS Flasher](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
+A clean, visual desktop GUI for USB EEPROM flashing tools (flashrom).  
+Typing long flashrom commands in a terminal while clamping down a physical BIOS chip invites mistakes. This tool turns the workflow into straightforward controls: auto IC detection, dump backup, 3-pass verification, and safe firmware writing before soldering the chip back on the board.  
 `Tauri v2` • `Rust` • `TypeScript` • `flashrom`
 
-### [Mobile View Browser Extension](https://github.com/4ntiDandruff/mobile-view)
-**Workbench Browser Extension for Instant Pixel-Accurate Mobile Previews**
-* **Field Challenge**: Standard browser developer responsive modes (F12) feel rigid and fail to accurately reflect single-handed smartphone thumb interaction.
-* **Technical Solution**: Pure Chromium Manifest V3 extension built without bundler overhead, featuring accurate mobile viewports and automatic live reload via Linux kernel inotify events.
-* **Practical Benefit (*Which Means...*)**: *Inspect mobile layouts directly from desktop displays without repeatedly handling physical test phones.*  
+### [Mobile View](https://github.com/4ntiDandruff/mobile-view)
+A Chromium browser extension for instant smartphone layout testing.  
+Default browser responsive modes (F12) can feel clumsy and don't simulate how a real thumb reaches across a phone screen. This extension provides accurate device frames and triggers live reload via Linux kernel inotify events when code files are saved.  
 `JavaScript` • `Chromium Manifest V3` • `Tailwind CSS` • `HTML5`
 
 ### [ADB Mobile Debloater](https://github.com/4ntiDandruff/adb-uninstaller)
-**Android App Management & Debloater GUI via USB ADB**
-* **Field Challenge**: Customer phones (Samsung, Xiaomi, Oppo, Vivo) run low on internal storage and RAM due to factory bloatware that cannot be uninstalled via standard menus.
-* **Technical Solution**: Desktop utility built with Tauri v2 interfacing with Android Debug Bridge (ADB), leveraging curated safety filters (package whitelist/blacklist) without requiring root privileges.
-* **Practical Benefit (*Which Means...*)**: *Restores free storage and RAM on customer devices without risking bootloops or system crashes.*  
+A desktop batch uninstaller for stubborn Android bloatware via USB.  
+Customer phones (Samsung, Xiaomi, Oppo, Vivo) frequently run out of space due to pre-installed apps that can't be removed through normal settings. This tool strips away clutter safely via ADB without needing root access.  
 `Tauri v2` • `React` • `Android Debug Bridge (ADB)`
 
 ### [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
-**Lightweight System Cleanup Scripts for Customer PCs**
-* **Field Challenge**: Customer laptops arriving at the workbench often choke on temporary clutter, leftover cache, and multiple unneeded startup processes.
-* **Technical Solution**: Native PowerShell and Batch scripts that purge temporary directories and disable hidden background startup items safely without risky registry changes.
-* **Practical Benefit (*Which Means...*)**: *System tune-ups complete in seconds without relying on questionable third-party cleaner tools laden with advertisements.*  
+Lightweight maintenance scripts for temporary files and stealth startup tasks.  
+Written in pure PowerShell and Batch. Cleans up slow customer laptops in seconds without installing third-party cleaner tools that push unwanted ads.  
 `PowerShell` • `Batch` • `Windows Utilities`
 
-### [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
-**Event-Driven Archive Extraction via Linux Kernel Inotify**
-* **Field Challenge**: Manually extracting downloaded schematic archives, boardview files, or firmware dumps interrupts bench focus.
-* **Technical Solution**: POSIX Shell daemon backed by inotify-tools that watches download folders at 0% idle CPU, automatically extracting archives the moment downloads finish.
-* **Practical Benefit (*Which Means...*)**: *Schematics and firmware files unpack immediately into clean directories, keeping hands on the keyboard.*  
+### [Auto-Extract Downloads](https://github.com/4ntiDandruff/auto-extract-downloads)
+A Linux background daemon that unpacks archives immediately after download.  
+Whenever a schematic archive or BIOS zip finishes downloading, it unpacks automatically. Runs at 0% idle CPU via inotify-tools so your hands never need to leave the keyboard.  
 `POSIX Shell` • `inotify-tools` • `Systemd User Unit`
 
 ### [Reverse SSH Tunnel](https://github.com/4ntiDandruff/reverse-ssh-tunnel)
-**Automated Reverse SSH Tunnel with Self-Healing Watchdog**
-* **Field Challenge**: Workshop hardware or remote field nodes located behind strict NAT or dynamic IPs are difficult to access without public port forwarding.
-* **Technical Solution**: OpenSSH-based reverse tunneling script featuring periodic reconnect loops and a self-healing watchdog to ensure remote terminal channels remain unbroken.
-* **Practical Benefit (*Which Means...*)**: *Remote access to the repair bench and shop servers remains stable without costly static public IP subscriptions.*  
+NAT-bypassing reverse SSH tunnel with auto-reconnect and self-healing watchdogs.  
+Allows me to securely connect to my workbench and shop servers from anywhere, even behind strict carrier NAT or dynamic home IP setups without port forwarding.  
 `OpenSSH` • `Bash` • `Watchdog Daemon`
 
 ---
 
-## Technical Foundation & Daily Workbench Stack
+## Daily Workbench Stack
 
-Every tool is selected based on real workbench utility: stable, transparent, and resilient in the field.
+I stick to tools that are straightforward, reliable, and stay out of the way:
 
-| Domain | Tool | Practical Value at the Workbench |
-|---|---|---|
-| **Operating System** | Linux (Ubuntu / Debian / Kubuntu) | *Primary workstation OS. Rock-solid stability, transparent logs, and complete system control without unwanted background tasks.* |
-| **Scripting** | Bash / Shell & Python | *Primary tools for daily shop automation, fast data processing, and glue logic between system services.* |
-| **Backend & Web** | Python FastAPI & SQLite | *Straightforward code flow, readable error logs, and SQLite WAL durability that withstands abrupt shop power cuts without heavy database servers.* |
-| **Web Frontend** | HTML5, Tailwind CSS, Alpine.js | *Responsive interfaces without complicated build tools (zero build-step), edited directly and rendered instantly in browsers.* |
-| **Desktop App** | Tauri v2 (Rust) | *Lean alternative to Electron. Produces lightweight, fast native desktop binaries consuming under 40MB RAM.* |
-| **Version Control** | Git & GitHub | *Disciplined change logs, workshop infrastructure version control, and open documentation.* |
+* **Operating System**: Linux (Ubuntu / Debian / Kubuntu). Rock-solid, lightweight, crystal-clear logs, with zero hidden background telemetry.
+* **Automation**: Bash & Python. Fast scripting, data parsing, and connecting background services.
+* **Backend**: Python FastAPI & SQLite. Easy to maintain, clear code flow, and SQLite WAL that shrugs off sudden workshop power cuts.
+* **Web UI**: HTML5, Tailwind CSS, Alpine.js. Zero build-step setups: edit the file, save, and see results instantly in the browser.
+* **Desktop Apps**: Tauri v2 (Rust). Native binaries that stay small, launch instantly, and sip RAM compared to Electron.
+* **Version Control**: Git & GitHub. Tracking infrastructure configuration and keeping documentation organized.
 
 ---
 
-## Personal Philosophy Behind the Name MEGAPASS
+## The Story Behind MEGAPASS
 
-The electronics servicing workshop I established in Sidoarjo is named **Megapass Intra Solusindo**. The name carries a meaningful personal foundation:
+My repair shop in Sidoarjo is called **Megapass Intra Solusindo**:
 
-* **Mega**: My beloved wife's name — the constant inspiration behind my dedication, integrity, and daily responsibility.
-* **PASS**: The most satisfying sight on a technician's bench. The bold green **PASS** indicator on diagnostic instruments is the official verification that a defective device has been restored, power rails are stable, all hardware functions are normal, and it is ready to be returned to its owner.
+* **Mega**: My wife's name. A steady reminder of why I work with care, honesty, and diligence every single day.
+* **PASS**: The best feeling at the bench. When diagnostic tools display a green **PASS**, it means the dead board is restored, voltages are stable, hardware functions are verified, and the machine is ready to return to its owner.
 
-This standard shapes everything I build: whether soldering a microscopic component or writing software logic, every task is carried out with thorough care until it genuinely earns a **PASS**.
+I apply that same standard across everything: whether soldering a microscopic pin or writing application logic, I keep working until it genuinely earns a **PASS**.
 
 ---
 
 ## Hardware Training & Official Certifications
 
-My technical competence is grounded in formal education and certification across hardware electronics and computing:
+My foundation in electronics comes from formal hands-on training and certified testing:
 
-* **BNSP (National Professional Certification Agency)** - Certified Electronics & Mobile Device Hardware Technician
-* **BMY Yogyakarta** - Specialization in Laptop Power Rail Schematics & Motherboard Diagnostics
-* **ITS Surabaya (PRODISTIK)** - D1 Information Technology & Circuit Design Fundamentals
-* **PTC Indonesia & Arsalabs** - Advanced Mobile Device Hardware Repair
-* **Magistra Utama** - Computer Hardware & Network Engineering Program
+* **BNSP (National Professional Certification Agency)** — Certified Electronics & Mobile Hardware Technician
+* **BMY Yogyakarta** — Laptop Schematics & Motherboard Hardware Diagnostics
+* **ITS Surabaya (PRODISTIK)** — D1 Information Technology & Circuit Design Fundamentals
+* **PTC Indonesia & Arsalabs** — Advanced Mobile Device Hardware Repair
+* **Magistra Utama** — Computer Hardware & Network Engineering Program
 
-Physical certificate documentation and technician portfolios are available at: **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
+Physical certificate documentation and service portfolio: **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
 
 ---
 

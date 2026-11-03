@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hizam Nahari
-### Teknisi Perangkat Keras (BNSP) & Praktisi Otomasi Sistem Linux
+### Teknisi Perangkat Keras (BNSP) & Praktisi Otomasi Linux
 
 <p align="center">
   <a href="./README.md"><img src="https://img.shields.io/badge/%5B%20ID%20Indonesia%20%28Utama%29%20%5D-238636?style=for-the-badge&logo=github&logoColor=white" alt="Bahasa Indonesia" /></a>
@@ -21,25 +21,26 @@
 
 </div>
 
-## Salam dari Meja Servis
+## Halo dari Meja Servis
 
-Halo! Saya **Hizam Nahari**, teknisi perangkat keras laptop dan ponsel asal Sidoarjo, Jawa Timur.
+Saya **Hizam Nahari**, teknisi perangkat keras laptop dan ponsel di Sidoarjo, Jawa Timur.
 
-Keseharian saya berputar di atas meja servis: memegang solder, blower uap panas, multitester, menyuntikkan tegangan DC untuk meraba komponen yang panas terbakar, membaca skema jalur boardview, dan mengangkat chip IC mikro yang rusak di motherboard laptop maupun ponsel.
+Sehari-hari saya sibuk di meja kerja ruko: pegang solder, blower uap, multitester, suntik tegangan buat raba komponen yang korslet, baca skema boardview, dan ganti IC di motherboard.
 
-Di sela-sela urusan fisik ini, saya mengelola jaringan Linux bare-metal di ruko, meracik otomasi meja kerja, dan membangun **sistem software mandiri berprinsip zero-bloat**.
+**Kenapa teknisi hardware bikin software?**  
+Karena saya capek mengulang pekerjaan manual yang buang-buang waktu. Daripada bolak-balik klik kanan ekstrak file skema, ngetik parameter flash BIOS panjang-panjang yang rawan salah, atau bersihin HP pelanggan satu per satu, mending saya bikinkan skrip dan aplikasinya sendiri. 
 
-Bagi saya, melacak short-circuit di jalur 19V VIN laptop punya esensi yang persis sama seperti menelusuri bug di terminal Linux: keduanya menuntut pembacaan skema yang presisi, bedah akar masalah tanpa jalan pintas tambal sulam, dan kepuasan melihat mesin kembali hidup normal dengan stabil.
+Buat saya, nyari jalur short 19V di motherboard sama debug script di terminal Linux itu rasanya sama persis: butuh sabar baca skema, cari akar masalahnya sampai tuntas, dan lega banget pas mesinnya hidup normal lagi.
 
 ---
 
-### Makna di Balik Identitas `@4ntiDandruff`
+### Kenapa Namanya `@4ntiDandruff`?
 
-Nama **`@4ntiDandruff`** lahir dari pengalaman nyata saat membersihkan komputer dan ponsel milik pelanggan ruko:
+Nama ini datang dari pengalaman harian pas nanganin laptop atau HP pelanggan:
 
-* **Ketombe di Perangkat**: Bagi saya, "ketombe" adalah tumpukan bloatware, aplikasi sampah bawaan pabrik, telemetri rakus, dan puluhan proses siluman di latar belakang yang bikin kipas laptop pelanggan meraung panas padahal cuma dipakai mengetik dokumen.
-* **Gaya Klasik Terminal (4)**: Huruf 'A' diganti angka '4' mengikuti kebiasaan lawas leetspeak, ringkas dan nyaman diketik langsung saat membuka sesi terminal.
-* **Misi Zero-Bloat**: Nama ini menjadi pengingat harian untuk selalu merancang perkakas yang membuang proses mubazir, menghasilkan sistem yang hening, enteng, dan responsif.
+* **Ketombe di Komputer**: Banyak perangkat lemot bukan karena mesinnya rusak, tapi karena kebanyakan "ketombe"—aplikasi sampah bawaan pabrik, telemetri, dan proses siluman di latar belakang yang bikin kipas muter kencang padahal cuma buat ngetik Word.
+* **Gaya 4 Leetspeak**: Huruf A diganti angka 4 biar khas anak terminal, pendek, dan cepat diketik.
+* **Pengingat Diri**: Biar setiap software atau skrip yang saya tulis tujuannya jelas: buang hal-hal yang mubazir, hemat RAM, dan bikin sistem kerja enteng lagi.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4ntiDandruff/4ntiDandruff/main/assets/circuit-probing-station.svg?raw=true" width="100%" alt="Automated Circuit Micro-Probing & Debloating Station" />
@@ -47,105 +48,87 @@ Nama **`@4ntiDandruff`** lahir dari pengalaman nyata saat membersihkan komputer 
 
 ---
 
-## Perkakas Nyata dari Meja Servis
+## Aplikasi & Perkakas yang Saya Pakai Kerja
 
-Setiap baris kode di akun ini bukan proyek main-main atau sekadar latihan sintaks. Seluruh repositori lahir langsung dari kebutuhan nyata di meja kerja dan operasional ruko:
+Semua repositori di sini bukan tugas kuliah atau proyek coba-coba. Ini perkakas yang memang saya buat dan pakai sendiri tiap hari di meja servis:
 
 ### [Megabox Releases](https://github.com/4ntiDandruff/megabox-releases)
-**Aplikasi Desktop Ruang Kerja Teknisi Multi-Platform (Windows & Linux)**
-* **Masalah Lapangan**: Teknisi sering membuka puluhan jendela utilitas terpisah (terminal, web, tool flash, kalkulator resistor) yang membuat desktop berantakan dan boros RAM.
-* **Solusi Teknis**: Aplikasi ruang kerja mandiri berbasis Tauri v2 (Rust) yang menyatukan seluruh perkakas meja servis dalam satu antarmuka desktop ultra-ringan dengan konsumsi RAM di bawah 40MB.
-* **Dampak Nyata (*Yang artinya...*)**: *Meja kerja digital teknisi selalu teratur, cepat berpindah alat, dan komputer kerja tetap gesit tanpa beban Electron.*  
+Aplikasi desktop ruang kerja teknisi untuk Windows & Linux.  
+Daripada buka belasan jendela browser, terminal, dan file panduan yang bikin layar penuh dan makan RAM, semuanya saya satukan di satu aplikasi mandiri berbasis Tauri v2 (Rust). Ukurannya kecil, responsif, dan konsumsi memori enteng di bawah 40MB.  
 `Tauri v2` • `Rust` • `Desktop Native` • `Windows & Linux`
 
 ### [Ekosistem Zero-Bloat Skills](https://skill.megapass.web.id)
-**39 Modul SOP Meja Servis, Linux Bare-Metal, dan Multi-Agent AI Gateway**
-* **Masalah Lapangan**: Mengelola server ruko, flash BIOS, streaming CCTV, dan orkestrasi asisten AI di PC tua hemat daya (Core i3-3240) tanpa kehabisan memori.
-* **Solusi Teknis**: Kumpulan 39 modul SOP sirkuit teruji lapangan yang terhubung langsung ke berbagai orkestrator AI (Google Antigravity, Claude Code, OMP, OpenCode, Codex). Mengusung arsitektur zero build-step tanpa node_modules di runtime, menjaga alokasi RAM tetap di bawah 50MB.
-* **Dampak Nyata (*Yang artinya...*)**: *Otomasi ruko harian berjalan senyap di latar belakang tanpa membuat komputer lemot atau kipas meraung.*  
+Kumpulan 39 modul SOP teknisi meja servis dan otomasi Linux bare-metal.  
+Panduan kerja nyata dari meja servis yang disinkronkan langsung ke asisten AI (Google Antigravity, Claude Code, OMP, OpenCode, Codex). Dibangun tanpa beban runtime node_modules agar hemat RAM dan lancar dijalankan di PC kerja ruko hemat daya (Core i3-3240).  
 `Linux Bare-Metal` • `AI Agent Skills` • `Zero-Bloat Architecture` • `Python/Bash`
 
-### [CH341A BIOS Flasher Tauri](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
-**Antarmuka Desktop Ringkas untuk Alat Flash EEPROM USB**
-* **Masalah Lapangan**: Mengetik parameter panjang utilitas flashrom di terminal rawan salah ketik saat teknisi dikejar waktu menangani chip BIOS laptop pelanggan.
-* **Solusi Teknis**: Antarmuka visual berbasis Tauri v2 (Rust) yang membungkus perintah flashrom menjadi tombol kendali yang terukur (identifikasi tipe IC, dump backup, verifikasi 3-pass, dan flash firmware).
-* **Dampak Nyata (*Yang artinya...*)**: *Proses pembacaan dan pengisian BIOS fisik tuntas lebih cepat serta minim salah klik sebelum chip disolder kembali ke motherboard.*  
+### [CH341A BIOS Flasher](https://github.com/4ntiDandruff/CH341A-BIOS-Flasher-Tauri)
+Antarmuka desktop praktis buat alat flash BIOS USB (flashrom).  
+Ngetik perintah flashrom panjang-panjang di terminal saat chip BIOS lagi dijepit itu rawan salah ketik. Tool ini membungkusnya jadi tombol yang jelas: deteksi IC otomatis, backup dump, verifikasi 3 tahap, dan isi firmware dengan aman sebelum chip disolder balik ke board.  
 `Tauri v2` • `Rust` • `TypeScript` • `flashrom`
 
-### [Mobile View Browser Extension](https://github.com/4ntiDandruff/mobile-view)
-**Ekstensi Browser Workbench untuk Pratinjau Tampilan Mobile Sekali Klik**
-* **Masalah Lapangan**: Mode responsive bawaan browser (F12) kaku dan tidak memberi gambaran nyata jangkauan jempol satu tangan pada layar smartphone.
-* **Solusi Teknis**: Ekstensi Chromium Manifest V3 murni tanpa bundler rumit, dilengkapi bingkai smartphone presisi dan reload otomatis via event inotify kernel Linux.
-* **Dampak Nyata (*Yang artinya...*)**: *Pengujian tata letak web di layar ponsel bisa dilakukan langsung dari monitor desktop tanpa perlu bolak-balik mengambil HP fisik.*  
+### [Mobile View](https://github.com/4ntiDandruff/mobile-view)
+Ekstensi browser Chromium buat uji tampilan HP langsung di layar monitor.  
+Mode inspect responsive bawaan browser (F12) sering kaku dan nggak ngasih gambaran jangkauan jempol di HP asli. Ekstensi ini ngasih bingkai ukuran ponsel nyata dan otomatis refresh lewat event inotify kernel Linux saat kode disimpan.  
 `JavaScript` • `Chromium Manifest V3` • `Tailwind CSS` • `HTML5`
 
 ### [ADB Mobile Debloater](https://github.com/4ntiDandruff/adb-uninstaller)
-**Antarmuka Manajemen & Pembersih Aplikasi Android via USB ADB**
-* **Masalah Lapangan**: Memori ponsel pelanggan (Samsung, Xiaomi, Oppo, Vivo) sering sesak oleh aplikasi pabrik yang tidak bisa dicopot lewat setelan biasa.
-* **Solusi Teknis**: Utilitas desktop berbasis Tauri v2 via Android Debug Bridge (ADB) dengan katalog filter aman (whitelist/blacklist paket) tanpa mewajibkan akses root.
-* **Dampak Nyata (*Yang artinya...*)**: *Kapasitas penyimpanan dan RAM ponsel pelanggan kembali lega tanpa resiko sistem crash atau bootloop.*  
+Alat bersih-bersih aplikasi sampah di Android via kabel USB.  
+Banyak HP pelanggan (Samsung, Xiaomi, Oppo, Vivo) memorinya penuh gara-gara aplikasi bawaan yang nggak bisa dicopot lewat setelan biasa. Tool desktop ini buat nyopot aplikasi bandel secara massal dan aman lewat ADB, tanpa perlu risiko root.  
 `Tauri v2` • `React` • `Android Debug Bridge (ADB)`
 
 ### [Windows Optimizer Toolkit](https://github.com/4ntiDandruff/windows-optimizer)
-**Kumpulan Skrip Pembersih Sistem Ringan untuk PC Pelanggan**
-* **Masalah Lapangan**: Komputer pelanggan yang masuk meja kerja sering tercekik tumpukan file sampah, sisa cache, dan belasan startup siluman.
-* **Solusi Teknis**: Skrip native PowerShell dan Batch murni untuk membersihkan direktori sementara dan mematikan startup siluman dengan aman tanpa utak-atik registry berbahaya.
-* **Dampak Nyata (*Yang artinya...*)**: *Servis pembersihan sistem tuntas dalam hitungan detik tanpa perlu memasang aplikasi cleaner pihak ketiga yang rawan membawa iklan.*  
+Skrip pembersih file sementara dan penjinak startup Windows.  
+Dibuat pakai PowerShell dan Batch murni. Beresin laptop pelanggan yang lemot dalam hitungan detik tanpa perlu pasang aplikasi cleaner pihak ketiga yang malah nyampah iklan.  
 `PowerShell` • `Batch` • `Windows Utilities`
 
-### [Auto-Extract Downloads for Linux](https://github.com/4ntiDandruff/auto-extract-downloads)
-**Ekstraksi Arsip Otomatis Berbasis Event Kernel Linux**
-* **Masalah Lapangan**: Membuka arsip zip/rar skema boardview atau file firmware secara manual memutus konsentrasi kerja servis.
-* **Solusi Teknis**: Daemon POSIX Shell berbasis inotify-tools yang memantau folder unduhan dengan beban 0% CPU siaga, langsung mengekstrak berkas otomatis begitu unduhan rampung.
-* **Dampak Nyata (*Yang artinya...*)**: *Berkas skema atau file BIOS langsung siap dipakai di folder tujuan, tangan teknisi tidak perlu lepas dari keyboard.*  
+### [Auto-Extract Downloads](https://github.com/4ntiDandruff/auto-extract-downloads)
+Daemon Linux yang mengekstrak file arsip otomatis begitu selesai diunduh.  
+Tiap habis download skema boardview atau file BIOS, arsip zip/rar langsung diekstrak otomatis di background. Jalan di background dengan beban CPU 0% saat siaga, jadi tangan teknisi nggak perlu lepas dari keyboard.  
 `POSIX Shell` • `inotify-tools` • `Systemd User Unit`
 
 ### [Reverse SSH Tunnel](https://github.com/4ntiDandruff/reverse-ssh-tunnel)
-**Terowongan SSH Otomatis dengan Sekring Pemulihan Mandiri**
-* **Masalah Lapangan**: Mesin ruko atau perangkat remote yang berada di balik NAT ketat atau IP dinamis sulit diakses dari luar tanpa port forwarding publik.
-* **Solusi Teknis**: Skrip reverse SSH tunnel berbasis OpenSSH dengan loop reconnect berkala dan watchdog self-healing yang menjaga jalur kendali terminal tetap tembus dan stabil.
-* **Dampak Nyata (*Yang artinya...*)**: *Akses remote ke meja kerja dan server ruko selalu terjaga tanpa perlu berlangganan IP publik statis yang mahal.*  
+Terowongan remote SSH tembus NAT dengan auto-reconnect.  
+Dibuat biar saya bisa remote server dan meja kerja ruko dari mana saja dengan aman, meski koneksi internet ruko pakai IP dinamis atau berada di balik NAT tanpa port forwarding.  
 `OpenSSH` • `Bash` • `Watchdog Daemon`
 
 ---
 
-## Fondasi Teknologi & Alat Kerja Harian
+## Alat Kerja Sehari-hari
 
-Setiap teknologi yang saya pilih wajib lolos uji kepraktisan di meja kerja: stabil, transparan, dan tahan banting.
+Saya pilih alat kerja yang simpel, transparan, dan nggak banyak tingkah:
 
-| Bidang | Alat | Nilai Nyata di Meja Kerja |
-|---|---|---|
-| **Sistem Operasi** | Linux (Ubuntu / Debian / Kubuntu) | *Sistem kerja utama. Stabil, transparan, hemat sumber daya, dan memberi kendali penuh tanpa proses latar belakang tersembunyi.* |
-| **Bahasa Skrip** | Bash / Shell & Python | *Senjata utama otomasi harian, pengolah data cepat, dan perekat integrasi antar-layanan sistem.* |
-| **Backend & Web** | Python FastAPI & SQLite | *Alur kode lugas, mudah dirawat, dan database SQLite WAL sangat tangguh terhadap insiden mati lampu mendadak tanpa server DB berat.* |
-| **Tampilan Web** | HTML5, Tailwind CSS, Alpine.js | *Antarmuka responsif tanpa proses build rumit (zero build-step), langsung disunting di file dan dirender instan oleh browser.* |
-| **Desktop App** | Tauri v2 (Rust) | *Pengganti Electron yang ringan. Menghasilkan biner aplikasi desktop native yang kecil, cepat, dan hemat RAM di bawah 40MB.* |
-| **Version Control** | Git & GitHub | *Pencatatan riwayat perubahan terukur, kontrol versi konfigurasi ruko, dan dokumentasi repositori terbuka.* |
+* **OS**: Linux (Ubuntu / Debian / Kubuntu). Stabil, enteng, log sistemnya jelas, dan nggak ada proses aneh-aneh di latar belakang.
+* **Skrip Otomasi**: Bash & Python. Buat bikin perkakas cepat, pengolah data, dan penghubung antar-layanan.
+* **Backend**: Python FastAPI & SQLite. Mudah dirawat, alurnya lurus, dan database SQLite WAL tahan banting kalau mendadak mati lampu di ruko.
+* **Tampilan Web**: HTML5, Tailwind CSS, Alpine.js. Tanpa proses build rumit (zero build-step), edit file langsung kelihatan hasilnya di browser.
+* **Aplikasi Desktop**: Tauri v2 (Rust). Aplikasi native yang ukurannya kecil, cepat dibuka, dan hemat RAM dibanding Electron.
+* **Version Control**: Git & GitHub. Buat nyatet riwayat perubahan dan simpan dokumentasi kerjaan.
 
 ---
 
-## Makna Personal di Balik Nama MEGAPASS
+## Cerita di Balik MEGAPASS
 
-Unit usaha servis yang saya rintis di Sidoarjo bernama **Megapass Intra Solusindo**. Nama ini membawa filosofi mendalam:
+Unit usaha servis yang saya jalankan di Sidoarjo bernama **Megapass Intra Solusindo**:
 
-* **Mega**: Nama panggilan istri tercinta, sumber motivasi, ketekunan, dan rasa tanggung jawab dalam setiap langkah usaha.
-* **PASS**: Kata paling melegakan bagi seorang teknisi. Kotak hijau bertuliskan **PASS** pada layar instrumen pengujian adalah bukti sah bahwa perangkat yang rusak sudah sembuh total, seluruh jalur tegangan aman, fungsi perangkat keras normal, dan siap diserahkan kembali kepada pemiliknya.
+* **Mega**: Nama istri saya tercinta. Pengingat kenapa saya harus kerja jujur, teliti, dan bertanggung jawab setiap hari.
+* **PASS**: Kata paling melegakan di meja teknisi. Kalau instrumen tes sudah menampilkan tulisan **PASS** warna hijau, artinya perangkat yang tadinya mati sudah sembuh total, tegangannya normal, fungsi hardware beres, dan siap diserahkan balik ke pemiliknya.
 
-Prinsip ini menjadi standar di meja kerja saya: baik saat menyolder kaki komponen mikro berukuran milimeter maupun menulis baris logika software, semuanya digarap seteliti mungkin sampai layak dinyatakan **PASS**.
+Prinsip ini yang saya bawa ke semua kerjaan: mau nyolder kaki chip mikro ukuran milimeter atau nulis logika kode program, semuanya dikerjakan seteliti mungkin sampai beneran layak dinyatakan **PASS**.
 
 ---
 
-## Sertifikasi Resmi & Pelatihan Hardware Fisik
+## Sertifikasi Resmi & Pelatihan Hardware
 
-Kompetensi teknis saya ditopang oleh pendidikan dan sertifikasi resmi di bidang elektronika perangkat keras dan komputer:
+Pemahaman elektronika saya dibangun lewat jalur pelatihan fisik dan uji kompetensi resmi:
 
-* **BNSP (Badan Nasional Sertifikasi Profesi)** - Teknisi Elektronika & Perangkat Keras Ponsel Tersertifikasi Resmi
-* **BMY Yogyakarta** - Spesialisasi Analisa Skematik Jalur Tegangan & Motherboard Laptop
-* **ITS Surabaya (PRODISTIK)** - D1 Teknologi Informasi & Dasar Perancangan Sirkuit
-* **PTC Indonesia & Arsalabs** - Reparasi Perangkat Keras Ponsel Tingkat Lanjut
-* **Magistra Utama** - Program Keahlian Teknisi Komputer & Jaringan
+* **BNSP (Badan Nasional Sertifikasi Profesi)** — Teknisi Elektronika & Perangkat Keras Ponsel
+* **BMY Yogyakarta** — Spesialisasi Analisa Skematik Jalur & Motherboard Laptop
+* **ITS Surabaya (PRODISTIK)** — D1 Teknologi Informasi & Dasar Perancangan Sirkuit
+* **PTC Indonesia & Arsalabs** — Reparasi Hardware Ponsel Tingkat Lanjut
+* **Magistra Utama** — Program Teknisi Komputer & Jaringan
 
-Dokumentasi sertifikat fisik dan portofolio teknisi dapat diakses di: **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
+Dokumentasi sertifikat fisik dan portofolio servis ada di: **[megapass.web.id/teknisi](https://megapass.web.id/teknisi/)**
 
 ---
 
@@ -158,6 +141,6 @@ Dokumentasi sertifikat fisik dan portofolio teknisi dapat diakses di: **[megapas
 </p>
 
 **Megapass Intra Solusindo • Sidoarjo, Indonesia**  
-*Teknisi Perangkat Keras (BNSP) & Praktisi Otomasi Sistem Linux*
+*Teknisi Perangkat Keras (BNSP) & Praktisi Otomasi Linux*
 
 </div>
